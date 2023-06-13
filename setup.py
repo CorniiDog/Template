@@ -356,7 +356,7 @@ if output_instructions:
 
                             function_declaration = line
 
-                            file2.write(f"### [{function_declaration.strip()}](../{file_path}#L{i+1}) ###\n\n")
+                            file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i+1}) ###\n\n")
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8
                             # https://github.com/ConnorAtmos/Template/blob/master/docs/toolbox/database.py#L8
 
