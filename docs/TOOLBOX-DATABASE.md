@@ -2,6 +2,12 @@
 
 ### def get(name: str) -> object: ###
 
+Notes
+
+```python
+This function is used to load objects from the database folder
+```
+
 Parameters
 
 ```python
@@ -16,27 +22,27 @@ object
         The object loaded from the file, could be anything
 ```
 
-References
-
-```python
-None
-```
-
 Examples
 
 ```python
 >>> spreadsheet_data = get('spreadsheet_people')
 ```
 
-Notes
+References
 
 ```python
-This function is used to load objects from the database folder
+No Links
 ```
 
 # save #
 
 ### def save(name: str, data: any) -> None: ###
+
+Notes
+
+```python
+This function is used to save objects to the databse folder
+```
 
 Parameters
 
@@ -54,12 +60,6 @@ None
         This function does not return anything
 ```
 
-References
-
-```python
-None
-```
-
 Examples
 
 ```python
@@ -67,9 +67,9 @@ Examples
     >>> save('spreadsheet_people', spreadsheet_data)
 ```
 
-Notes
+References
 
 ```python
-This function is used to save objects to the databse folder
+No Links
 ```
 

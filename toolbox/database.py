@@ -23,7 +23,7 @@ def get(name: str) -> object:
 
     References
     ----------
-    None
+    No Links
 
     Examples
     --------
@@ -56,7 +56,7 @@ def save(name: str, data: any) -> None:
 
     References
     ----------
-    None
+    No Links
 
     Examples
     --------
