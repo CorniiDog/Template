@@ -247,6 +247,8 @@ if output_instructions:
 
         f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
 
+        f.write(f"This is the documentation for the project {project_name}.\n\n")
+
         f.write(documentation)
 
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:

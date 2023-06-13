@@ -1,5 +1,7 @@
 # DOCUMENTATION TABLE OF CONTENTS #
 
+This is the documentation for the project Template.
+
 ## INSTRUCTIONS.MD ##
 
 [HOW TO INSTALL CONDA](/docs/INSTRUCTIONS.md#how-to-install-conda)
