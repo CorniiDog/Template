@@ -1,34 +1,40 @@
+from toolbox import database
+
 def print_hi(name: str) -> None:
     """
-    Parameters
-    ----------
-    name : str
-        The name of the person to greet
+        Parameters
+        ----------
+        name : str
+            The name of the person to greet
 
-    Returns
-    -------
-    None
-        This function does not return anything
+        Returns
+        -------
+        None
+            This function does not return anything
 
-    Notes
-    --------
-    ello
+        Notes
+        --------
+        ello
 
-    References
-    ------------
-    https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
+        References
+        ------------
+        https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
 
-    Examples
-    --------
-    >>> print_hi('PyCharm')
+        Examples
+        --------
+        print_hi('PyCharm')
 
-    """
+        """
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+    database.save('spreadsheet_people', spreadsheet_data)
+    print(spreadsheet_data)
+
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

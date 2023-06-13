@@ -24,7 +24,7 @@ This is the documentation for the project Template.
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [def print_hi(name: str) -> None:](./../main.py#L1) 
+- [def print_hi(name: str) -> None:](./../main.py#L3) 
 
 ## toolbox/database.py ##
 

@@ -25,7 +25,7 @@ Returns
 Examples
 
 ```python
-    >>> spreadsheet_data = get('spreadsheet_people')
+    spreadsheet_data = get('spreadsheet_people')
 ```
 
 References
@@ -63,8 +63,9 @@ Returns
 Examples
 
 ```python
-    >>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
-    >>> save('spreadsheet_people', spreadsheet_data)
+    spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+
+    save('spreadsheet_people', spreadsheet_data)
 ```
 
 References

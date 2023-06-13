@@ -27,7 +27,7 @@ def get(name: str) -> object:
 
     Examples
     --------
-    >>> spreadsheet_data = get('spreadsheet_people')
+    spreadsheet_data = get('spreadsheet_people')
     """
     if name.endswith('.pkl'):
         name = name[:-4]
@@ -60,8 +60,9 @@ def save(name: str, data: any) -> None:
 
     Examples
     --------
-    >>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
-    >>> save('spreadsheet_people', spreadsheet_data)
+    spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+
+    save('spreadsheet_people', spreadsheet_data)
     """
     if name.endswith('.pkl'):
         name = name[:-4]
