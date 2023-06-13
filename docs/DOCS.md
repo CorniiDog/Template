@@ -22,59 +22,9 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
-### [Test](/docs/MAIN.md#test) ###
-
-- [class Test:](./../main.py#L5)
-
-### [Test.Test_Contact](/docs/MAIN.md#test.test_contact) ###
-
-- [class Test_Contact:](./../main.py#L21)
-
-### [Test_Contact.Test.__init__](/docs/MAIN.md#test_contact.test.__init__) ###
-
-- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
-
-### [Test_Contact.Test.__str__](/docs/MAIN.md#test_contact.test.__str__) ###
-
-- [def __str__(self):](./../main.py#L64) 
-
-### [__init__](/docs/MAIN.md#__init__) ###
-
-- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
-
-### [__str__](/docs/MAIN.md#__str__) ###
-
-- [def __str__(self):](./../main.py#L120) 
-
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
-
-## setup.py ##
-
-### [format_for_readme](/docs/SETUP.md#format_for_readme) ###
-
-- [def format_for_readme(text, document_path=""):](./../setup.py#L218) 
-
-### [get_function_name](/docs/SETUP.md#get_function_name) ###
-
-- [def get_function_name(text_line):](./../setup.py#L349) 
-
-### [get_class_name](/docs/SETUP.md#get_class_name) ###
-
-- [def get_class_name(text_line):](./../setup.py#L352) 
-
-### [count_spaces_at_beginning](/docs/SETUP.md#count_spaces_at_beginning) ###
-
-- [def count_spaces_at_beginning(text_line):](./../setup.py#L357) 
-
-### [get_function_documentation](/docs/SETUP.md#get_function_documentation) ###
-
-- [def get_function_documentation(k, offset=0):](./../setup.py#L367) 
-
-### [get_class_documentation](/docs/SETUP.md#get_class_documentation) ###
-
-- [def get_class_documentation(k, offset=0):](./../setup.py#L386) 
 
 ## toolbox/database.py ##
 

@@ -404,68 +404,14 @@ if output_instructions:
 
 
                     found = False
-                    class_inside = 0
-                    previous_class_index = 0
-                    class_index = 0
-                    classes_names = []
                     other_docs = ""
                     for i, line in enumerate(lines):
 
-                        # If we find a class definition
-                        if line.strip().startswith("class "):
-                            found = True
-
-                            previous_class_index = class_index
-                            class_index = count_spaces_at_beginning(line) + 1
-
-                            if class_index > previous_class_index:
-                                class_inside += 1
-                                classes_names.append(get_class_name(line).split(":")[0].strip())
-                            elif class_index < previous_class_index:
-                                class_inside -= 1
-                                classes_names.pop()
-
-                            class_name_hierarchy = ""
-                            for class_name in classes_names:
-                                class_name_hierarchy += class_name + "."
-                            class_name_hierarchy = class_name_hierarchy[:-1]
-
-                            file2.write(f"# {class_name_hierarchy} #\n\n")
-
-                            class_declaration = line
-
-                            file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
-
-                            other_docs += f"### [{class_name_hierarchy}](/{file_document_path}#{class_name_hierarchy.lower().replace(' ', '-')}) ###\n\n"
-                            other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1})\n\n"
-
-                            documents = get_class_documentation(i + 1)
-
-                            sections = ["Notes", "Examples", "Parameters", "Returns", "Raises", "Warnings", "See Also"]
-                            data = {}
-
-                            for section in sections:
-                                data[section] = []
-
-
-
-
-
-
-
                         # If we fine a function definition
-                        elif line.strip().startswith("def"):
+                        if line.startswith("def"):
                             found = True
-
-                            # If the function is not a class method
-                            if class_index > count_spaces_at_beginning(line):
-                                class_inside = 0
-                                classes_names = []
 
                             name = get_function_name(line)
-                            if class_inside > 0:
-                                for class_name in classes_names:
-                                    name = class_name + "." + name
                             file2.write(f"# {name} #\n\n")
 
                             function_declaration = line
@@ -476,13 +422,6 @@ if output_instructions:
 
                             other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
                             other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
-
-                            if class_inside > 0:
-                                all_names_combined = ""
-                                for class_name in classes_names:
-                                    all_names_combined += class_name + "."
-                                all_names_combined = all_names_combined[:-1]
-                                file2.write("A method of the class `" + all_names_combined + "`\n\n")
 
                             documents = get_function_documentation(i + 1)
 
