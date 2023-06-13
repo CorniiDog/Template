@@ -20,15 +20,15 @@ This is the documentation for the project Template.
 
 # API #
 
-## docs/MAIN.md ##
+## main.py ##
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L1) 
 
-## docs/SETUP.md ##
+## setup.py ##
 
-## docs/TOOLBOX-DATABASE.md ##
+## toolbox/database.py ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 

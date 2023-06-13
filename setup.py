@@ -320,7 +320,7 @@ if output_instructions:
                     file2 = open(file_document_path, "w")
 
 
-                    documentation += f"## {file_document_path} ##\n\n"
+                    documentation += f"## {file_path} ##\n\n"
 
 
 
