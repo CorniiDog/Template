@@ -52,7 +52,7 @@ def save(name: str, data: any) -> None:
 
     Notes
     -----
-    This function is used to save objects to the databse folder
+    This function is used to save objects to the database folder
 
     References
     ----------
@@ -106,3 +106,65 @@ def delete_database(name: str) -> object:
     path = os.path.join(storage_folder, name + '.pkl')
     os.remove(path)
     return contents
+
+def save_key(platform: str, key: str, override: bool=False) -> None:
+    """
+    Parameters
+    ----------
+    platform: str
+        The name of the platform to be saved (e.g. 'google')
+    key: str
+        The key to be saved (e.g. 'google_api_key')
+
+    Returns
+    -------
+    None
+        This function does not return anything
+
+    Notes
+    -----
+    This function is used to save keys in a secure location
+
+    References
+    ----------
+    https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
+
+    Examples
+    --------
+    save_key('google', 'google_api_key')
+    """
+    if not override:
+        if platform in os.environ.keys():
+            raise Exception(f'Key {platform} already exists')
+
+    os.environ[platform] = key
+
+
+def load_key(platform: str) -> str:
+    """
+        Parameters
+        ----------
+        key: str
+            The key to be loaded (e.g. 'google_api_key')
+
+        Returns
+        -------
+        str or None
+            This function returns the key if it exists, otherwise it returns None
+
+        Notes
+        -----
+        This function is used to load keys from a secure location
+
+        References
+        ----------
+        https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
+
+        Examples
+        --------
+        key = load_key('google')
+        """
+    if platform in os.environ.keys():
+        return os.environ[platform]
+    else:
+        return None
