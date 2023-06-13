@@ -1,4 +1,4 @@
-Import Statement: `from [.'.m.a.i.n...p.y.' import ]`
+Import Statement: `from  import main`
 
 # print_hi #
 

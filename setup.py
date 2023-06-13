@@ -317,7 +317,7 @@ if output_instructions:
 
 
                     # Split the path into folders
-                    folders = str(file_path.split("/"))
+                    folders = str(file_path).split("/")
                     # Turn into a "from ... import ..." statement
                     import_statement = "from " + ".".join(folders[:-1]) + " import " + folders[-1].split(".")[0]
 
