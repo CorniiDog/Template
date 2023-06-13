@@ -40,3 +40,11 @@ This is the documentation for the project Template.
 
 - [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) 
 
+### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
+
+- [def save_key(platform: str, key: str, override: bool=False) -> None:](./../toolbox/database.py#L110) 
+
+### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+
+- [def load_key(platform: str) -> str:](./../toolbox/database.py#L143) 
+
