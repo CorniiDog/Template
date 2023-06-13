@@ -1,6 +1,6 @@
 Import Statement: `from toolbox import database`
 
-# get #
+# database.get #
 
 ### [def get(name: str) -> object:](./../toolbox/database.py#L8) ###
 
@@ -36,7 +36,7 @@ References
     No Links
 ```
 
-# save #
+# database.save #
 
 ### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L39) ###
 
@@ -76,7 +76,7 @@ References
     No Links
 ```
 
-# delete_database #
+# database.delete_database #
 
 ### [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) ###
 

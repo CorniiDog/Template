@@ -319,7 +319,8 @@ if output_instructions:
                     # Split the path into folders
                     folders = str(file_path).split("/")
                     # Turn into a "from ... import ..." statement
-                    import_statement = "from " + ".".join(folders[:-1]) + " import " + folders[-1].split(".")[0]
+                    last_part = folders[-1].split(".")[0]
+                    import_statement = "from " + ".".join(folders[:-1]) + " import " + last_part
 
                     file_document_path = docs_folder+"/"+ (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
 
@@ -369,7 +370,7 @@ if output_instructions:
 
 
                             name = get_function_name(line)
-                            file2.write(f"# {name} #\n\n")
+                            file2.write(f"# {last_part}.{name} #\n\n")
 
                             function_declaration = line
 
