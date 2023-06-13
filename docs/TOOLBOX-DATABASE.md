@@ -16,20 +16,22 @@ object
         The object loaded from the file, could be anything
 ```
 
-Notes
+References
 
 ```python
-This function is used to load objects from the database folder
-
-    References
-    ----------
-    None
+None
 ```
 
 Examples
 
 ```python
 >>> spreadsheet_data = get('spreadsheet_people')
+```
+
+Notes
+
+```python
+This function is used to load objects from the database folder
 ```
 
 # save #
@@ -52,14 +54,10 @@ None
         This function does not return anything
 ```
 
-Notes
+References
 
 ```python
-This function is used to save objects to the databse folder
-
-    References
-    ----------
-    None
+None
 ```
 
 Examples
@@ -67,5 +65,11 @@ Examples
 ```python
 >>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
     >>> save('spreadsheet_people', spreadsheet_data)
+```
+
+Notes
+
+```python
+This function is used to save objects to the databse folder
 ```
 

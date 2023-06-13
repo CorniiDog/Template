@@ -351,7 +351,7 @@ if output_instructions:
                             documents = get_function_documentation(i+1)
 
 
-                            sections = ["Parameters", "Returns", "Raises", "Notes", "Examples"]
+                            sections = ["Parameters", "Returns", "References", "Examples", "Notes"]
                             data = {}
                             for section in sections:
                                 data[section] = []
