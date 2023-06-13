@@ -34,11 +34,10 @@ def print_hi(name: str) -> None:
 if __name__ == '__main__':
     spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
     database.save('spreadsheet_people', spreadsheet_data)
+    print(spreadsheet_data)
 
     database.save_key('test', 'ello', override=True)
     print(database.load_key('test'))
-
-    print(spreadsheet_data)
 
     print_hi('PyCharm')
 
