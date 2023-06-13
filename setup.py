@@ -349,12 +349,12 @@ if output_instructions:
                         # If we find a function definition
                         if line.startswith("def"):
                             name = get_function_name(line)
-
                             file2.write("# " + name + " #\n\n")
-                            print(name)
+
                             function_declaration = line
                             file2.write("### " + function_declaration.strip() + " ###\n\n")
-                            print(function_declaration)
+                            documentation += f"[{name}](/{file_document_path}#{name.lower().replace(' ', '-')})\n\n"
+
                             documents = get_function_documentation(i+1)
 
 
@@ -369,7 +369,7 @@ if output_instructions:
                                     continue
 
                                 file2.write(section + "\n\n")
-                                documentation += f"[{section}](/{file_document_path}#{section.lower().replace(' ', '-')})\n\n"
+
 
                                 sect_back = documents.find(section) + len(section)+1
 

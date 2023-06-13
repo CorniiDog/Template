@@ -20,23 +20,7 @@ This is the documentation for the project Template.
 
 ## docs/TOOLBOX-DATABASE.md ##
 
-[Notes](/docs/TOOLBOX-DATABASE.md#notes)
+[get](/docs/TOOLBOX-DATABASE.md#get)
 
-[Parameters](/docs/TOOLBOX-DATABASE.md#parameters)
-
-[Returns](/docs/TOOLBOX-DATABASE.md#returns)
-
-[Examples](/docs/TOOLBOX-DATABASE.md#examples)
-
-[References](/docs/TOOLBOX-DATABASE.md#references)
-
-[Notes](/docs/TOOLBOX-DATABASE.md#notes)
-
-[Parameters](/docs/TOOLBOX-DATABASE.md#parameters)
-
-[Returns](/docs/TOOLBOX-DATABASE.md#returns)
-
-[Examples](/docs/TOOLBOX-DATABASE.md#examples)
-
-[References](/docs/TOOLBOX-DATABASE.md#references)
+[save](/docs/TOOLBOX-DATABASE.md#save)
 
