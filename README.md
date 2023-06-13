@@ -2,7 +2,7 @@
 ## HOW TO USE THIS TEMPLATE ##
 
 
-### Git Clone this repository:
+### Git Clone this repository: ###
 
     git clone https://github.com/ConnorAtmos/Template
 
@@ -11,17 +11,17 @@
     git clone git@github.com:ConnorAtmos/Template.git
 
 
-### Rename the project directory:
+### Rename the project directory: ###
 
     mv Template <project_name>
 
 
-### CD into the project directory and remove the git repository:
+### CD into the project directory and remove the git repository: ###
 
     cd <project_name> && rm -rf .git
 
 
-### Run setup.py for next steps:
+### Run setup.py for next steps: ###
 
     python3 setup.py
 
@@ -45,51 +45,51 @@ This is created for Ubuntu 22.04 Check your version by running "lsb_release -a"
 
 
 
-## HOW TO INSTALL CONDA
+## HOW TO INSTALL CONDA ##
 
 
 Conda is a package manager for python. It is used to install python packages and conda packages.
 
 
-### CD into the home directory:
+### CD into the home directory: ###
 
     cd ~
 
 
-### Run the following command to download the conda installer:
+### Run the following command to download the conda installer: ###
 
     wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
 
-### Run the following command to install conda:
+### Run the following command to install conda: ###
 
     bash Anaconda3-2022.05-Linux-x86_64.sh
 
 
-### Run the following command to update conda:
+### Run the following command to update conda: ###
 
     conda update conda
 
 
-### Run the following command to install conda-forge:
+### Run the following command to install conda-forge: ###
 
     conda config --add channels conda-forge
 
 
 
 
-## HOW TO CREATE CONDA ENVIRONMENT
+## HOW TO CREATE CONDA ENVIRONMENT ##
 
 
 This is for creating a new conda environment.
 
 
-### Run the following command to create a new conda environment:
+### Run the following command to create a new conda environment: ###
 
     conda create --name Template
 
 
-### Reload the bashrc file:
+### Reload the bashrc file: ###
 
     source ~/.bashrc
 
@@ -97,40 +97,40 @@ This is for creating a new conda environment.
 
 
 
-## HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY
+## HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY ##
 
 
-### Open the project in PyCharm
+### Open the project in PyCharm ###
 
 
-### Go to File > Settings > Project: Template > Python Interpreter
+### Go to File > Settings > Project: Template > Python Interpreter ###
 
 
-### Click "Add Interpreter" > Add Local Interpreter > Conda Environment > Use Existing Environment
+### Click "Add Interpreter" > Add Local Interpreter > Conda Environment > Use Existing Environment ###
 
 
-### Click the drop down menu and select Template.
+### Click the drop down menu and select Template. ###
 
 
 
 
-## HOW TO INSTALL REQUIREMENTS
+## HOW TO INSTALL REQUIREMENTS ##
 
 
 This is for installing python packages and conda packages.
 
 
-### CD into the project directory:
+### CD into the project directory: ###
 
     cd /home/connor/Template
 
 
-### Activate the conda environment:
+### Activate the conda environment: ###
 
     conda activate Template
 
 
-### Install the following requirements:
+### Install the following requirements: ###
 
     pip install -r requirements/requirements.txt && conda install --file requirements/conda_requirements.txt  && conda install -c conda-forge --file requirements/conda_forge_requirements.txt
 
@@ -142,33 +142,33 @@ cd /home/connor/Template && conda activate Template && pip install -r requiremen
 
 
 
-## HOW TO INSTALL SERVICE
+## HOW TO INSTALL SERVICE ##
 
 
 A service is a program that runs in the background. This is useful for running a program that you want to run all the time, such as a web server.
 
 
-### Run the following command to move the service file to the correct directory:
+### Run the following command to move the service file to the correct directory: ###
 
     sudo mv /home/connor/Template/requirements/Template.service /etc/systemd/system/Template.service
 
 
-### Reload the daemon:
+### Reload the daemon: ###
 
     sudo systemctl daemon-reload    
 
 
-### Run the following command to enable the service:
+### Run the following command to enable the service: ###
 
     sudo systemctl enable Template.service
 
 
-### Start the service:
+### Start the service: ###
 
     sudo systemctl restart Template.service
 
 
-### View status of service:
+### View status of service: ###
 
     sudo systemctl status Template.service
 
@@ -180,23 +180,23 @@ sudo mv /home/connor/Template/requirements/Template.service /etc/systemd/system/
 
 
 
-## HOW TO UNINSTALL SERVICE
+## HOW TO UNINSTALL SERVICE ##
 
 
 This is for uninstalling and removing the service.
 
 
-### Run the following command to disable the service:
+### Run the following command to disable the service: ###
 
     sudo systemctl disable Template.service
 
 
-### Run the following command to stop the service:
+### Run the following command to stop the service: ###
 
     sudo systemctl stop Template.service
 
 
-### Run the following command to delete the service file:
+### Run the following command to delete the service file: ###
 
     sudo rm /etc/systemd/system/Template.service
 
@@ -208,18 +208,18 @@ sudo systemctl disable Template.service && sudo systemctl stop Template.service 
 
 
 
-## HOW TO REMOVE CONDA ENVIRONMENT
+## HOW TO REMOVE CONDA ENVIRONMENT ##
 
 
 This is for removing the conda environment.
 
 
-### Run the following command to remove the conda environment:
+### Run the following command to remove the conda environment: ###
 
     conda env remove --name Template
 
 
-### Reload the bashrc file:
+### Reload the bashrc file: ###
 
     source ~/.bashrc
 
