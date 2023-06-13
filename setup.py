@@ -366,7 +366,8 @@ if output_instructions:
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8
                             # https://github.com/ConnorAtmos/Template/blob/master/docs/toolbox/database.py#L8
 
-                            documentation += f"[{name}](/{file_document_path}#{name.lower().replace(' ', '-')})\n\n"
+                            documentation += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
+                            documentation += f"[{function_declaration.strip()}](./../{file_path}#L{i+1}) \n\n"
 
                             documents = get_function_documentation(i+1)
 

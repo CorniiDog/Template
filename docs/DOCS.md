@@ -20,15 +20,23 @@ This is the documentation for the project Template.
 
 ## docs/MAIN.md ##
 
-[print_hi](/docs/MAIN.md#print_hi)
+### [print_hi](/docs/MAIN.md#print_hi) ###
+
+[def print_hi(name: str) -> None:](./../main.py#L1) 
 
 ## docs/SETUP.md ##
 
-[format_for_readme](/docs/SETUP.md#format_for_readme)
+### [format_for_readme](/docs/SETUP.md#format_for_readme) ###
+
+[def format_for_readme(text, document_path = ""):](./../setup.py#L211) 
 
 ## docs/TOOLBOX-DATABASE.md ##
 
-[get](/docs/TOOLBOX-DATABASE.md#get)
+### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
-[save](/docs/TOOLBOX-DATABASE.md#save)
+[def get(name: str) -> object:](./../toolbox/database.py#L8) 
+
+### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+
+[def save(name: str, data: any) -> None:](./../toolbox/database.py#L39) 
 
