@@ -394,12 +394,14 @@ if output_instructions:
                         # If we find a function definition
 
                         if line.strip().startswith("class "):
+                            found = True
+
                             previous_class_index = class_index
                             class_index = count_spaces_at_beginning(line) + 1
 
                             if class_index > previous_class_index:
                                 class_inside += 1
-                                classes_names.append(get_class_name(line))
+                                classes_names.append(get_class_name(line).split(":")[0].strip())
                             elif class_index < previous_class_index:
                                 class_inside -= 1
                                 classes_names.pop()

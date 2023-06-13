@@ -2,9 +2,9 @@ Import Statement: `import main`
 
 Alternative Import Statement: `from main import *`
 
-# Test:.__init__ #
+# Test.__init__ #
 
-### [Test:.    def __init__(self, name: str, age: int):](./../main.py#L5) ###
+### [Test.    def __init__(self, name: str, age: int):](./../main.py#L5) ###
 
 Notes
 
@@ -40,9 +40,9 @@ References
         No Links
 ```
 
-# Test:.__str__ #
+# Test.__str__ #
 
-### [Test:.    def __str__(self):](./../main.py#L33) ###
+### [Test.    def __str__(self):](./../main.py#L33) ###
 
 Notes
 
