@@ -207,12 +207,17 @@ documentation = ""
 
 def format_for_readme(text, document_path = ""):
     global documentation
+
+    if document_path != "":
+        documentation += f"#{document_path.split('/')[-1].replace('-', ' ').upper()}#\n\n"
+
     new_text = ""
     for line in text.split("\n"):
         if line.startswith("-=["):
             new_text += f"## {line[3:-3]} ##\n" + "\n"
 
-            documentation += f"[## {line[3:-3]} ##]({document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
+            if document_path  != "":
+                documentation += f"[{line[3:-3]}]({document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
         elif len(line) > 0 and line[0] in "1234567890":
             new_text += f"### {line} ###\n" + "\n"
 
@@ -236,7 +241,7 @@ if output_instructions:
         if project_name == "Template":
             f.write(additional_instructions)
 
-            f.write("[For More Information, Click Here](docs/INSTRUCTIONS.md)\n\n")
+            f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
     with open(docs_folder + "/DOCS.md", "w") as f:
 

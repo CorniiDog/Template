@@ -27,5 +27,5 @@
 
 
 
-[For More Information, Click Here](docs/INSTRUCTIONS.md)
+[For Documentation, Click Here](docs/DOCS.md)
 
