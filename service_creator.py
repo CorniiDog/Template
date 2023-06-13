@@ -66,16 +66,19 @@ This is created for Ubuntu 22.04 Check your version by running \"lsb_release -a\
 
 Conda is a package manager for python. It is used to install python packages and conda packages.
 
-1. Run the following command to download the conda installer:
+1. CD into the home directory:
+    cd ~
+
+2. Run the following command to download the conda installer:
     wget {conda_install_link}
 
-2. Run the following command to install conda:
+3. Run the following command to install conda:
     bash {conda_file}
 
-3. Run the following command to update conda:
+4. Run the following command to update conda:
     conda update conda
 
-4. Run the following command to install conda-forge:
+5. Run the following command to install conda-forge:
     conda config --add channels conda-forge
 
 ==============================
