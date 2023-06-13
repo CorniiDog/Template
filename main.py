@@ -4,7 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name:str) -> None:
+def print_hi(name: str) -> None:
     """
     Parameters
     ----------
