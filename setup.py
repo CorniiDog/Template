@@ -349,6 +349,20 @@ if output_instructions:
                     def get_function_name(text_line):
                         return text_line.strip().split("def ")[1].split("(")[0]
 
+                    def get_class_name(text_line):
+                        print(text_line)
+                        return text_line.strip().split("class ")[1].split("(")[0]
+
+
+                    def count_spaces_at_beginning(text_line):
+                        count = 0
+                        for c in text_line:
+                            if c == " ":
+                                count += 1
+                            else:
+                                break
+                        return count
+
 
                     def get_function_documentation(k, offset=0):
                         if lines[k].strip().startswith("def "):
@@ -371,16 +385,41 @@ if output_instructions:
 
 
                     found = False
+                    class_inside = 0
+                    previous_class_index = 0
+                    class_index = 0
+                    classes_names = []
                     other_docs = ""
                     for i, line in enumerate(lines):
                         # If we find a function definition
-                        if line.strip().startswith("def"):
+
+                        if line.strip().startswith("class "):
+                            previous_class_index = class_index
+                            class_index = count_spaces_at_beginning(line) + 1
+
+                            if class_index > previous_class_index:
+                                class_inside += 1
+                                classes_names.append(get_class_name(line))
+                            elif class_index < previous_class_index:
+                                class_inside -= 1
+                                classes_names.pop()
+
+
+
+
+                        elif line.strip().startswith("def"):
                             found = True
 
                             name = get_function_name(line)
+                            if class_inside > 0:
+                                for class_name in classes_names:
+                                    name = class_name + "." + name
                             file2.write(f"# {name} #\n\n")
 
                             function_declaration = line
+                            if class_inside > 0:
+                                for class_name in classes_names:
+                                    function_declaration = class_name + "." + function_declaration
 
                             file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8

@@ -22,17 +22,17 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
-### [__init__](/docs/MAIN.md#__init__) ###
+### [Test:.__init__](/docs/MAIN.md#test:.__init__) ###
 
-- [def __init__(self, name: str, age: int):](./../main.py#L5) 
+- [Test:.    def __init__(self, name: str, age: int):](./../main.py#L5) 
 
-### [__str__](/docs/MAIN.md#__str__) ###
+### [Test:.__str__](/docs/MAIN.md#test:.__str__) ###
 
-- [def __str__(self):](./../main.py#L33) 
+- [Test:.    def __str__(self):](./../main.py#L33) 
 
-### [print_hi](/docs/MAIN.md#print_hi) ###
+### [Test:.print_hi](/docs/MAIN.md#test:.print_hi) ###
 
-- [def print_hi(name: str) -> None:](./../main.py#L60) 
+- [Test:.def print_hi(name: str) -> None:](./../main.py#L60) 
 
 ## setup.py ##
 
@@ -44,9 +44,17 @@ This is the documentation for the project Template.
 
 - [def get_function_name(text_line):](./../setup.py#L349) 
 
+### [get_class_name](/docs/SETUP.md#get_class_name) ###
+
+- [def get_class_name(text_line):](./../setup.py#L352) 
+
+### [count_spaces_at_beginning](/docs/SETUP.md#count_spaces_at_beginning) ###
+
+- [def count_spaces_at_beginning(text_line):](./../setup.py#L357) 
+
 ### [get_function_documentation](/docs/SETUP.md#get_function_documentation) ###
 
-- [def get_function_documentation(k, offset=0):](./../setup.py#L353) 
+- [def get_function_documentation(k, offset=0):](./../setup.py#L367) 
 
 ## toolbox/database.py ##
 

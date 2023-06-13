@@ -85,7 +85,6 @@ def print_hi(name: str) -> None:
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
