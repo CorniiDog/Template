@@ -217,7 +217,7 @@ def format_for_readme(text, document_path = ""):
             new_text += f"## {line[3:-3]} ##\n" + "\n"
 
             if document_path  != "":
-                documentation += f"[{line[3:-3]}]({document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
+                documentation += f"[{line[3:-3]}](/../{document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
         elif len(line) > 0 and line[0] in "1234567890":
             new_text += f"### {line} ###\n" + "\n"
 
