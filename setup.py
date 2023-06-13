@@ -204,7 +204,7 @@ def format_for_readme(text):
             new_text += f"## {line[3:-3]} ##\n" + "\n"
 
         elif len(line) > 0 and line[0] in "1234567890":
-            new_text += f"### {line[3:]} ###\n" + "\n"
+            new_text += f"### {line} ###\n" + "\n"
 
         elif line.startswith("=="):
             new_text += "\n"
