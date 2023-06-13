@@ -4,7 +4,7 @@ Alternative Import Statement: `from main import *`
 
 # Test.__init__ #
 
-### [Test.    def __init__(self, name: str, age: int):](./../main.py#L5) ###
+### [def __init__(self, name: str, age: int):](./../main.py#L5) ###
 
 Notes
 
@@ -42,7 +42,7 @@ References
 
 # Test.__str__ #
 
-### [Test.    def __str__(self):](./../main.py#L33) ###
+### [def __str__(self):](./../main.py#L33) ###
 
 Notes
 

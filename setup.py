@@ -425,9 +425,6 @@ if output_instructions:
                             file2.write(f"# {name} #\n\n")
 
                             function_declaration = line
-                            if class_inside > 0:
-                                for class_name in classes_names:
-                                    function_declaration = class_name + "." + function_declaration
 
                             file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8

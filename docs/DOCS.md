@@ -24,11 +24,11 @@ This is the documentation for the project Template.
 
 ### [Test.__init__](/docs/MAIN.md#test.__init__) ###
 
-- [Test.    def __init__(self, name: str, age: int):](./../main.py#L5) 
+- [def __init__(self, name: str, age: int):](./../main.py#L5) 
 
 ### [Test.__str__](/docs/MAIN.md#test.__str__) ###
 
-- [Test.    def __str__(self):](./../main.py#L33) 
+- [def __str__(self):](./../main.py#L33) 
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
