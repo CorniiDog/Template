@@ -1,7 +1,6 @@
 [get](#get)
 
-### [def get(name: str) -> object:
-](./toolbox/database.py#L8) ###
+### [def get(name: str) -> object:](./toolbox/database.py#L8) ###
 
 Notes
 
@@ -37,8 +36,7 @@ References
 
 [save](#save)
 
-### [def save(name: str, data: any) -> None:
-](./toolbox/database.py#L39) ###
+### [def save(name: str, data: any) -> None:](./toolbox/database.py#L39) ###
 
 Notes
 
