@@ -1,0 +1,16 @@
+
+[Unit]
+Description=Template
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=connor
+ExecStart=/home/connor/anaconda3/envs/Template/bin/python3 main.py
+WorkingDirectory=/home/connor/Template
+Restart=always
+RestartSec=120
+
+[Install]
+WantedBy=multi-user.target
