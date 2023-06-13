@@ -225,7 +225,21 @@ if output_instructions:
 
         if project_name == "Template":
             f.write(additional_instructions)
+
+            # Rename the project name to <project_name>
+            turn_to_readme = turn_to_readme.replace(project_name, "<project_name>")
+            turn_to_readme = turn_to_readme.replace(project_dir, "<project_dir>")
+            turn_to_readme = turn_to_readme.replace(home_dir, "~")
+            turn_to_readme = turn_to_readme.replace(service_name, "<service_name>")
+            turn_to_readme = turn_to_readme.replace(service_path, "<service_path>")
+            turn_to_readme = turn_to_readme.replace(service_moved_path, "<service_moved_path>")
+            turn_to_readme = turn_to_readme.replace(requirements_file, "<requirements_file>")
+            turn_to_readme = turn_to_readme.replace(conda_requirements_file, "<conda_requirements_file>")
+            turn_to_readme = turn_to_readme.replace(conda_forge_requirements_file, "<conda_forge_requirements_file>")
         f.write("\n\n\nNOTE: The following below is automatically generated. To regenerate this file, run \"python3 setup.py\".\n\n")
+
+
+
 
         f.write(turn_to_readme)
 

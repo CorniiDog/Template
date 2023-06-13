@@ -82,7 +82,7 @@ This is for creating a new conda environment.
 
 ### 1. Run the following command to create a new conda environment: ###
 
-    conda create --name Template
+    conda create --name <project_name>
 
 
 ### 2. Reload the bashrc file: ###
@@ -99,13 +99,13 @@ This is for creating a new conda environment.
 ### 1. Open the project in PyCharm ###
 
 
-### 2. Go to File > Settings > Project: Template > Python Interpreter ###
+### 2. Go to File > Settings > Project: <project_name> > Python Interpreter ###
 
 
 ### 3. Click "Add Interpreter" > Add Local Interpreter > Conda Environment > Use Existing Environment ###
 
 
-### 4. Click the drop down menu and select Template. ###
+### 4. Click the drop down menu and select <project_name>. ###
 
 
 
@@ -118,22 +118,22 @@ This is for installing python packages and conda packages.
 
 ### 1. CD into the project directory: ###
 
-    cd /home/connor/Template
+    cd ~/<project_name>
 
 
 ### 2. Activate the conda environment: ###
 
-    conda activate Template
+    conda activate <project_name>
 
 
 ### 3. Install the following requirements: ###
 
-    pip install -r requirements/requirements.txt && conda install --file requirements/conda_requirements.txt  && conda install -c conda-forge --file requirements/conda_forge_requirements.txt
+    pip install -r <requirements_file> && conda install --file <conda_requirements_file>  && conda install -c conda-forge --file <conda_forge_requirements_file>
 
 
 ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-cd /home/connor/Template && conda activate Template && pip install -r requirements/requirements.txt && conda install --file requirements/conda_requirements.txt  && conda install -c conda-forge --file requirements/conda_forge_requirements.txt
+cd ~/<project_name> && conda activate <project_name> && pip install -r <requirements_file> && conda install --file <conda_requirements_file>  && conda install -c conda-forge --file <conda_forge_requirements_file>
 
 
 
@@ -146,7 +146,7 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 1. Run the following command to move the service file to the correct directory: ###
 
-    sudo mv /home/connor/Template/requirements/Template.service /etc/systemd/system/Template.service
+    sudo mv ~/<project_name>/requirements/<project_name>.service /etc/systemd/system/<project_name>.service
 
 
 ### 2. Reload the daemon: ###
@@ -156,22 +156,22 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 3. Run the following command to enable the service: ###
 
-    sudo systemctl enable Template.service
+    sudo systemctl enable <project_name>.service
 
 
 ### 4. Start the service: ###
 
-    sudo systemctl restart Template.service
+    sudo systemctl restart <project_name>.service
 
 
 ### 5. View status of service: ###
 
-    sudo systemctl status Template.service
+    sudo systemctl status <project_name>.service
 
 
 ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-sudo mv /home/connor/Template/requirements/Template.service /etc/systemd/system/Template.service && sudo systemctl daemon-reload && sudo systemctl enable Template.service && sudo systemctl restart Template.service && sudo systemctl status Template.service
+sudo mv ~/<project_name>/requirements/<project_name>.service /etc/systemd/system/<project_name>.service && sudo systemctl daemon-reload && sudo systemctl enable <project_name>.service && sudo systemctl restart <project_name>.service && sudo systemctl status <project_name>.service
 
 
 
@@ -184,22 +184,22 @@ This is for uninstalling and removing the service.
 
 ### 1. Run the following command to disable the service: ###
 
-    sudo systemctl disable Template.service
+    sudo systemctl disable <project_name>.service
 
 
 ### 2. Run the following command to stop the service: ###
 
-    sudo systemctl stop Template.service
+    sudo systemctl stop <project_name>.service
 
 
 ### 3. Run the following command to delete the service file: ###
 
-    sudo rm /etc/systemd/system/Template.service
+    sudo rm /etc/systemd/system/<project_name>.service
 
 
 ALTENATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-sudo systemctl disable Template.service && sudo systemctl stop Template.service && sudo systemctl daemon-reload && sudo rm /etc/systemd/system/Template.service
+sudo systemctl disable <project_name>.service && sudo systemctl stop <project_name>.service && sudo systemctl daemon-reload && sudo rm /etc/systemd/system/<project_name>.service
 
 
 
@@ -212,7 +212,7 @@ This is for removing the conda environment.
 
 ### 1. Run the following command to remove the conda environment: ###
 
-    conda env remove --name Template
+    conda env remove --name <project_name>
 
 
 ### 2. Reload the bashrc file: ###
@@ -222,7 +222,7 @@ This is for removing the conda environment.
 
 ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-conda env remove --name Template && source ~/.bashrc
+conda env remove --name <project_name> && source ~/.bashrc
 
 
 
