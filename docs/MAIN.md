@@ -1,5 +1,7 @@
 Import Statement: `from  import main`
 
+Import Statement: `from main.py import *`
+
 # main.print_hi #
 
 ### [def print_hi(name: str) -> None:](./../main.py#L3) ###

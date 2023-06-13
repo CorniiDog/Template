@@ -1,5 +1,7 @@
 Import Statement: `from toolbox import database`
 
+Import Statement: `from toolbox.database.py import *`
+
 # database.get #
 
 ### [def get(name: str) -> object:](./../toolbox/database.py#L8) ###
