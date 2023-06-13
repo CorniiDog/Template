@@ -28,10 +28,6 @@ This is the documentation for the project Template.
 
 ## docs/SETUP.md ##
 
-### [format_for_readme](/docs/SETUP.md#format_for_readme) ###
-
-- [def format_for_readme(text, document_path = ""):](./../setup.py#L211) 
-
 ## docs/TOOLBOX-DATABASE.md ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###

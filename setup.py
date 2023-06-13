@@ -208,32 +208,34 @@ additional_instructions = """
 
 documentation = ""
 
-def format_for_readme(text, document_path = ""):
-    global documentation
 
-    if document_path != "":
-        documentation += f"## {document_path.split('/')[-1].replace('-', ' ')} ##\n\n"
-
-    new_text = ""
-    for line in text.split("\n"):
-        if line.startswith("-=["):
-            new_text += f"## {line[3:-3]} ##\n" + "\n"
-            if document_path  != "":
-                documentation += f"[{line[3:-3]}](/{document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
-        elif len(line) > 0 and line[0] in "1234567890":
-            new_text += f"### {line} ###\n" + "\n"
-            #new_text += line + "\n" + "\n"
-
-        elif line.startswith("=="):
-            new_text += "\n"
-        elif len(line) == 0:
-            new_text += "\n"
-        else:
-            new_text += line + "\n" + "\n"
-    return new_text
 
 
 if output_instructions:
+
+    def format_for_readme(text, document_path=""):
+        global documentation
+
+        if document_path != "":
+            documentation += f"## {document_path.split('/')[-1].replace('-', ' ')} ##\n\n"
+
+        new_text = ""
+        for line in text.split("\n"):
+            if line.startswith("-=["):
+                new_text += f"## {line[3:-3]} ##\n" + "\n"
+                if document_path != "":
+                    documentation += f"[{line[3:-3]}](/{document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
+            elif len(line) > 0 and line[0] in "1234567890":
+                new_text += f"### {line} ###\n" + "\n"
+                # new_text += line + "\n" + "\n"
+
+            elif line.startswith("=="):
+                new_text += "\n"
+            elif len(line) == 0:
+                new_text += "\n"
+            else:
+                new_text += line + "\n" + "\n"
+        return new_text
 
     additional_instructions = format_for_readme(additional_instructions)
 
@@ -244,7 +246,7 @@ if output_instructions:
         if project_name == "Template":
             f.write(additional_instructions)
 
-            f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
+        f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 
