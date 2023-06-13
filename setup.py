@@ -410,6 +410,12 @@ if output_instructions:
                         elif line.strip().startswith("def"):
                             found = True
 
+                            # If the function is not a class method
+                            if class_index > count_spaces_at_beginning(line):
+                                class_inside = 0
+                                classes_names = []
+
+
                             name = get_function_name(line)
                             if class_inside > 0:
                                 for class_name in classes_names:

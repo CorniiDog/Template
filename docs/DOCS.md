@@ -30,9 +30,9 @@ This is the documentation for the project Template.
 
 - [Test:.    def __str__(self):](./../main.py#L33) 
 
-### [Test:.print_hi](/docs/MAIN.md#test:.print_hi) ###
+### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [Test:.def print_hi(name: str) -> None:](./../main.py#L60) 
+- [def print_hi(name: str) -> None:](./../main.py#L60) 
 
 ## setup.py ##
 

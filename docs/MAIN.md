@@ -76,9 +76,9 @@ References
         No Links
 ```
 
-# Test:.print_hi #
+# print_hi #
 
-### [Test:.def print_hi(name: str) -> None:](./../main.py#L60) ###
+### [def print_hi(name: str) -> None:](./../main.py#L60) ###
 
 Notes
 
