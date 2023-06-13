@@ -9,11 +9,14 @@ home_dir = os.path.expanduser("~")
 project_name = os.path.basename(project_dir)
 path_to_conda_python = f"{home_dir}/anaconda3/envs/{project_name}/bin/python3"
 file_to_run = "main.py"
-requirements_file = "requirements/requirements.txt"
-conda_requirements_file = "requirements/conda_requirements.txt"
-conda_forge_requirements_file = "requirements/conda_forge_requirements.txt"
 
-run_instructions = False
+requirements_folder = "requirements"
+requirements_file = f"{requirements_folder}/requirements.txt"
+conda_requirements_file = f"{requirements_folder}/conda_requirements.txt"
+conda_forge_requirements_file = f"{requirements_folder}/conda_forge_requirements.txt"
+
+docs_folder = "docs"
+
 output_instructions = True
 
 conda_install_link = "https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh"
@@ -22,8 +25,10 @@ conda_file = conda_install_link.split("/")[-1]
 path_to_services = "/etc/systemd/system"
 service_name = f"{project_name}.service"
 
+requirements_abs_path = os.path.join(project_dir, requirements_folder)
+
 # Create a new file called "VR_Storage_System.service"
-service_path = os.path.join(project_dir, "requirements", service_name)
+service_path = os.path.join(requirements_abs_path, service_name)
 service_moved_path = os.path.join(path_to_services, service_name)
 
 f = open(service_path, "w")
@@ -226,7 +231,11 @@ if output_instructions:
         if project_name == "Template":
             f.write(additional_instructions)
 
-    with open("INSTRUCTIONS.md", "w") as f:
+            f.write("[For More Information, Click Here](docs/INSTRUCTIONS.md)\n\n")
+
+
+
+    with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 
         f.write("# KEYWORDS #\n")
 
