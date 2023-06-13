@@ -308,7 +308,10 @@ if output_instructions:
                     file_path = os.path.join(root, file).replace(project_dir, "")
                     print(file_path)
 
-                    file_document_path = docs_folder+"/"+str(file_path).replace("/", "-").upper().split(".PY")[0] + ".md"
+                    if file_path.startswith("/"):
+                        file_path = file_path[1:]
+
+                    file_document_path = docs_folder+"/"+ (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
 
                     file2 = open(file_document_path, "w")
 
