@@ -4,7 +4,31 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
+def print_hi(name:str) -> None:
+    """
+    Parameters
+    ----------
+    name : str
+        The name of the person to greet
+
+    Returns
+    -------
+    None
+        This function does not return anything
+
+    Notes
+    --------
+    ello
+
+    References
+    ------------
+    https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
+
+    Examples
+    --------
+    >>> print_hi('PyCharm')
+
+    """
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
