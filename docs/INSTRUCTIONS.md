@@ -5,7 +5,7 @@
 
 - *<service_name>* is the name of the service. Replace <service_name> with the name of the service (ex. Template.service).
 
-- *<service_path>* is the path to the service file. Replace <service_path> with the path to the service file (ex. /home/connor/Template/requirements/Template.service).
+- *<service_path>* is the path to the service file. Replace <service_path> with the path to the service file (ex. /home/connor/Template/storage/Template.service).
 
 - *<service_moved_path>* is the path to the service file after it has been moved. Replace <service_moved_path> with the path to the service file after it has been moved (ex. /etc/systemd/system/Template.service).
 
@@ -129,7 +129,7 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 1. Run the following command to move the service file to the correct directory: ###
 
-    sudo mv ~/<project_name>/requirements/<project_name>.service /etc/systemd/system/<project_name>.service
+    sudo mv ~/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service
 
 
 ### 2. Reload the daemon: ###
@@ -154,7 +154,7 @@ A service is a program that runs in the background. This is useful for running a
 
 ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-sudo mv ~/<project_name>/requirements/<project_name>.service /etc/systemd/system/<project_name>.service && sudo systemctl daemon-reload && sudo systemctl enable <project_name>.service && sudo systemctl restart <project_name>.service && sudo systemctl status <project_name>.service
+sudo mv ~/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service && sudo systemctl daemon-reload && sudo systemctl enable <project_name>.service && sudo systemctl restart <project_name>.service && sudo systemctl status <project_name>.service
 
 
 

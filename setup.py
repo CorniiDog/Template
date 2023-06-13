@@ -11,6 +11,7 @@ path_to_conda_python = f"{home_dir}/anaconda3/envs/{project_name}/bin/python3"
 file_to_run = "main.py"
 
 requirements_folder = "requirements"
+storage_folder = "storage"
 requirements_file = f"{requirements_folder}/requirements.txt"
 conda_requirements_file = f"{requirements_folder}/conda_requirements.txt"
 conda_forge_requirements_file = f"{requirements_folder}/conda_forge_requirements.txt"
@@ -26,9 +27,10 @@ path_to_services = "/etc/systemd/system"
 service_name = f"{project_name}.service"
 
 requirements_abs_path = os.path.join(project_dir, requirements_folder)
+storage_abs_path = os.path.join(project_dir, storage_folder)
 
 # Create a new file called "VR_Storage_System.service"
-service_path = os.path.join(requirements_abs_path, service_name)
+service_path = os.path.join(storage_abs_path, service_name)
 service_moved_path = os.path.join(path_to_services, service_name)
 
 f = open(service_path, "w")
