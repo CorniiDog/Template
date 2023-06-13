@@ -1,11 +1,12 @@
-import os, pickle
+import os
+import pickle
 
 storage_folder = os.path.join(os.path.dirname(__file__), 'database')
 if not os.path.exists(storage_folder):
     os.makedirs(storage_folder)
 
 
-def get(name: str) -> object:
+def get(name: str) -> object | None:
     """
     Parameters
     ----------
@@ -14,7 +15,7 @@ def get(name: str) -> object:
 
     Returns
     -------
-    object
+    object or None
         The object loaded from the file, could be anything
 
     Notes
@@ -70,7 +71,8 @@ def save(name: str, data: any) -> None:
     with open(path, 'wb') as f:
         pickle.dump(data, f)
 
-def delete_database(name: str) -> object:
+
+def delete_database(name: str) -> object | None:
     """
     Parameters
     ----------
@@ -79,7 +81,7 @@ def delete_database(name: str) -> object:
 
     Returns
     -------
-    object
+    object or None
         The object loaded from the file, could be anything
 
     Notes
@@ -107,7 +109,8 @@ def delete_database(name: str) -> object:
     os.remove(path)
     return contents
 
-def save_key(platform: str, key: str, override: bool=False) -> None:
+
+def save_key(platform: str, key: str, override: bool = False) -> None:
     """
     Parameters
     ----------
@@ -115,6 +118,8 @@ def save_key(platform: str, key: str, override: bool=False) -> None:
         The name of the platform to be saved (e.g. 'google')
     key: str
         The key to be saved (e.g. '<google_api_key>')
+    override: bool
+        Whether or not to override the key if it already exists
 
     Returns
     -------
@@ -140,11 +145,11 @@ def save_key(platform: str, key: str, override: bool=False) -> None:
     os.environ[platform] = key
 
 
-def load_key(platform: str) -> str:
+def load_key(platform: str) -> str | None:
     """
         Parameters
         ----------
-        key: str
+        platform: str
             The key to be loaded (e.g. '<google_api_key>')
 
         Returns

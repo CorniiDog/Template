@@ -4,7 +4,7 @@ Alternative Import Statement: `from toolbox.database import *`
 
 # get #
 
-### [def get(name: str) -> object:](./../toolbox/database.py#L8) ###
+### [def get(name: str) -> object | None:](./../toolbox/database.py#L9) ###
 
 Notes
 
@@ -22,7 +22,7 @@ Parameters
 Returns
 
 ```python
-    object
+    object or None
         The object loaded from the file, could be anything
 ```
 
@@ -40,7 +40,7 @@ References
 
 # save #
 
-### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L39) ###
+### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) ###
 
 Notes
 
@@ -80,7 +80,7 @@ References
 
 # delete_database #
 
-### [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) ###
+### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) ###
 
 Notes
 
@@ -98,7 +98,7 @@ Parameters
 Returns
 
 ```python
-    object
+    object or None
         The object loaded from the file, could be anything
 ```
 
@@ -120,7 +120,7 @@ References
 
 # save_key #
 
-### [def save_key(platform: str, key: str, override: bool=False) -> None:](./../toolbox/database.py#L110) ###
+### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) ###
 
 Notes
 
@@ -135,6 +135,8 @@ Parameters
         The name of the platform to be saved (e.g. 'google')
     key: str
         The key to be saved (e.g. '<google_api_key>')
+    override: bool
+        Whether or not to override the key if it already exists
 ```
 
 Returns
@@ -158,7 +160,7 @@ References
 
 # load_key #
 
-### [def load_key(platform: str) -> str:](./../toolbox/database.py#L143) ###
+### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) ###
 
 Notes
 
@@ -169,7 +171,7 @@ Notes
 Parameters
 
 ```python
-        key: str
+        platform: str
             The key to be loaded (e.g. '<google_api_key>')
 ```
 
