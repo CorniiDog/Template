@@ -26,8 +26,6 @@ This is the documentation for the project Template.
 
 - [def print_hi(name: str) -> None:](./../main.py#L1) 
 
-## setup.py ##
-
 ## toolbox/database.py ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###

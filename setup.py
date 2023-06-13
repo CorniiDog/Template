@@ -320,7 +320,6 @@ if output_instructions:
                     file2 = open(file_document_path, "w")
 
 
-                    documentation += f"## {file_path} ##\n\n"
 
 
 
@@ -355,10 +354,12 @@ if output_instructions:
 
 
 
-
+                    found = False
+                    other_docs = ""
                     for i, line in enumerate(lines):
                         # If we find a function definition
                         if line.startswith("def"):
+                            found = True
 
 
                             name = get_function_name(line)
@@ -370,8 +371,8 @@ if output_instructions:
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8
                             # https://github.com/ConnorAtmos/Template/blob/master/docs/toolbox/database.py#L8
 
-                            documentation += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
-                            documentation += f"- [{function_declaration.strip()}](./../{file_path}#L{i+1}) \n\n"
+                            other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
+                            other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i+1}) \n\n"
 
                             documents = get_function_documentation(i+1)
 
@@ -408,6 +409,9 @@ if output_instructions:
                                     section_combined = section_combined.split("\n", 1)[1]
 
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
+
+                    if found:
+                        documentation += f"## {file_path} ##\n\n" + other_docs
 
                     file2.close()
 
