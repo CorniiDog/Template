@@ -294,6 +294,8 @@ if output_instructions:
 
         f.write(turn_to_readme)
 
+    documentation += f"# API #\n\n"
+
     # walk through every .py file in the toolbox folder
     for root, dirs, files in os.walk(project_dir):
         for file in files:

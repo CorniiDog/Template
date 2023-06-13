@@ -18,6 +18,8 @@ This is the documentation for the project Template.
 
 [HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#how-to-remove-conda-environment)
 
+# API #
+
 ## docs/MAIN.md ##
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
