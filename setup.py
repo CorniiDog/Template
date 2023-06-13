@@ -306,6 +306,10 @@ if output_instructions:
 
                     file2 = open(docs_folder+"/"+str(file_path).replace("/", "-").upper().split(".PY")[0] + ".md", "w")
 
+                    documentation += f"## {file2} ##\n\n"
+
+
+
 
 
                     # read the file as a list
@@ -362,6 +366,7 @@ if output_instructions:
                                     continue
 
                                 file2.write(section + "\n\n")
+                                documentation += f"[{line[3:-3]}](/{file2}#{section.lower().replace(' ', '-')})\n\n"
 
                                 sect_back = documents.find(section) + len(section)+1
 
