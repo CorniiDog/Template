@@ -18,9 +18,17 @@ This is the documentation for the project Template.
 
 [HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#how-to-remove-conda-environment)
 
-## docs/TOOLBOX-DATABASE.md ##
+## docs/-MAIN.md ##
 
-[get](/docs/TOOLBOX-DATABASE.md#get)
+[print_hi](/docs/-MAIN.md#print_hi)
 
-[save](/docs/TOOLBOX-DATABASE.md#save)
+## docs/-SETUP.md ##
+
+[format_for_readme](/docs/-SETUP.md#format_for_readme)
+
+## docs/-TOOLBOX-DATABASE.md ##
+
+[get](/docs/-TOOLBOX-DATABASE.md#get)
+
+[save](/docs/-TOOLBOX-DATABASE.md#save)
 

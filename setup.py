@@ -295,8 +295,11 @@ if output_instructions:
         f.write(turn_to_readme)
 
     # walk through every .py file in the toolbox folder
-    for root, dirs, files in os.walk(toolbox_folder):
+    for root, dirs, files in os.walk(project_dir):
         for file in files:
+            if file[0] == ".":
+                continue
+
             if file.endswith(".py"):
                 # open the file
                 with open(os.path.join(root, file), "r") as f:
