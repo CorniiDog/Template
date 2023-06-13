@@ -225,9 +225,8 @@ if output_instructions:
 
         if project_name == "Template":
             f.write(additional_instructions)
-        else:
-            f.write("\n\n\nNOTE: The following below is automatically generated. To regenerate this file, run \"python3 setup.py\".\n\n")
+        f.write("\n\n\nNOTE: The following below is automatically generated. To regenerate this file, run \"python3 setup.py\".\n\n")
 
-            f.write(turn_to_readme)
+        f.write(turn_to_readme)
 
 print(output)
