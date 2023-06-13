@@ -1,3 +1,5 @@
+Import Statement: `from [.'.m.a.i.n...p.y.' import ]`
+
 # print_hi #
 
 ### [def print_hi(name: str) -> None:](./../main.py#L3) ###

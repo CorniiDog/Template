@@ -1,3 +1,5 @@
+Import Statement: `from [.'.t.o.o.l.b.o.x.'.,. .'.d.a.t.a.b.a.s.e...p.y.' import ]`
+
 # get #
 
 ### [def get(name: str) -> object:](./../toolbox/database.py#L8) ###

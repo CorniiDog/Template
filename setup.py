@@ -315,12 +315,18 @@ if output_instructions:
                     if file_path.startswith("/"):
                         file_path = file_path[1:]
 
+
+                    # Split the path into folders
+                    folders = str(file_path.split("/"))
+                    # Turn into a "from ... import ..." statement
+                    import_statement = "from " + ".".join(folders[:-1]) + " import " + folders[-1].split(".")[0]
+
                     file_document_path = docs_folder+"/"+ (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
 
                     file2 = open(file_document_path, "w")
 
 
-
+                    file2.write(f"Import Statement: `{import_statement}`\n\n")
 
 
 
