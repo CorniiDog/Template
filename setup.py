@@ -24,6 +24,12 @@ output_instructions = True
 conda_install_link = "https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh"
 conda_file = conda_install_link.split("/")[-1]
 
+if not os.path.exists(requirements_folder):
+    os.mkdir(requirements_folder)
+
+if not os.path.exists(storage_folder):
+    os.mkdir(storage_folder)
+
 path_to_services = "/etc/systemd/system"
 service_name = f"{project_name}.service"
 
