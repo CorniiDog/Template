@@ -226,20 +226,42 @@ if output_instructions:
         if project_name == "Template":
             f.write(additional_instructions)
 
+
+            f.write("# KEYWORDS #\n")
+
             # Rename the project name to <project_name>
+            f.write("<project_name> is the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).\n")
             turn_to_readme = turn_to_readme.replace(project_name, "<project_name>")
+
+            # Replace the project directory with <project_dir>
+            f.write(f"<project_dir> is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. {project_dir}).\n")
             turn_to_readme = turn_to_readme.replace(project_dir, "<project_dir>")
+
             turn_to_readme = turn_to_readme.replace(home_dir, "~")
+
+            # Replace the service name with <service_name>
+            f.write(f"<service_name> is the name of the service. Replace <service_name> with the name of the service (ex. {service_name}).\n")
             turn_to_readme = turn_to_readme.replace(service_name, "<service_name>")
+
+            # Replace the service path with <service_path>
+            f.write(f"<service_path> is the path to the service file. Replace <service_path> with the path to the service file (ex. {service_path}).\n")
             turn_to_readme = turn_to_readme.replace(service_path, "<service_path>")
+
+            # Replace the service moved path with <service_moved_path>
+            f.write(f"<service_moved_path> is the path to the service file after it has been moved. Replace <service_moved_path> with the path to the service file after it has been moved (ex. {service_moved_path}).\n")
             turn_to_readme = turn_to_readme.replace(service_moved_path, "<service_moved_path>")
+
+            # Replace the requirements file with <requirements_file>
+            f.write(f"<requirements_file> is the path to the requirements file. Replace <requirements_file> with the path to the requirements file (ex. {requirements_file}).\n")
             turn_to_readme = turn_to_readme.replace(requirements_file, "<requirements_file>")
+
+            # Replace the conda requirements file with <conda_requirements_file>
+            f.write(f"<conda_requirements_file> is the path to the conda requirements file. Replace <conda_requirements_file> with the path to the conda requirements file (ex. {conda_requirements_file}).\n")
             turn_to_readme = turn_to_readme.replace(conda_requirements_file, "<conda_requirements_file>")
+
+            # Replace the conda-forge requirements file with <conda_forge_requirements_file>
+            f.write(f"<conda_forge_requirements_file> is the path to the conda-forge requirements file. Replace <conda_forge_requirements_file> with the path to the conda-forge requirements file (ex. {conda_forge_requirements_file}).\n")
             turn_to_readme = turn_to_readme.replace(conda_forge_requirements_file, "<conda_forge_requirements_file>")
-        f.write("\n\n\nNOTE: The following below is automatically generated. To regenerate this file, run \"python3 setup.py\".\n\n")
-
-
-
 
         f.write(turn_to_readme)
 
