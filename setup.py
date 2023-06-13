@@ -209,7 +209,7 @@ def format_for_readme(text, document_path = ""):
     global documentation
 
     if document_path != "":
-        documentation += f"# {document_path.split('/')[-1].replace('-', ' ').upper()} #\n\n"
+        documentation += f"## {document_path.split('/')[-1].replace('-', ' ').upper()} ##\n\n"
 
     new_text = ""
     for line in text.split("\n"):
