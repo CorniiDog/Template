@@ -333,7 +333,7 @@ if output_instructions:
                     #Remove extension first
                     folders[-1] = folders[-1].split(".")[0]
 
-                    import_statement = "from " + ".".join(folders[:-1]) + " import *"
+                    import_statement = "from " + ".".join(folders) + " import *"
                     file2.write(f"Alternative Import Statement: `{import_statement}`\n\n")
 
 

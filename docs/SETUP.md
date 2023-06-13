@@ -1,4 +1,4 @@
 Import Statement: `from  import setup`
 
-Alternative Import Statement: `from  import *`
+Alternative Import Statement: `from setup import *`
 

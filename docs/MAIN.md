@@ -1,6 +1,6 @@
 Import Statement: `from  import main`
 
-Alternative Import Statement: `from  import *`
+Alternative Import Statement: `from main import *`
 
 # main.print_hi #
 

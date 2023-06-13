@@ -1,6 +1,6 @@
 Import Statement: `from toolbox import database`
 
-Alternative Import Statement: `from toolbox import *`
+Alternative Import Statement: `from toolbox.database import *`
 
 # database.get #
 
