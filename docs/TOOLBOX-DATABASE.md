@@ -74,3 +74,43 @@ References
     No Links
 ```
 
+# delete_database #
+
+### [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) ###
+
+Notes
+
+```python
+    This function is used to delete objects from the database folder
+```
+
+Parameters
+
+```python
+    name : str
+        The name of the file to be deleted
+```
+
+Returns
+
+```python
+    object
+        The object loaded from the file, could be anything
+```
+
+Examples
+
+```python
+    spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+
+    save('spreadsheet_people', spreadsheet_data)
+
+    delete_database('spreadsheet_people')
+```
+
+References
+
+```python
+    No Links
+```
+

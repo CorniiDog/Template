@@ -36,3 +36,7 @@ This is the documentation for the project Template.
 
 - [def save(name: str, data: any) -> None:](./../toolbox/database.py#L39) 
 
+### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
+
+- [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) 
+

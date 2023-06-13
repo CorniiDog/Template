@@ -69,3 +69,40 @@ def save(name: str, data: any) -> None:
     path = os.path.join(storage_folder, name + '.pkl')
     with open(path, 'wb') as f:
         pickle.dump(data, f)
+
+def delete_database(name: str) -> object:
+    """
+    Parameters
+    ----------
+    name : str
+        The name of the file to be deleted
+
+    Returns
+    -------
+    object
+        The object loaded from the file, could be anything
+
+    Notes
+    -----
+    This function is used to delete objects from the database folder
+
+    References
+    ----------
+    No Links
+
+    Examples
+    --------
+    spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+
+    save('spreadsheet_people', spreadsheet_data)
+
+    delete_database('spreadsheet_people')
+    """
+
+    if name.endswith('.pkl'):
+        name = name[:-4]
+
+    contents = get(name)
+    path = os.path.join(storage_folder, name + '.pkl')
+    os.remove(path)
+    return contents
