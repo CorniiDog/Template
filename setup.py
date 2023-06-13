@@ -424,6 +424,7 @@ if output_instructions:
                                     name = class_name + "." + name
                             file2.write(f"# {name} #\n\n")
 
+
                             function_declaration = line
 
                             file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
@@ -432,6 +433,13 @@ if output_instructions:
 
                             other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
                             other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+
+                            if class_inside > 0:
+                                all_names_combined = ""
+                                for class_name in classes_names:
+                                    all_names_combined += class_name + "."
+                                all_names_combined = all_names_combined[:-1]
+                                file2.write("A method of the class `" + all_names_combined + "`\n\n")
 
                             documents = get_function_documentation(i + 1)
 

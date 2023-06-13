@@ -6,6 +6,8 @@ Alternative Import Statement: `from main import *`
 
 ### [def __init__(self, name: str, age: int):](./../main.py#L5) ###
 
+A method of the class `Test`
+
 Notes
 
 ```python
@@ -43,6 +45,8 @@ References
 # Test.__str__ #
 
 ### [def __str__(self):](./../main.py#L33) ###
+
+A method of the class `Test`
 
 Notes
 
