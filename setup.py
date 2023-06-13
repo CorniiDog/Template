@@ -304,9 +304,12 @@ if output_instructions:
                     # Get path between project directory and file
                     file_path = os.path.join(root, file).replace(project_dir, "")
 
-                    file2 = open(docs_folder+"/"+str(file_path).replace("/", "-").upper().split(".PY")[0] + ".md", "w")
+                    file_document_path = docs_folder+"/"+str(file_path).replace("/", "-").upper().split(".PY")[0] + ".md"
 
-                    documentation += f"## {file2} ##\n\n"
+                    file2 = open(file_document_path, "w")
+
+
+                    documentation += f"## {file_document_path} ##\n\n"
 
 
 
@@ -366,7 +369,7 @@ if output_instructions:
                                     continue
 
                                 file2.write(section + "\n\n")
-                                documentation += f"[{line[3:-3]}](/{file2}#{section.lower().replace(' ', '-')})\n\n"
+                                documentation += f"[{section}](/{file_document_path}#{section.lower().replace(' ', '-')})\n\n"
 
                                 sect_back = documents.find(section) + len(section)+1
 

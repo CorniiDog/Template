@@ -18,25 +18,25 @@ This is the documentation for the project Template.
 
 [HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#how-to-remove-conda-environment)
 
-## <_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'> ##
+## docs/TOOLBOX-DATABASE.md ##
 
-[ get(name: str) -> objec](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#notes)
+[Notes](/docs/TOOLBOX-DATABASE.md#notes)
 
-[ get(name: str) -> objec](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#parameters)
+[Parameters](/docs/TOOLBOX-DATABASE.md#parameters)
 
-[ get(name: str) -> objec](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#returns)
+[Returns](/docs/TOOLBOX-DATABASE.md#returns)
 
-[ get(name: str) -> objec](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#examples)
+[Examples](/docs/TOOLBOX-DATABASE.md#examples)
 
-[ get(name: str) -> objec](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#references)
+[References](/docs/TOOLBOX-DATABASE.md#references)
 
-[ save(name: str, data: any) -> Non](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#notes)
+[Notes](/docs/TOOLBOX-DATABASE.md#notes)
 
-[ save(name: str, data: any) -> Non](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#parameters)
+[Parameters](/docs/TOOLBOX-DATABASE.md#parameters)
 
-[ save(name: str, data: any) -> Non](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#returns)
+[Returns](/docs/TOOLBOX-DATABASE.md#returns)
 
-[ save(name: str, data: any) -> Non](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#examples)
+[Examples](/docs/TOOLBOX-DATABASE.md#examples)
 
-[ save(name: str, data: any) -> Non](/<_io.TextIOWrapper name='docs/TOOLBOX-DATABASE.md' mode='w' encoding='UTF-8'>#references)
+[References](/docs/TOOLBOX-DATABASE.md#references)
 
