@@ -290,6 +290,6 @@ if output_instructions:
             f"- *<conda_forge_requirements_file>* is the path to the conda-forge requirements file. Replace <conda_forge_requirements_file> with the path to the conda-forge requirements file (ex. {conda_forge_requirements_file}).\n\n")
         turn_to_readme = turn_to_readme.replace(conda_forge_requirements_file, "<conda_forge_requirements_file>")
 
-        f.write(turn_to_readme)
+        f.write(turn_to_readme, document_path="docs/INSTRUCTIONS.md")
 
 print(output)
