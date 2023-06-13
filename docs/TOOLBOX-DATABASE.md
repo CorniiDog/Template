@@ -2,7 +2,7 @@ Import Statement: `from toolbox import database`
 
 Alternative Import Statement: `from toolbox.database import *`
 
-# database.get #
+# get #
 
 ### [def get(name: str) -> object:](./../toolbox/database.py#L8) ###
 
@@ -38,7 +38,7 @@ References
     No Links
 ```
 
-# database.save #
+# save #
 
 ### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L39) ###
 
@@ -78,7 +78,7 @@ References
     No Links
 ```
 
-# database.delete_database #
+# delete_database #
 
 ### [def delete_database(name: str) -> object:](./../toolbox/database.py#L73) ###
 
@@ -118,7 +118,7 @@ References
     No Links
 ```
 
-# database.save_key #
+# save_key #
 
 ### [def save_key(platform: str, key: str, override: bool=False) -> None:](./../toolbox/database.py#L110) ###
 
@@ -156,7 +156,7 @@ References
     https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
 ```
 
-# database.load_key #
+# load_key #
 
 ### [def load_key(platform: str) -> str:](./../toolbox/database.py#L143) ###
 

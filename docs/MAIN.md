@@ -2,7 +2,7 @@ Import Statement: `import main`
 
 Alternative Import Statement: `from main import *`
 
-# main.print_hi #
+# print_hi #
 
 ### [def print_hi(name: str) -> None:](./../main.py#L3) ###
 

@@ -382,7 +382,7 @@ if output_instructions:
 
 
                             name = get_function_name(line)
-                            file2.write(f"# {last_part}.{name} #\n\n")
+                            file2.write(f"# {name} #\n\n")
 
                             function_declaration = line
 
