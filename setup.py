@@ -205,9 +205,9 @@ if output_instructions:
     for line in output.split("\n"):
         if line.startswith("-=["):
             # Make it a header with hash
-            turn_to_readme += f"## {line[3:-3]}\n"
+            turn_to_readme += f"## {line[3:-3]}\n" + "\n"
         else:
-            turn_to_readme += line + "\n"
+            turn_to_readme += line + "\n" + "\n"
 
     with open("README.md", "w") as f:
 
