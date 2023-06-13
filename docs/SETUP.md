@@ -1,4 +1,4 @@
 Import Statement: `from  import setup`
 
-Import Statement: `from setup.py import *`
+Alternative Import Statement: `from  import *`
 

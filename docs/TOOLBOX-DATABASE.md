@@ -1,6 +1,6 @@
 Import Statement: `from toolbox import database`
 
-Import Statement: `from toolbox.database.py import *`
+Alternative Import Statement: `from toolbox import *`
 
 # database.get #
 

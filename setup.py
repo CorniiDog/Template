@@ -330,8 +330,11 @@ if output_instructions:
                     file2.write(f"Import Statement: `{import_statement}`\n\n")
 
                     # Turn into a "from ... import *" statement
-                    import_statement = "from " + ".".join(folders) + " import *"
-                    file2.write(f"Import Statement: `{import_statement}`\n\n")
+                    #Remove extension first
+                    folders[-1] = folders[-1].split(".")[0]
+
+                    import_statement = "from " + ".".join(folders[:-1]) + " import *"
+                    file2.write(f"Alternative Import Statement: `{import_statement}`\n\n")
 
 
 
