@@ -12,6 +12,7 @@ file_to_run = "main.py"
 
 requirements_folder = "requirements"
 storage_folder = "storage"
+toolbox_folder = "toolbox"
 requirements_file = f"{requirements_folder}/requirements.txt"
 conda_requirements_file = f"{requirements_folder}/conda_requirements.txt"
 conda_forge_requirements_file = f"{requirements_folder}/conda_forge_requirements.txt"
@@ -245,14 +246,6 @@ if output_instructions:
 
             f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
-    with open(docs_folder + "/DOCS.md", "w") as f:
-
-        f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
-
-        f.write(f"This is the documentation for the project {project_name}.\n\n")
-
-        f.write(documentation)
-
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 
         f.write("# KEYWORDS #\n")
@@ -300,5 +293,105 @@ if output_instructions:
         turn_to_readme = turn_to_readme.replace(conda_forge_requirements_file, "<conda_forge_requirements_file>")
 
         f.write(turn_to_readme)
+
+    # walk through every .py file in the toolbox folder
+    for root, dirs, files in os.walk(toolbox_folder):
+        for file in files:
+            if file.endswith(".py"):
+                # open the file
+                with open(os.path.join(root, file), "r") as f:
+
+                    # Get path between project directory and file
+                    file_path = os.path.join(root, file).replace(project_dir, "")
+
+                    file2 = open(docs_folder+"/"+str(file_path).replace("/", "-").upper().split(".PY")[0] + ".md", "w")
+
+
+
+                    # read the file as a list
+                    lines = f.readlines()
+                    for i in range(len(lines)):
+                        lines[i] = lines[i].replace("\n", "")
+
+                    def get_function_name(line):
+                        return line.strip().split("def ")[1].split("(")[0]
+
+                    def get_function_documentation(i, offset=0):
+                        if lines[i].strip().startswith("def "):
+                            return ""
+
+                        if len(lines) <= i:
+                            return ""
+                        if lines[i].strip() == "\"\"\"":
+                            docs = ""
+                            j = i+1
+                            while j < len(lines) and lines[j].strip() != "\"\"\"":
+                                docs += lines[j] + "\n"
+                                j += 1
+                            return docs
+                        else:
+                            if offset > 10:
+                                return ""
+                            else:
+                                return get_function_documentation(i+1, offset=offset+1)
+
+
+
+
+                    for i, line in enumerate(lines):
+                        # If we find a function definition
+                        if line.startswith("def"):
+                            name = get_function_name(line)
+
+                            file2.write("# " + name + " #\n\n")
+                            print(name)
+                            function_declaration = line
+                            file2.write("## Function Declaration ##\n\n")
+                            print(function_declaration)
+                            documents = get_function_documentation(i+1)
+
+
+                            sections = ["Parameters", "Returns", "Raises", "Notes", "Examples"]
+                            data = {}
+                            for section in sections:
+                                data[section] = []
+
+                            for section in sections:
+
+                                if section not in documents:
+                                    continue
+
+                                file2.write("### " + section + " ###\n\n")
+
+                                sect_back = documents.find(section) + len(section)
+                                while documents[sect_back] == " " or documents[sect_back] == "\n" or documents[sect_back] == "-":
+                                    sect_back += 1
+
+                                sect_front = 9999999
+                                for sect2 in sections:
+                                    if sect2 == section:
+                                        continue
+                                    sect_front2 = documents.find(sect2)
+                                    if sect_front2 != -1:
+                                        if sect_front2 < sect_front and sect_front2 > sect_back:
+                                            sect_front = sect_front2
+                                section_combined = documents[sect_back:sect_front].strip()
+                                file2.write("```python\n" + section_combined + "\n```\n\n")
+
+                    file2.close()
+
+
+
+
+    with open(docs_folder + "/DOCS.md", "w") as f:
+
+        f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
+
+        f.write(f"This is the documentation for the project {project_name}.\n\n")
+
+        f.write(documentation)
+
+
+
 
 print(output)

@@ -18,11 +18,11 @@ def get(name: str) -> object:
         The object loaded from the file, could be anything
 
     Notes
-    --------
+    -----
     This function is used to load objects from the database folder
 
     References
-    ------------
+    ----------
     None
 
     Examples
@@ -51,11 +51,11 @@ def save(name: str, data: any) -> None:
         This function does not return anything
 
     Notes
-    --------
+    -----
     This function is used to save objects to the databse folder
 
     References
-    ------------
+    ----------
     None
 
     Examples

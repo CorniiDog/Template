@@ -1,0 +1,71 @@
+# get #
+
+## Function Declaration ##
+
+### Parameters ###
+
+```python
+name : str
+        The name of the file to be loaded
+```
+
+### Returns ###
+
+```python
+object
+        The object loaded from the file, could be anything
+```
+
+### Notes ###
+
+```python
+This function is used to load objects from the database folder
+
+    References
+    ----------
+    None
+```
+
+### Examples ###
+
+```python
+>>> spreadsheet_data = get('spreadsheet_people')
+```
+
+# save #
+
+## Function Declaration ##
+
+### Parameters ###
+
+```python
+name : str
+        The name of the file to be saved
+    data : any
+        The data to be saved
+```
+
+### Returns ###
+
+```python
+None
+        This function does not return anything
+```
+
+### Notes ###
+
+```python
+This function is used to save objects to the databse folder
+
+    References
+    ----------
+    None
+```
+
+### Examples ###
+
+```python
+>>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+    >>> save('spreadsheet_people', spreadsheet_data)
+```
+
