@@ -348,11 +348,14 @@ if output_instructions:
                     for i, line in enumerate(lines):
                         # If we find a function definition
                         if line.startswith("def"):
+
+
                             name = get_function_name(line)
-                            file2.write("# " + name + " #\n\n")
+                            file2.write(f"[{name}](#{name.lower().replace(' ', '-')})\n\n")
 
                             function_declaration = line
-                            file2.write("### " + function_declaration.strip() + " ###\n\n")
+                            file2.write(f"#[{name}]({file_path}#{i+1})\n\n")
+
                             documentation += f"[{name}](/{file_document_path}#{name.lower().replace(' ', '-')})\n\n"
 
                             documents = get_function_documentation(i+1)

@@ -1,6 +1,6 @@
-# get #
+[get](#get)
 
-### def get(name: str) -> object: ###
+#[get](toolbox/database.py#8)
 
 Notes
 
@@ -34,9 +34,9 @@ References
     No Links
 ```
 
-# save #
+[save](#save)
 
-### def save(name: str, data: any) -> None: ###
+#[save](toolbox/database.py#39)
 
 Notes
 
