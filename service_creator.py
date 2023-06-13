@@ -1,4 +1,4 @@
-import os, getpass
+import os, getpass, time
 
 # Set project directory to current directory
 
@@ -6,8 +6,8 @@ project_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(project_dir)
 home_dir = os.path.expanduser("~")
 
-project_name = "Machine_Learning"
-path_to_conda_python = f"{home_dir}/anaconda3/envs/Machine_Learning/bin/python3"
+project_name = os.path.basename(project_dir)
+path_to_conda_python = f"{home_dir}/anaconda3/envs/{project_name}/bin/python3"
 file_to_run = "main.py"
 requirements_file = "requirements/requirements.txt"
 conda_requirements_file = "requirements/conda_requirements.txt"
@@ -58,7 +58,7 @@ output = f"""
 
 ==============================
 
-This is created for Ubuntu 22.04 Check your version by running \"lsb_release -a\
+This is created for Ubuntu 22.04 Check your version by running \"lsb_release -a\"
 
 ==============================
 
@@ -78,9 +78,6 @@ Conda is a package manager for python. It is used to install python packages and
 4. Run the following command to install conda-forge:
     conda config --add channels conda-forge
 
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-wget {conda_install_link} && bash {conda_file} && conda update conda && conda config --add channels conda-forge
-
 ==============================
 
 -=[HOW TO CREATE CONDA ENVIRONMENT]=-
@@ -92,9 +89,6 @@ This is for creating a new conda environment.
 
 2. Reload the bashrc file:
     source ~/.bashrc
-
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-conda create --name {project_name} && conda activate {project_name} && source ~/.bashrc
 
 ==============================
 
