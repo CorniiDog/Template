@@ -214,7 +214,7 @@ def format_for_readme(text, document_path = ""):
     new_text = ""
     for line in text.split("\n"):
         if line.startswith("-=["):
-            new_text += f"## {line[3:-3]} ##\n" + "\n"
+            new_text += f"### {line[3:-3]} ###\n" + "\n"
 
             if document_path  != "":
                 documentation += f"[{line[3:-3]}](/{document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
@@ -245,7 +245,7 @@ if output_instructions:
 
     with open(docs_folder + "/DOCS.md", "w") as f:
 
-        f.write("# DOCUMENTATION #\n\n")
+        f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
 
         f.write(documentation)
 

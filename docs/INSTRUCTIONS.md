@@ -24,7 +24,7 @@ This is created for Ubuntu 22.04 Check your version by running "lsb_release -a"
 
 
 
-## HOW TO INSTALL CONDA ##
+### HOW TO INSTALL CONDA ###
 
 
 Conda is a package manager for python. It is used to install python packages and conda packages.
@@ -57,7 +57,7 @@ Conda is a package manager for python. It is used to install python packages and
 
 
 
-## HOW TO CREATE CONDA ENVIRONMENT ##
+### HOW TO CREATE CONDA ENVIRONMENT ###
 
 
 This is for creating a new conda environment.
@@ -76,7 +76,7 @@ This is for creating a new conda environment.
 
 
 
-## HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY ##
+### HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY ###
 
 
 ### 1. Open the project in PyCharm ###
@@ -93,7 +93,7 @@ This is for creating a new conda environment.
 
 
 
-## HOW TO INSTALL REQUIREMENTS ##
+### HOW TO INSTALL REQUIREMENTS ###
 
 
 This is for installing python packages and conda packages.
@@ -121,7 +121,7 @@ cd ~/<project_name> && conda activate <project_name> && pip install -r <requirem
 
 
 
-## HOW TO INSTALL SERVICE ##
+### HOW TO INSTALL SERVICE ###
 
 
 A service is a program that runs in the background. This is useful for running a program that you want to run all the time, such as a web server.
@@ -159,7 +159,7 @@ sudo mv ~/<project_name>/requirements/<project_name>.service /etc/systemd/system
 
 
 
-## HOW TO UNINSTALL SERVICE ##
+### HOW TO UNINSTALL SERVICE ###
 
 
 This is for uninstalling and removing the service.
@@ -187,7 +187,7 @@ sudo systemctl disable <project_name>.service && sudo systemctl stop <project_na
 
 
 
-## HOW TO REMOVE CONDA ENVIRONMENT ##
+### HOW TO REMOVE CONDA ENVIRONMENT ###
 
 
 This is for removing the conda environment.
