@@ -2,7 +2,7 @@
 
 This is the documentation for the project Template.
 
-## INSTRUCTIONS.MD ##
+## INSTRUCTIONS.md ##
 
 [HOW TO INSTALL CONDA](/docs/INSTRUCTIONS.md#how-to-install-conda)
 
