@@ -1,5 +1,61 @@
 from toolbox import database
 
+# Create test class
+class Test:
+    def __init__(self, name: str, age: int):
+        """
+        Parameters
+        ----------
+        name : str
+            The name of the person to greet
+        age : int
+            The age of the person to greet
+        Returns
+        -------
+        None
+            This function does not return anything
+
+        Notes
+        -----
+        This function is called when the object is created
+
+        References
+        ----------
+        No Links
+
+        Examples
+        --------
+        test_object = Test("Bill", 20)
+        """
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        """
+        Parameters
+        ----------
+        None
+
+        Returns
+        -------
+        str
+            This function returns a string representation of the object
+
+        Notes
+        -----
+        This function is called when the object is printed
+
+        References
+        ----------
+        No Links
+
+        Examples
+        --------
+        test_object = Test("Bill", 20)
+        print(test_object)
+        """
+        return f"Name: {self.name}, Age: {self.age}"
+
 
 def print_hi(name: str) -> None:
     """
@@ -38,6 +94,9 @@ if __name__ == '__main__':
 
     database.save_key('test', 'ello', override=True)
     print(database.load_key('test'))
+
+    test_object = Test("Bill", 20)
+    print(test_object)
 
     print_hi('PyCharm')
 
