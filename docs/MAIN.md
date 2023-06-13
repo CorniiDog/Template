@@ -4,7 +4,7 @@ Alternative Import Statement: `from main import *`
 
 # print_hi #
 
-### [def print_hi(name: str) -> None:](./../main.py#L3) ###
+### [def print_hi(name: str) -> None:](./../main.py#L4) ###
 
 Notes
 

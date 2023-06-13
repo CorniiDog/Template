@@ -1,5 +1,6 @@
 from toolbox import database
 
+
 def print_hi(name: str) -> None:
     """
         Parameters

@@ -1,4 +1,4 @@
-import os, getpass, time
+import os
 
 # Set project directory to current directory
 
@@ -211,11 +211,7 @@ additional_instructions = """
 
 """
 
-
 documentation = ""
-
-
-
 
 if output_instructions:
 
@@ -226,22 +222,23 @@ if output_instructions:
             documentation += f"## {document_path.split('/')[-1].replace('-', ' ')} ##\n\n"
 
         new_text = ""
-        for line in text.split("\n"):
-            if line.startswith("-=["):
-                new_text += f"## {line[3:-3]} ##\n" + "\n"
+        for text_line in text.split("\n"):
+            if text_line.startswith("-=["):
+                new_text += f"## {text_line[3:-3]} ##\n" + "\n"
                 if document_path != "":
-                    documentation += f"[{line[3:-3]}](/{document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
-            elif len(line) > 0 and line[0] in "1234567890":
-                new_text += f"### {line} ###\n" + "\n"
+                    documentation += f"[{text_line[3:-3]}](/{document_path}#{text_line[3:-3].lower().replace(' ', '-')})\n\n"
+            elif len(text_line) > 0 and text_line[0] in "1234567890":
+                new_text += f"### {text_line} ###\n" + "\n"
                 # new_text += line + "\n" + "\n"
 
-            elif line.startswith("=="):
+            elif text_line.startswith("=="):
                 new_text += "\n"
-            elif len(line) == 0:
+            elif len(text_line) == 0:
                 new_text += "\n"
             else:
-                new_text += line + "\n" + "\n"
+                new_text += text_line + "\n" + "\n"
         return new_text
+
 
     additional_instructions = format_for_readme(additional_instructions)
 
@@ -321,13 +318,11 @@ if output_instructions:
                     if file_path.startswith("/"):
                         file_path = file_path[1:]
 
-
                     # Split the path into folders
                     folders = str(file_path).split("/")
                     last_part = folders[-1].split(".")[0]
 
-
-                    file_document_path = docs_folder+"/"+ (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
+                    file_document_path = docs_folder + "/" + (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
 
                     file2 = open(file_document_path, "w")
 
@@ -341,32 +336,29 @@ if output_instructions:
                     file2.write(f"Import Statement: `{import_statement}`\n\n")
 
                     # Turn into a "from ... import *" statement
-                    #Remove extension first
+                    # Remove extension first
                     folders[-1] = folders[-1].split(".")[0]
 
                     import_statement = "from " + ".".join(folders) + " import *"
                     file2.write(f"Alternative Import Statement: `{import_statement}`\n\n")
 
-
-
-
                     # read the file as a list
                     lines = f.readlines()
-                    #for i in range(len(lines)):
-                    #    lines[i] = lines[i].replace("\n", "")
 
-                    def get_function_name(line):
-                        return line.strip().split("def ")[1].split("(")[0]
 
-                    def get_function_documentation(i, offset=0):
-                        if lines[i].strip().startswith("def "):
+                    def get_function_name(text_line):
+                        return text_line.strip().split("def ")[1].split("(")[0]
+
+
+                    def get_function_documentation(k, offset=0):
+                        if lines[k].strip().startswith("def "):
                             return ""
 
-                        if len(lines) <= i:
+                        if len(lines) <= k:
                             return ""
-                        if lines[i].strip() == "\"\"\"":
+                        if lines[k].strip() == "\"\"\"":
                             docs = ""
-                            j = i+1
+                            j = k + 1
                             while j < len(lines) and lines[j].strip() != "\"\"\"":
                                 docs += lines[j]
                                 j += 1
@@ -375,8 +367,7 @@ if output_instructions:
                             if offset > 10:
                                 return ""
                             else:
-                                return get_function_documentation(i+1, offset=offset+1)
-
+                                return get_function_documentation(k + 1, offset=offset + 1)
 
 
                     found = False
@@ -386,21 +377,19 @@ if output_instructions:
                         if line.startswith("def"):
                             found = True
 
-
                             name = get_function_name(line)
                             file2.write(f"# {name} #\n\n")
 
                             function_declaration = line
 
-                            file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i+1}) ###\n\n")
+                            file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
                             # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8
                             # https://github.com/ConnorAtmos/Template/blob/master/docs/toolbox/database.py#L8
 
                             other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
-                            other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i+1}) \n\n"
+                            other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
-                            documents = get_function_documentation(i+1)
-
+                            documents = get_function_documentation(i + 1)
 
                             sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
                             data = {}
@@ -414,8 +403,7 @@ if output_instructions:
 
                                 file2.write(section + "\n\n")
 
-
-                                sect_back = documents.find(section) + len(section)+1
+                                sect_back = documents.find(section) + len(section) + 1
 
                                 while documents[sect_back] == "\n" or documents[sect_back] == "-":
                                     sect_back += 1
@@ -425,7 +413,7 @@ if output_instructions:
                                         continue
                                     sect_front2 = documents.find(sect2)
                                     if sect_front2 != -1:
-                                        if sect_front2 < sect_front and sect_front2 > sect_back:
+                                        if sect_front > sect_front2 > sect_back:
                                             sect_front = sect_front2
                                 section_combined = documents[sect_back:sect_front].strip()
 
@@ -440,9 +428,6 @@ if output_instructions:
 
                     file2.close()
 
-
-
-
     with open(docs_folder + "/DOCS.md", "w") as f:
 
         f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
@@ -450,8 +435,5 @@ if output_instructions:
         f.write(f"This is the documentation for the project {project_name}.\n\n")
 
         f.write(documentation)
-
-
-
 
 print(output)
