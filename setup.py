@@ -310,8 +310,8 @@ if output_instructions:
 
                     # read the file as a list
                     lines = f.readlines()
-                    for i in range(len(lines)):
-                        lines[i] = lines[i].replace("\n", "")
+                    #for i in range(len(lines)):
+                    #    lines[i] = lines[i].replace("\n", "")
 
                     def get_function_name(line):
                         return line.strip().split("def ")[1].split("(")[0]
@@ -326,7 +326,7 @@ if output_instructions:
                             docs = ""
                             j = i+1
                             while j < len(lines) and lines[j].strip() != "\"\"\"":
-                                docs += lines[j] + "\n"
+                                docs += lines[j]
                                 j += 1
                             return docs
                         else:
@@ -346,7 +346,7 @@ if output_instructions:
                             file2.write("# " + name + " #\n\n")
                             print(name)
                             function_declaration = line
-                            file2.write("### " + function_declaration + " ###\n\n")
+                            file2.write("### " + function_declaration.strip() + " ###\n\n")
                             print(function_declaration)
                             documents = get_function_documentation(i+1)
 
@@ -363,10 +363,10 @@ if output_instructions:
 
                                 file2.write(section + "\n\n")
 
-                                sect_back = documents.find(section) + len(section)
-                                while documents[sect_back] == " " or documents[sect_back] == "\n" or documents[sect_back] == "-":
-                                    sect_back += 1
+                                sect_back = documents.find(section) + len(section)+1
 
+                                while documents[sect_back] == "\n" or documents[sect_back] == "-":
+                                    sect_back += 1
                                 sect_front = 9999999
                                 for sect2 in sections:
                                     if sect2 == section:
@@ -376,6 +376,11 @@ if output_instructions:
                                         if sect_front2 < sect_front and sect_front2 > sect_back:
                                             sect_front = sect_front2
                                 section_combined = documents[sect_back:sect_front].strip()
+
+                                # remove first line if its first character is a dash
+                                if section_combined[0] == "-":
+                                    section_combined = section_combined.split("\n", 1)[1]
+
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
 
                     file2.close()

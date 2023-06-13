@@ -5,33 +5,33 @@
 Notes
 
 ```python
-This function is used to load objects from the database folder
+    This function is used to load objects from the database folder
 ```
 
 Parameters
 
 ```python
-name : str
+    name : str
         The name of the file to be loaded
 ```
 
 Returns
 
 ```python
-object
+    object
         The object loaded from the file, could be anything
 ```
 
 Examples
 
 ```python
->>> spreadsheet_data = get('spreadsheet_people')
+    >>> spreadsheet_data = get('spreadsheet_people')
 ```
 
 References
 
 ```python
-No Links
+    No Links
 ```
 
 # save #
@@ -41,13 +41,13 @@ No Links
 Notes
 
 ```python
-This function is used to save objects to the databse folder
+    This function is used to save objects to the databse folder
 ```
 
 Parameters
 
 ```python
-name : str
+    name : str
         The name of the file to be saved
     data : any
         The data to be saved
@@ -56,20 +56,20 @@ name : str
 Returns
 
 ```python
-None
+    None
         This function does not return anything
 ```
 
 Examples
 
 ```python
->>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
+    >>> spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
     >>> save('spreadsheet_people', spreadsheet_data)
 ```
 
 References
 
 ```python
-No Links
+    No Links
 ```
 
