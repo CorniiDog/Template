@@ -28,9 +28,11 @@
 
 
 # KEYWORDS #
-<project_name> is the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).
+- <project_name> 
+is the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).
 
-<project_dir> is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. /home/connor/Template).
+- <project_dir> 
+is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. /home/connor/Template).
 
 - <service_name> 
 is the name of the service. Replace <service_name> with the name of the service (ex. Template.service).

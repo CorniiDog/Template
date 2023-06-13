@@ -230,11 +230,11 @@ if output_instructions:
             f.write("# KEYWORDS #\n")
 
             # Rename the project name to <project_name>
-            f.write("<project_name> is the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).\n\n")
+            f.write("- <project_name> \nis the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).\n\n")
             turn_to_readme = turn_to_readme.replace(project_name, "<project_name>")
 
             # Replace the project directory with <project_dir>
-            f.write(f"<project_dir> is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. {project_dir}).\n\n")
+            f.write(f"- <project_dir> \nis the path to the project directory. Replace <project_dir> with the path to the project directory (ex. {project_dir}).\n\n")
             turn_to_readme = turn_to_readme.replace(project_dir, "<project_dir>")
 
             turn_to_readme = turn_to_readme.replace(home_dir, "~")
