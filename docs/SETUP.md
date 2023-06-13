@@ -22,3 +22,7 @@ Alternative Import Statement: `from setup import *`
 
 ### [def get_function_documentation(k, offset=0):](./../setup.py#L367) ###
 
+# get_class_documentation #
+
+### [def get_class_documentation(k, offset=0):](./../setup.py#L386) ###
+

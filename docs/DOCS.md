@@ -22,17 +22,33 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
-### [Test.__init__](/docs/MAIN.md#test.__init__) ###
+### [Test](/docs/MAIN.md#test) ###
 
-- [def __init__(self, name: str, age: int):](./../main.py#L5) 
+- [class Test:](./../main.py#L5)
 
-### [Test.__str__](/docs/MAIN.md#test.__str__) ###
+### [Test.Test_Contact](/docs/MAIN.md#test.test_contact) ###
 
-- [def __str__(self):](./../main.py#L33) 
+- [class Test_Contact:](./../main.py#L21)
+
+### [Test_Contact.Test.__init__](/docs/MAIN.md#test_contact.test.__init__) ###
+
+- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
+
+### [Test_Contact.Test.__str__](/docs/MAIN.md#test_contact.test.__str__) ###
+
+- [def __str__(self):](./../main.py#L64) 
+
+### [__init__](/docs/MAIN.md#__init__) ###
+
+- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
+
+### [__str__](/docs/MAIN.md#__str__) ###
+
+- [def __str__(self):](./../main.py#L120) 
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [def print_hi(name: str) -> None:](./../main.py#L60) 
+- [def print_hi(name: str) -> None:](./../main.py#L147) 
 
 ## setup.py ##
 
@@ -55,6 +71,10 @@ This is the documentation for the project Template.
 ### [get_function_documentation](/docs/SETUP.md#get_function_documentation) ###
 
 - [def get_function_documentation(k, offset=0):](./../setup.py#L367) 
+
+### [get_class_documentation](/docs/SETUP.md#get_class_documentation) ###
+
+- [def get_class_documentation(k, offset=0):](./../setup.py#L386) 
 
 ## toolbox/database.py ##
 

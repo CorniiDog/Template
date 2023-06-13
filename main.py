@@ -1,8 +1,94 @@
 from toolbox import database
 
+
 # Create test class
 class Test:
-    def __init__(self, name: str, age: int):
+    """
+    Notes
+    -----
+    This is a test class, it is used to test the documentation generator
+
+    References
+    ----------
+    No Links
+
+    Examples
+    --------
+    test_contact = Test.Test_Contact("123-456-7890", 1234)
+    test_object = Test("Bill", 20, test_contact)
+    print(test_object)
+    """
+    class Test_Contact:
+        """
+        Notes
+        -----
+        This is a test class, it is used to test the documentation generator
+
+        References
+        ----------
+        No Links
+
+        Examples
+        --------
+        test_contact = Test.Test_Contact("123-456-7890", 1234)
+        print(test_contact)
+        """
+
+        def __init__(self, phone: str, address: int):
+            """
+            Parameters
+            ----------
+            phone : str
+                The phone number of the person to greet
+            address : int
+                The address of the person to greet
+            Returns
+            -------
+            None
+                This function does not return anything
+
+            Notes
+            -----
+            This function is called when the object is created
+
+            References
+            ----------
+            No Links
+
+            Examples
+            --------
+            address_object = Test.Test_Contact("123-456-7890", 1234)
+            """
+            self.phone = phone
+            self.address = address
+        def __str__(self):
+            """
+            Parameters
+            ----------
+            None
+
+            Returns
+            -------
+            str
+                This function returns a string representation of the object
+
+            Notes
+            -----
+            This function is called when the object is printed
+
+            References
+            ----------
+            No Links
+
+            Examples
+            --------
+            address_object = Test.Test_Contact("123-456-7890", 1234)
+            print(address_object)
+            """
+            return f"Phone: {self.phone}, Address: {self.address}"
+
+
+    def __init__(self, name: str, age: int, contact: Test_Contact):
         """
         Parameters
         ----------
@@ -29,6 +115,7 @@ class Test:
         """
         self.name = name
         self.age = age
+        self.contact = contact
 
     def __str__(self):
         """
@@ -54,7 +141,7 @@ class Test:
         test_object = Test("Bill", 20)
         print(test_object)
         """
-        return f"Name: {self.name}, Age: {self.age}"
+        return f"Name: {self.name}, Age: {self.age}" + "\n" + str(self.contact)
 
 
 def print_hi(name: str) -> None:
@@ -94,8 +181,11 @@ if __name__ == '__main__':
     database.save_key('test', 'ello', override=True)
     print(database.load_key('test'))
 
-    test_object = Test("Bill", 20)
+    test_object = Test("Bill", 20, Test.Test_Contact("123-456-7890", 1234))
     print(test_object)
+
+    test_contact = Test.Test_Contact("123-456-7890", 1234)
+    print(test_contact)
 
     print_hi('PyCharm')
 

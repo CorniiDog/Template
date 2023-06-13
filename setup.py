@@ -383,6 +383,25 @@ if output_instructions:
                             else:
                                 return get_function_documentation(k + 1, offset=offset + 1)
 
+                    def get_class_documentation(k, offset=0):
+                        if lines[k].strip().startswith("class "):
+                            return ""
+
+                        if len(lines) <= k:
+                            return ""
+                        if lines[k].strip() == "\"\"\"":
+                            docs = ""
+                            j = k + 1
+                            while j < len(lines) and lines[j].strip() != "\"\"\"":
+                                docs += lines[j]
+                                j += 1
+                            return docs
+                        else:
+                            if offset > 10:
+                                return ""
+                            else:
+                                return get_class_documentation(k + 1, offset=offset + 1)
+
 
                     found = False
                     class_inside = 0
@@ -391,8 +410,8 @@ if output_instructions:
                     classes_names = []
                     other_docs = ""
                     for i, line in enumerate(lines):
-                        # If we find a function definition
 
+                        # If we find a class definition
                         if line.strip().startswith("class "):
                             found = True
 
@@ -406,9 +425,35 @@ if output_instructions:
                                 class_inside -= 1
                                 classes_names.pop()
 
+                            class_name_hierarchy = ""
+                            for class_name in classes_names:
+                                class_name_hierarchy += class_name + "."
+                            class_name_hierarchy = class_name_hierarchy[:-1]
+
+                            file2.write(f"# {class_name_hierarchy} #\n\n")
+
+                            class_declaration = line
+
+                            file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
+
+                            other_docs += f"### [{class_name_hierarchy}](/{file_document_path}#{class_name_hierarchy.lower().replace(' ', '-')}) ###\n\n"
+                            other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1})\n\n"
+
+                            documents = get_class_documentation(i + 1)
+
+                            sections = ["Notes", "Examples", "Parameters", "Returns", "Raises", "Warnings", "See Also"]
+                            data = {}
+
+                            for section in sections:
+                                data[section] = []
 
 
 
+
+
+
+
+                        # If we fine a function definition
                         elif line.strip().startswith("def"):
                             found = True
 
@@ -417,13 +462,11 @@ if output_instructions:
                                 class_inside = 0
                                 classes_names = []
 
-
                             name = get_function_name(line)
                             if class_inside > 0:
                                 for class_name in classes_names:
                                     name = class_name + "." + name
                             file2.write(f"# {name} #\n\n")
-
 
                             function_declaration = line
 
