@@ -134,7 +134,7 @@ Parameters
     platform: str
         The name of the platform to be saved (e.g. 'google')
     key: str
-        The key to be saved (e.g. 'google_api_key')
+        The key to be saved (e.g. '<google_api_key>')
 ```
 
 Returns
@@ -147,7 +147,7 @@ Returns
 Examples
 
 ```python
-    save_key('google', 'google_api_key')
+    save_key('google', '<google_api_key>')
 ```
 
 References
@@ -170,7 +170,7 @@ Parameters
 
 ```python
         key: str
-            The key to be loaded (e.g. 'google_api_key')
+            The key to be loaded (e.g. '<google_api_key>')
 ```
 
 Returns

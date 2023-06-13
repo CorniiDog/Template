@@ -114,7 +114,7 @@ def save_key(platform: str, key: str, override: bool=False) -> None:
     platform: str
         The name of the platform to be saved (e.g. 'google')
     key: str
-        The key to be saved (e.g. 'google_api_key')
+        The key to be saved (e.g. '<google_api_key>')
 
     Returns
     -------
@@ -131,7 +131,7 @@ def save_key(platform: str, key: str, override: bool=False) -> None:
 
     Examples
     --------
-    save_key('google', 'google_api_key')
+    save_key('google', '<google_api_key>')
     """
     if not override:
         if platform in os.environ.keys():
@@ -145,7 +145,7 @@ def load_key(platform: str) -> str:
         Parameters
         ----------
         key: str
-            The key to be loaded (e.g. 'google_api_key')
+            The key to be loaded (e.g. '<google_api_key>')
 
         Returns
         -------
