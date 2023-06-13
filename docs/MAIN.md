@@ -1,4 +1,4 @@
-Import Statement: `from  import main`
+Import Statement: `import main`
 
 Alternative Import Statement: `from main import *`
 

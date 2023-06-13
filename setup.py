@@ -326,7 +326,12 @@ if output_instructions:
                     file2 = open(file_document_path, "w")
 
                     # Turn into a "from ... import ..." statement
-                    import_statement = "from " + ".".join(folders[:-1]) + " import " + last_part
+                    join_stuff = ".".join(folders[:-1])
+
+                    if len(join_stuff) == 0:
+                        import_statement = "import " + last_part
+                    else:
+                        import_statement = "from " + ".".join(folders[:-1]) + " import " + last_part
                     file2.write(f"Import Statement: `{import_statement}`\n\n")
 
                     # Turn into a "from ... import *" statement
