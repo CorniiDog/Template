@@ -179,7 +179,7 @@ conda env remove --name {project_name} && source ~/.bashrc
 """
 
 additional_instructions = """
--=[HOW TO USE THIS TEMPLATE]=-
+## HOW TO USE THIS TEMPLATE ##
 
 1. Git Clone this repository:
     git clone https://github.com/ConnorAtmos/Template
@@ -205,7 +205,7 @@ if output_instructions:
     for line in output.split("\n"):
         if line.startswith("-=["):
             # Make it a header with hash
-            turn_to_readme += f"# {line[3:-3]}\n"
+            turn_to_readme += f"## {line[3:-3]}\n"
         else:
             turn_to_readme += line + "\n"
 

@@ -1,5 +1,5 @@
 
--=[HOW TO USE THIS TEMPLATE]=-
+## HOW TO USE THIS TEMPLATE ##
 
 1. Git Clone this repository:
     git clone https://github.com/ConnorAtmos/Template
@@ -27,7 +27,7 @@ This is created for Ubuntu 22.04 Check your version by running "lsb_release -a"
 
 ==============================
 
-# HOW TO INSTALL CONDA
+## HOW TO INSTALL CONDA
 
 Conda is a package manager for python. It is used to install python packages and conda packages.
 
@@ -48,7 +48,7 @@ Conda is a package manager for python. It is used to install python packages and
 
 ==============================
 
-# HOW TO CREATE CONDA ENVIRONMENT
+## HOW TO CREATE CONDA ENVIRONMENT
 
 This is for creating a new conda environment.
 
@@ -60,7 +60,7 @@ This is for creating a new conda environment.
     
 ==============================
 
-# HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY
+## HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY
 
 1. Open the project in PyCharm
 
@@ -72,7 +72,7 @@ This is for creating a new conda environment.
 
 ==============================
 
-# HOW TO INSTALL REQUIREMENTS
+## HOW TO INSTALL REQUIREMENTS
 
 This is for installing python packages and conda packages.
 
@@ -90,7 +90,7 @@ cd /home/connor/Template && conda activate Template && pip install -r requiremen
 
 ==============================
 
-# HOW TO INSTALL SERVICE
+## HOW TO INSTALL SERVICE
 
 A service is a program that runs in the background. This is useful for running a program that you want to run all the time, such as a web server.
 
@@ -114,7 +114,7 @@ sudo mv /home/connor/Template/requirements/Template.service /etc/systemd/system/
 
 ==============================
 
-# HOW TO UNINSTALL SERVICE
+## HOW TO UNINSTALL SERVICE
 
 This is for uninstalling and removing the service.
 
@@ -132,7 +132,7 @@ sudo systemctl disable Template.service && sudo systemctl stop Template.service 
 
 ==============================
 
-# HOW TO REMOVE CONDA ENVIRONMENT
+## HOW TO REMOVE CONDA ENVIRONMENT
 
 This is for removing the conda environment.
 
