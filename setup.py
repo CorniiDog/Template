@@ -202,12 +202,17 @@ additional_instructions = """
 
 """
 
-def format_for_readme(text):
+
+documentation = ""
+
+def format_for_readme(text, document_path = ""):
+    global documentation
     new_text = ""
     for line in text.split("\n"):
         if line.startswith("-=["):
             new_text += f"## {line[3:-3]} ##\n" + "\n"
 
+            documentation += f"[## {line[3:-3]} ##]({document_path}#{line[3:-3].lower().replace(' ', '-')})\n\n"
         elif len(line) > 0 and line[0] in "1234567890":
             new_text += f"### {line} ###\n" + "\n"
 
@@ -233,7 +238,11 @@ if output_instructions:
 
             f.write("[For More Information, Click Here](docs/INSTRUCTIONS.md)\n\n")
 
+    with open(docs_folder + "/DOCS.md", "w") as f:
 
+        f.write("# DOCUMENTATION #\n")
+
+        f.write(documentation)
 
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 
