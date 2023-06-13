@@ -374,7 +374,7 @@ if output_instructions:
                     other_docs = ""
                     for i, line in enumerate(lines):
                         # If we find a function definition
-                        if line.startswith("def"):
+                        if line.strip().startswith("def"):
                             found = True
 
                             name = get_function_name(line)

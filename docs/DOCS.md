@@ -22,9 +22,31 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
+### [__init__](/docs/MAIN.md#__init__) ###
+
+- [def __init__(self, name: str, age: int):](./../main.py#L5) 
+
+### [__str__](/docs/MAIN.md#__str__) ###
+
+- [def __str__(self):](./../main.py#L33) 
+
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L60) 
+
+## setup.py ##
+
+### [format_for_readme](/docs/SETUP.md#format_for_readme) ###
+
+- [def format_for_readme(text, document_path=""):](./../setup.py#L218) 
+
+### [get_function_name](/docs/SETUP.md#get_function_name) ###
+
+- [def get_function_name(text_line):](./../setup.py#L349) 
+
+### [get_function_documentation](/docs/SETUP.md#get_function_documentation) ###
+
+- [def get_function_documentation(k, offset=0):](./../setup.py#L353) 
 
 ## toolbox/database.py ##
 
