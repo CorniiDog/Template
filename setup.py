@@ -245,7 +245,7 @@ if output_instructions:
 
     with open(docs_folder + "/DOCS.md", "w") as f:
 
-        f.write("# DOCUMENTATION #\n")
+        f.write("# DOCUMENTATION #\n\n")
 
         f.write(documentation)
 
