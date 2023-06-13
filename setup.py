@@ -346,7 +346,7 @@ if output_instructions:
                             file2.write("# " + name + " #\n\n")
                             print(name)
                             function_declaration = line
-                            file2.write("## Function Declaration ##\n\n")
+                            file2.write("### " + function_declaration + " ###\n\n")
                             print(function_declaration)
                             documents = get_function_documentation(i+1)
 
@@ -361,7 +361,7 @@ if output_instructions:
                                 if section not in documents:
                                     continue
 
-                                file2.write("### " + section + " ###\n\n")
+                                file2.write(section + "\n\n")
 
                                 sect_back = documents.find(section) + len(section)
                                 while documents[sect_back] == " " or documents[sect_back] == "\n" or documents[sect_back] == "-":
