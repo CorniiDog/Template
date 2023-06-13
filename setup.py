@@ -226,11 +226,6 @@ if output_instructions:
         if project_name == "Template":
             f.write(additional_instructions)
 
-
-    
-
-        f.write(turn_to_readme)
-
     with open("INSTRUCTIONS.md", "w") as f:
 
         f.write("# KEYWORDS #\n")
