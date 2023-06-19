@@ -68,7 +68,7 @@ with open("requirements/apt_get_requirements.txt", "r") as f:
     for line in f:
         apt_get_str += line.strip() + " "
 if len(apt_get_str) > 0:
-    apt_get_str = "sudo apt get install -y " + apt_get_str
+    apt_get_str = "sudo apt-get install -y " + apt_get_str
 else:
     apt_get_str = "[No apt-get requirements]"
 
