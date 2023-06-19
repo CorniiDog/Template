@@ -451,8 +451,8 @@ if output_instructions:
                         other_docs += f"<details><summary>Documentation For {name}</summary><br>{new_documentation}</details>\n\n"
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
-                        # Add github divider
-                        other_docs += "---\n\n"
+                        # Add small github divider
+                        other_docs += "<p align=\"center\">👇👇👇</p>\n\n"
 
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
@@ -465,20 +465,16 @@ if output_instructions:
                                 tab_level2 = count_spaces_at_beginning(lines[j])
                                 break
 
-                        print(tab_level2)
+
                         # Locate functions and classes within the class, if their tab level is equal to tab_level2
                         # Once the tab level is less than tab_level2, then we know we have reached the end of the class
                         for j in range(i+1, len(lines)):
-                            print(j)
-                            print(lines[j])
                             if count_spaces_at_beginning(lines[j]) == tab_level2:
 
                                 if lines[j].strip().startswith("def "):
-                                    print("Documenting 2")
                                     name2 = get_function_name(lines[j])
                                     other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
                                 elif lines[j].strip().startswith("class "):
-                                    print("Documenting 3")
                                     name2 = get_class_name(lines[j])
                                     other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
 
