@@ -449,7 +449,7 @@ if output_instructions:
 
                         # Add dropdown to other_docs with the documentation
                         other_docs += f"<details><summary>Documentation</summary><br>{new_documentation}</details>\n\n"
-
+                        other_docs += "====================\n\n"
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
 

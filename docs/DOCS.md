@@ -48,6 +48,8 @@ References
 
 </details>
 
+====================
+
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 - [class Test_Contact:](./../main.py#L21) 
@@ -72,6 +74,8 @@ References
 ```
 
 </details>
+
+====================
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
@@ -113,6 +117,8 @@ References
 
 </details>
 
+====================
+
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 - [def __str__(self):](./../main.py#L64) 
@@ -150,6 +156,8 @@ References
 ```
 
 </details>
+
+====================
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
@@ -191,6 +199,8 @@ References
 
 </details>
 
+====================
+
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 - [def __str__(self):](./../main.py#L120) 
@@ -229,6 +239,8 @@ References
 
 </details>
 
+====================
+
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
@@ -266,6 +278,8 @@ References
 ```
 
 </details>
+
+====================
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
@@ -306,6 +320,8 @@ References
 ```
 
 </details>
+
+====================
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
@@ -349,6 +365,8 @@ References
 
 </details>
 
+====================
+
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 - [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
@@ -390,6 +408,8 @@ References
 ```
 
 </details>
+
+====================
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
@@ -433,6 +453,8 @@ References
 
 </details>
 
+====================
+
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
@@ -470,4 +492,6 @@ References
 ```
 
 </details>
+
+====================
 
