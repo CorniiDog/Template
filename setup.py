@@ -402,83 +402,24 @@ if output_instructions:
                             else:
                                 return get_class_documentation(k + 1, offset=offset + 1)
 
+                    def document_data(i, name, line, other_docs, parent_string=""):
+                        name = parent_string + name
 
+                        file2.write(f"# {name} #\n\n")
 
+                        class_declaration = parent_string+line
 
+                        file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
 
-                    found = False
-                    other_docs = ""
-                    for i, line in enumerate(lines):
+                        other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
+                        other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
-                        if line.startswith("class"):
-                            found = True
+                        documents = get_class_documentation(i + 1)
 
-                            name = get_class_name(line)
-                            file2.write(f"# {name} #\n\n")
+                        sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
 
-                            class_declaration = line
-
-                            file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
-
-                            other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
-                            other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
-
-                            documents = get_class_documentation(i + 1)
-
-                            sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
-
-                            for section in sections:
-                                if section in documents:
-                                    file2.write(section + "\n\n")
-
-                                    sect_back = documents.find(section) + len(section) + 1
-
-                                    while documents[sect_back] == "\n" or documents[sect_back] == "-":
-                                        sect_back += 1
-                                    sect_front = 9999999
-                                    for sect2 in sections:
-                                        if sect2 == section:
-                                            continue
-                                        sect_front2 = documents.find(sect2)
-                                        if sect_front2 != -1:
-                                            if sect_front > sect_front2 > sect_back:
-                                                sect_front = sect_front2
-                                    section_combined = documents[sect_back:sect_front].strip()
-
-                                    # remove first line if its first character is a dash
-                                    if section_combined[0] == "-":
-                                        section_combined = section_combined.split("\n", 1)[1]
-
-                                    file2.write("```python\n" + section_combined + "\n```\n\n")
-
-
-
-
-                        # If we fine a function definition
-                        if line.startswith("def"):
-                            found = True
-
-                            name = get_function_name(line)
-                            file2.write(f"# {name} #\n\n")
-
-                            function_declaration = line
-
-                            file2.write(f"### [{function_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
-                            # https://github.com/ConnorAtmos/Template/blob/master/toolbox/database.py#L8
-                            # https://github.com/ConnorAtmos/Template/blob/master/docs/toolbox/database.py#L8
-
-                            other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
-                            other_docs += f"- [{function_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
-
-                            documents = get_function_documentation(i + 1)
-
-                            sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
-
-                            for section in sections:
-
-                                if section not in documents:
-                                    continue
-
+                        for section in sections:
+                            if section in documents:
                                 file2.write(section + "\n\n")
 
                                 sect_back = documents.find(section) + len(section) + 1
@@ -500,6 +441,52 @@ if output_instructions:
                                     section_combined = section_combined.split("\n", 1)[1]
 
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
+
+                        # Identify the level of tabbing for the class
+                        tab_level = count_spaces_at_beginning(line)
+
+                        # Identify level of tabbing for any statements after the class
+                        tab_level2 = 0
+                        for j in range(i+1, len(lines)):
+                            # If there is text, then set the tab level
+                            if len(lines[j].strip()) > 0:
+                                tab_level2 = count_spaces_at_beginning(lines[j])
+                                break
+
+                        # Locate functions and classes within the class, if their tab level is equal to tab_level2
+                        # Once the tab level is less than tab_level2, then we know we have reached the end of the class
+                        for j in range(i+1, len(lines)):
+                            if count_spaces_at_beginning(lines[j]) == tab_level2:
+                                if lines[j].strip().startswith("def "):
+                                    name2 = get_function_name(lines[j])
+                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
+                                elif lines[j].strip().startswith("class "):
+                                    name2 = get_class_name(lines[j])
+                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
+
+                            if count_spaces_at_beginning(lines[j]) < tab_level2:
+                                break
+
+
+                        return other_docs
+
+                    found = False
+                    other_docs = ""
+                    for i, line in enumerate(lines):
+
+                        # If we find a class definition
+                        if line.startswith("class"):
+                            found = True
+
+                            name = get_class_name(line)
+                            other_docs = document_data(i, name, line, other_docs)
+
+                        # If we find a function definition
+                        elif line.startswith("def"):
+                            found = True
+
+                            name = get_function_name(line)
+                            other_docs = document_data(i, name, line, other_docs)
 
                     if found:
                         documentation += f"## {file_path} ##\n\n" + other_docs
