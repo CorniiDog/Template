@@ -22,11 +22,11 @@ This is the documentation for the project Template.
 
 ## Documentation For [main.py](/docs/MAIN.md) ##
 
-### [Test](/docs/MAIN.md#test) ###
+<details><summary>Test</summary><br>### [Test](/docs/MAIN.md#test) ###
 
 - [class Test:](./../main.py#L5) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
     This is a test class, it is used to test the documentation generator
@@ -50,11 +50,11 @@ References
 
 ====================
 
-### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
+<details><summary>Test.Test_Contact</summary><br>### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 - [class Test_Contact:](./../main.py#L21) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
         This is a test class, it is used to test the documentation generator
@@ -77,11 +77,11 @@ References
 
 ====================
 
-### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
+<details><summary>Test.Test_Contact.__init__</summary><br>### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
 - [def __init__(self, phone: str, address: int):](./../main.py#L37) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
             This function is called when the object is created
@@ -119,11 +119,11 @@ References
 
 ====================
 
-### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
+<details><summary>Test.Test_Contact.__str__</summary><br>### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 - [def __str__(self):](./../main.py#L64) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
             This function is called when the object is printed
@@ -159,11 +159,11 @@ References
 
 ====================
 
-### [Test.__init__](/docs/MAIN.md#test__init__) ###
+<details><summary>Test.__init__</summary><br>### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
 - [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
         This function is called when the object is created
@@ -201,11 +201,11 @@ References
 
 ====================
 
-### [Test.__str__](/docs/MAIN.md#test__str__) ###
+<details><summary>Test.__str__</summary><br>### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 - [def __str__(self):](./../main.py#L120) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
         This function is called when the object is printed
@@ -241,11 +241,11 @@ References
 
 ====================
 
-### [print_hi](/docs/MAIN.md#print_hi) ###
+<details><summary>print_hi</summary><br>### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
         ello
@@ -283,11 +283,11 @@ References
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
-### [get](/docs/TOOLBOX-DATABASE.md#get) ###
+<details><summary>get</summary><br>### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
 - [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
     This function is used to load objects from the database folder
@@ -323,11 +323,11 @@ References
 
 ====================
 
-### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+<details><summary>save</summary><br>### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
 - [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
     This function is used to save objects to the database folder
@@ -367,11 +367,11 @@ References
 
 ====================
 
-### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
+<details><summary>delete_database</summary><br>### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 - [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
     This function is used to delete objects from the database folder
@@ -411,11 +411,11 @@ References
 
 ====================
 
-### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
+<details><summary>save_key</summary><br>### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
 - [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
     This function is used to save keys in a secure location
@@ -455,11 +455,11 @@ References
 
 ====================
 
-### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+<details><summary>load_key</summary><br>### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
 
-<details><summary>Documentation</summary><br>Notes
+Notes
 
 ```python
         This function is used to load keys from a secure location
