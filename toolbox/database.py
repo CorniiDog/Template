@@ -1,9 +1,24 @@
-import os
-import pickle
+import os, pickle, unicodedata, re
 
 storage_folder = os.path.join(os.path.dirname(__file__), 'database')
 if not os.path.exists(storage_folder):
     os.makedirs(storage_folder)
+
+def slugify(value, allow_unicode=False):
+    """
+    Taken from https://github.com/django/django/blob/master/django/utils/text.py
+    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
+    dashes to single dashes. Remove characters that aren't alphanumerics,
+    underscores, or hyphens. Convert to lowercase. Also strip leading and
+    trailing whitespace, dashes, and underscores.
+    """
+    value = str(value)
+    if allow_unicode:
+        value = unicodedata.normalize('NFKC', value)
+    else:
+        value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
+    value = re.sub(r'[^\w\s-]', '', value.lower())
+    return re.sub(r'[-\s]+', '-', value).strip('-_')
 
 
 def get(name: str) -> object | None:
@@ -138,11 +153,23 @@ def save_key(platform: str, key: str, override: bool = False) -> None:
     --------
     save_key('google', '<google_api_key>')
     """
-    if not override:
-        if platform in os.environ.keys():
-            raise Exception(f'Key {platform} already exists')
 
-    os.environ[platform] = key
+    user_dir = os.path.expanduser('~')
+    keys_dir = os.path.join(user_dir, '.keys')
+    if not os.path.exists(keys_dir):
+        os.makedirs(keys_dir)
+
+    platform = slugify(platform)
+    platform_file = os.path.join(keys_dir, f"{platform}.key")
+
+
+    if not override:
+        if os.path.exists(platform_file):
+            raise Exception(f"Key for {platform} already exists. Use override=True to override the key.")
+
+    with open(platform_file, 'w') as f:
+        f.write(key)
+
 
 
 def load_key(platform: str) -> str | None:
@@ -169,7 +196,18 @@ def load_key(platform: str) -> str | None:
         --------
         key = load_key('google')
         """
-    if platform in os.environ.keys():
-        return os.environ[platform]
-    else:
+
+    user_dir = os.path.expanduser('~')
+    keys_dir = os.path.join(user_dir, '.keys')
+    if not os.path.exists(keys_dir):
+        os.makedirs(keys_dir)
+
+    platform = slugify(platform)
+    platform_file = os.path.join(keys_dir, f"{platform}.key")
+
+    if not os.path.exists(platform_file):
         return None
+
+    with open(platform_file, 'r') as f:
+        return f.read()
+
