@@ -22,9 +22,9 @@ This is the documentation for the project Template.
 
 ## Documentation For [main.py](/docs/MAIN.md) ##
 
-<details><summary>Test</summary><br>### [Test](/docs/MAIN.md#test) ###
+### [Test](/docs/MAIN.md#test) ###
 
-- [class Test:](./../main.py#L5) 
+<details><summary>Documentation</summary><br>- [class Test:](./../main.py#L5) 
 
 Notes
 
@@ -50,9 +50,9 @@ References
 
 ====================
 
-<details><summary>Test.Test_Contact</summary><br>### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
+### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
-- [class Test_Contact:](./../main.py#L21) 
+<details><summary>Documentation</summary><br>- [class Test_Contact:](./../main.py#L21) 
 
 Notes
 
@@ -77,9 +77,9 @@ References
 
 ====================
 
-<details><summary>Test.Test_Contact.__init__</summary><br>### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
+### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
-- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
+<details><summary>Documentation</summary><br>- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
 
 Notes
 
@@ -119,9 +119,9 @@ References
 
 ====================
 
-<details><summary>Test.Test_Contact.__str__</summary><br>### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
+### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
-- [def __str__(self):](./../main.py#L64) 
+<details><summary>Documentation</summary><br>- [def __str__(self):](./../main.py#L64) 
 
 Notes
 
@@ -159,9 +159,9 @@ References
 
 ====================
 
-<details><summary>Test.__init__</summary><br>### [Test.__init__](/docs/MAIN.md#test__init__) ###
+### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
-- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
+<details><summary>Documentation</summary><br>- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
 
 Notes
 
@@ -201,9 +201,9 @@ References
 
 ====================
 
-<details><summary>Test.__str__</summary><br>### [Test.__str__](/docs/MAIN.md#test__str__) ###
+### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
-- [def __str__(self):](./../main.py#L120) 
+<details><summary>Documentation</summary><br>- [def __str__(self):](./../main.py#L120) 
 
 Notes
 
@@ -241,9 +241,9 @@ References
 
 ====================
 
-<details><summary>print_hi</summary><br>### [print_hi](/docs/MAIN.md#print_hi) ###
+### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [def print_hi(name: str) -> None:](./../main.py#L147) 
+<details><summary>Documentation</summary><br>- [def print_hi(name: str) -> None:](./../main.py#L147) 
 
 Notes
 
@@ -283,9 +283,9 @@ References
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
-<details><summary>get</summary><br>### [get](/docs/TOOLBOX-DATABASE.md#get) ###
+### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
-- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
+<details><summary>Documentation</summary><br>- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
 Notes
 
@@ -323,9 +323,9 @@ References
 
 ====================
 
-<details><summary>save</summary><br>### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
-- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
+<details><summary>Documentation</summary><br>- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
 Notes
 
@@ -367,9 +367,9 @@ References
 
 ====================
 
-<details><summary>delete_database</summary><br>### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
+### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
-- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
+<details><summary>Documentation</summary><br>- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
 
 Notes
 
@@ -411,9 +411,9 @@ References
 
 ====================
 
-<details><summary>save_key</summary><br>### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
+### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
-- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
+<details><summary>Documentation</summary><br>- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
 Notes
 
@@ -455,9 +455,9 @@ References
 
 ====================
 
-<details><summary>load_key</summary><br>### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
-- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+<details><summary>Documentation</summary><br>- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
 
 Notes
 
