@@ -26,23 +26,23 @@ This is the documentation for the project Template.
 
 - [class Test:](./../main.py#L5) 
 
-### [Test.Test_Contact](/docs/MAIN.md#test.test_contact) ###
+### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 - [class Test_Contact:](./../main.py#L21) 
 
-### [Test.Test_Contact.__init__](/docs/MAIN.md#test.test_contact.__init__) ###
+### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
 - [def __init__(self, phone: str, address: int):](./../main.py#L37) 
 
-### [Test.Test_Contact.__str__](/docs/MAIN.md#test.test_contact.__str__) ###
+### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 - [def __str__(self):](./../main.py#L64) 
 
-### [Test.__init__](/docs/MAIN.md#test.__init__) ###
+### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
 - [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
 
-### [Test.__str__](/docs/MAIN.md#test.__str__) ###
+### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 - [def __str__(self):](./../main.py#L120) 
 
