@@ -451,8 +451,8 @@ if output_instructions:
                         other_docs += f"<details><summary>Documentation For {name}</summary><br>{new_documentation}</details>\n\n"
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
-                        # Add small github divider
-                        other_docs += "<p align=\"center\">===</p>\n\n"
+                        # Add space between in github docs
+                        other_docs += "\n\n"
 
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
