@@ -24,8 +24,6 @@ This is the documentation for the project Template.
 
 ### [Test](/docs/MAIN.md#test) ###
 
-- [class Test:](./../main.py#L4) 
-
 <details><summary>Documentation For Test</summary><br>Notes
 
 ```python
@@ -48,9 +46,9 @@ References
 
 </details>
 
-### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
+- [class Test:](./../main.py#L4) 
 
-- [class Test_Contact:](./../main.py#L20) 
+### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 <details><summary>Documentation For Test.Test_Contact</summary><br>Notes
 
@@ -73,9 +71,9 @@ References
 
 </details>
 
-### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
+- [class Test_Contact:](./../main.py#L20) 
 
-- [def __init__(self, phone: str, address: int):](./../main.py#L36) 
+### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
 <details><summary>Documentation For Test.Test_Contact.__init__</summary><br>Notes
 
@@ -113,9 +111,9 @@ References
 
 </details>
 
-### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
+- [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
-- [def __str__(self):](./../main.py#L63) 
+### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 <details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
 
@@ -151,9 +149,9 @@ References
 
 </details>
 
-### [Test.__init__](/docs/MAIN.md#test__init__) ###
+- [def __str__(self):](./../main.py#L63) 
 
-- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
+### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
 <details><summary>Documentation For Test.__init__</summary><br>Notes
 
@@ -191,9 +189,9 @@ References
 
 </details>
 
-### [Test.__str__](/docs/MAIN.md#test__str__) ###
+- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
-- [def __str__(self):](./../main.py#L119) 
+### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 <details><summary>Documentation For Test.__str__</summary><br>Notes
 
@@ -229,9 +227,9 @@ References
 
 </details>
 
-### [print_hi](/docs/MAIN.md#print_hi) ###
+- [def __str__(self):](./../main.py#L119) 
 
-- [def print_hi(name: str) -> None:](./../main.py#L146) 
+### [print_hi](/docs/MAIN.md#print_hi) ###
 
 <details><summary>Documentation For print_hi</summary><br>Notes
 
@@ -267,11 +265,11 @@ References
 
 </details>
 
+- [def print_hi(name: str) -> None:](./../main.py#L146) 
+
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
-
-- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
 <details><summary>Documentation For get</summary><br>Notes
 
@@ -307,9 +305,9 @@ References
 
 </details>
 
-### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
-- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
+### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
 <details><summary>Documentation For save</summary><br>Notes
 
@@ -349,9 +347,9 @@ References
 
 </details>
 
-### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
+- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
-- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
+### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 <details><summary>Documentation For delete_database</summary><br>Notes
 
@@ -391,9 +389,9 @@ References
 
 </details>
 
-### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
+- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
 
-- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
+### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
 <details><summary>Documentation For save_key</summary><br>Notes
 
@@ -433,9 +431,9 @@ References
 
 </details>
 
-### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
-- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 <details><summary>Documentation For load_key</summary><br>Notes
 
@@ -470,4 +468,6 @@ References
 ```
 
 </details>
+
+- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
 
