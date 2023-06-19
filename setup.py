@@ -452,7 +452,7 @@ if output_instructions:
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
                         # Add small github divider
-                        other_docs += "<p align=\"center\">👇👇👇</p>\n\n"
+                        other_docs += "<p align=\"center\">===</p>\n\n"
 
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
