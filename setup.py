@@ -450,6 +450,10 @@ if output_instructions:
                         # Add dropdown to other_docs with the documentation
                         other_docs += f"<details><summary>Documentation For {name}</summary><br>{new_documentation}</details>\n\n"
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+
+                        # Add github divider
+                        other_docs += "---\n\n"
+
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
 

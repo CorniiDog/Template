@@ -48,6 +48,8 @@ References
 
 - [class Test:](./../main.py#L4) 
 
+---
+
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 <details><summary>Documentation For Test.Test_Contact</summary><br>Notes
@@ -72,6 +74,8 @@ References
 </details>
 
 - [class Test_Contact:](./../main.py#L20) 
+
+---
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
@@ -113,6 +117,8 @@ References
 
 - [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
+---
+
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 <details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
@@ -150,6 +156,8 @@ References
 </details>
 
 - [def __str__(self):](./../main.py#L63) 
+
+---
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
@@ -191,6 +199,8 @@ References
 
 - [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
+---
+
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 <details><summary>Documentation For Test.__str__</summary><br>Notes
@@ -229,6 +239,8 @@ References
 
 - [def __str__(self):](./../main.py#L119) 
 
+---
+
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 <details><summary>Documentation For print_hi</summary><br>Notes
@@ -266,6 +278,8 @@ References
 </details>
 
 - [def print_hi(name: str) -> None:](./../main.py#L146) 
+
+---
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
@@ -306,6 +320,8 @@ References
 </details>
 
 - [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
+
+---
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
@@ -349,6 +365,8 @@ References
 
 - [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
+---
+
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 <details><summary>Documentation For delete_database</summary><br>Notes
@@ -390,6 +408,8 @@ References
 </details>
 
 - [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
+
+---
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
@@ -433,6 +453,8 @@ References
 
 - [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
+---
+
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 <details><summary>Documentation For load_key</summary><br>Notes
@@ -470,4 +492,6 @@ References
 </details>
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+
+---
 
