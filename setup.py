@@ -420,9 +420,11 @@ if output_instructions:
 
                         sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
 
+                        new_documentation = ""
                         for section in sections:
                             if section in documents:
                                 file2.write(section + "\n\n")
+                                new_documentation += section + "\n\n"
 
                                 sect_back = documents.find(section) + len(section) + 1
 
@@ -443,6 +445,10 @@ if output_instructions:
                                     section_combined = section_combined.split("\n", 1)[1]
 
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
+                                new_documentation += "```python\n" + section_combined + "\n```\n\n"
+
+                        # Add dropdown to other_docs with the documentation
+                        other_docs += f"<details><summary>{name}</summary>\n\n"
 
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
