@@ -415,7 +415,7 @@ if output_instructions:
 
 
                         other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}) ###\n\n"
-                        future_reference = f"[{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+                        other_docs = f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
                         documents = get_class_documentation(i + 1)
 
@@ -449,8 +449,7 @@ if output_instructions:
                                 new_documentation += "```python\n" + section_combined + "\n```\n\n"
 
                         # Add dropdown to other_docs with the documentation
-                        other_docs += f"<details><summary>Documentation</summary><br>{future_reference + new_documentation}</details>\n\n"
-                        other_docs += "====================\n\n"
+                        other_docs += f"<details><summary>Documentation For {name}</summary><br>{new_documentation}</details>\n\n"
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
 
