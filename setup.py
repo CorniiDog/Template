@@ -246,10 +246,11 @@ if output_instructions:
 
     with open("README.md", "w") as f:
 
+        f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
+
         if project_name == "Template":
             f.write(additional_instructions)
 
-        f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 

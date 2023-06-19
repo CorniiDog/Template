@@ -1,3 +1,5 @@
+[For Documentation, Click Here](docs/DOCS.md)
+
 
 ## HOW TO USE THIS TEMPLATE ##
 
@@ -26,6 +28,4 @@
     python3 setup.py
 
 
-
-[For Documentation, Click Here](docs/DOCS.md)
 
