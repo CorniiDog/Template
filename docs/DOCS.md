@@ -22,7 +22,7 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
-### [Further Documentation](/docs/MAIN.md) ###
+## [Further Documentation](/docs/MAIN.md) ##
 
 ### [Test](/docs/MAIN.md#test) ###
 
@@ -54,7 +54,7 @@ This is the documentation for the project Template.
 
 ## toolbox/database.py ##
 
-### [Further Documentation](/docs/TOOLBOX-DATABASE.md) ###
+## [Further Documentation](/docs/TOOLBOX-DATABASE.md) ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 

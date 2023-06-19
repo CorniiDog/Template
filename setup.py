@@ -503,7 +503,7 @@ if output_instructions:
                         documentation += f"## {file_path} ##\n\n"
 
                         # Provide link to md file
-                        documentation += f"### [Further Documentation](/{file_document_path}) ###\n\n"
+                        documentation += f"## [Further Documentation](/{file_document_path}) ##\n\n"
 
                         #Provide The documentation for the file
                         documentation += other_docs
