@@ -285,6 +285,14 @@ References
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
+### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
+
+<details><summary>Documentation For slugify</summary><br></details>
+
+- [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) 
+
+<p align="center">_</p>
+
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
 <details><summary>Documentation For get</summary><br>Notes
@@ -321,7 +329,7 @@ References
 
 </details>
 
-- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
+- [def get(name: str) -> object | None:](./../toolbox/database.py#L24) 
 
 <p align="center">_</p>
 
@@ -365,7 +373,7 @@ References
 
 </details>
 
-- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
+- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L55) 
 
 <p align="center">_</p>
 
@@ -409,7 +417,7 @@ References
 
 </details>
 
-- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
+- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L90) 
 
 <p align="center">_</p>
 
@@ -453,7 +461,7 @@ References
 
 </details>
 
-- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
+- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L128) 
 
 <p align="center">_</p>
 
@@ -493,7 +501,7 @@ References
 
 </details>
 
-- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L175) 
 
 <p align="center">_</p>
 

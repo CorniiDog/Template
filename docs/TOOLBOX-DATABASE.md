@@ -4,9 +4,13 @@ Import Statement: `from toolbox import database`
 
 Alternative Import Statement: `from toolbox.database import *`
 
+# slugify #
+
+### [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) ###
+
 # get #
 
-### [def get(name: str) -> object | None:](./../toolbox/database.py#L9) ###
+### [def get(name: str) -> object | None:](./../toolbox/database.py#L24) ###
 
 Notes
 
@@ -42,7 +46,7 @@ References
 
 # save #
 
-### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) ###
+### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L55) ###
 
 Notes
 
@@ -82,7 +86,7 @@ References
 
 # delete_database #
 
-### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) ###
+### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L90) ###
 
 Notes
 
@@ -122,7 +126,7 @@ References
 
 # save_key #
 
-### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) ###
+### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L128) ###
 
 Notes
 
@@ -162,7 +166,7 @@ References
 
 # load_key #
 
-### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) ###
+### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L175) ###
 
 Notes
 
