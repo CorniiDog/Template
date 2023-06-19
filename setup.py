@@ -350,7 +350,6 @@ if output_instructions:
                         return text_line.strip().split("def ")[1].split("(")[0]
 
                     def get_class_name(text_line):
-                        print(text_line)
                         return text_line.strip().split("class ")[1].split("(")[0].split(":")[0]
 
 
@@ -453,19 +452,27 @@ if output_instructions:
                                 tab_level2 = count_spaces_at_beginning(lines[j])
                                 break
 
+                        print(tab_level2)
                         # Locate functions and classes within the class, if their tab level is equal to tab_level2
                         # Once the tab level is less than tab_level2, then we know we have reached the end of the class
                         for j in range(i+1, len(lines)):
+                            print(j)
+                            print(lines[j])
                             if count_spaces_at_beginning(lines[j]) == tab_level2:
+
                                 if lines[j].strip().startswith("def "):
+                                    print("Documenting 2")
                                     name2 = get_function_name(lines[j])
                                     other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
                                 elif lines[j].strip().startswith("class "):
+                                    print("Documenting 3")
                                     name2 = get_class_name(lines[j])
                                     other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
 
                             if count_spaces_at_beginning(lines[j]) < tab_level2:
-                                break
+                                # if not empty
+                                if len(lines[j].strip()) > 0:
+                                    break
 
 
                         return other_docs

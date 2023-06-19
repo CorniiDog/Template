@@ -26,6 +26,177 @@ References
     No Links
 ```
 
+# Test.Test_Contact #
+
+### [Test.    class Test_Contact:](./../main.py#L21) ###
+
+Notes
+
+```python
+        This is a test class, it is used to test the documentation generator
+```
+
+Examples
+
+```python
+        test_contact = Test.Test_Contact("123-456-7890", 1234)
+        print(test_contact)
+```
+
+References
+
+```python
+        No Links
+```
+
+# Test.Test_Contact.__init__ #
+
+### [Test.Test_Contact.        def __init__(self, phone: str, address: int):](./../main.py#L37) ###
+
+Notes
+
+```python
+            This function is called when the object is created
+```
+
+Parameters
+
+```python
+            phone : str
+                The phone number of the person to greet
+            address : int
+                The address of the person to greet
+```
+
+Returns
+
+```python
+            None
+                This function does not return anything
+```
+
+Examples
+
+```python
+            address_object = Test.Test_Contact("123-456-7890", 1234)
+```
+
+References
+
+```python
+            No Links
+```
+
+# Test.Test_Contact.__str__ #
+
+### [Test.Test_Contact.        def __str__(self):](./../main.py#L64) ###
+
+Notes
+
+```python
+            This function is called when the object is printed
+```
+
+Parameters
+
+```python
+            None
+```
+
+Returns
+
+```python
+            str
+                This function returns a string representation of the object
+```
+
+Examples
+
+```python
+            address_object = Test.Test_Contact("123-456-7890", 1234)
+            print(address_object)
+```
+
+References
+
+```python
+            No Links
+```
+
+# Test.__init__ #
+
+### [Test.    def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) ###
+
+Notes
+
+```python
+        This function is called when the object is created
+```
+
+Parameters
+
+```python
+        name : str
+            The name of the person to greet
+        age : int
+            The age of the person to greet
+```
+
+Returns
+
+```python
+        None
+            This function does not return anything
+```
+
+Examples
+
+```python
+        test_object = Test("Bill", 20)
+```
+
+References
+
+```python
+        No Links
+```
+
+# Test.__str__ #
+
+### [Test.    def __str__(self):](./../main.py#L120) ###
+
+Notes
+
+```python
+        This function is called when the object is printed
+```
+
+Parameters
+
+```python
+        None
+```
+
+Returns
+
+```python
+        str
+            This function returns a string representation of the object
+```
+
+Examples
+
+```python
+        test_object = Test("Bill", 20)
+        print(test_object)
+```
+
+References
+
+```python
+        No Links
+```
+
 # print_hi #
 
 ### [def print_hi(name: str) -> None:](./../main.py#L147) ###
