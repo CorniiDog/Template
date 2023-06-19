@@ -259,6 +259,12 @@ if output_instructions:
 
         f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
+        # Add all lines from ABOUT.md to README.md
+        with open("ABOUT.md", "r") as about:
+            for line in about.readlines():
+                f.write(line)
+            f.write("\n\n")
+
         if project_name == "Template":
             f.write(additional_instructions)
 

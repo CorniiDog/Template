@@ -1,0 +1,1 @@
+This is a template for my Python projects. It is a work in progress.
