@@ -62,6 +62,17 @@ WantedBy=multi-user.target
 
 f.close()
 
+
+apt_get_str = ""
+with open("requirements/apt_get_requirements.txt", "r") as f:
+    for line in f:
+        apt_get_str += line.strip() + " "
+if len(apt_get_str) > 0:
+    apt_get_str = "sudo apt get install -y " + apt_get_str
+else:
+    apt_get_str = "[No apt-get requirements]"
+
+
 output = f"""
 
 ==============================
@@ -127,9 +138,9 @@ This is for installing python packages and conda packages.
 
 3. Install the following requirements:
     pip install -r {requirements_file} && conda install --file {conda_requirements_file}  && conda install -c conda-forge --file {conda_forge_requirements_file}
-
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-cd {project_dir} && conda activate {project_name} && pip install -r {requirements_file} && conda install --file {conda_requirements_file}  && conda install -c conda-forge --file {conda_forge_requirements_file}
+    
+4. Install the following apt-get requirements:
+    {apt_get_str}
 
 ==============================
 

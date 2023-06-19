@@ -115,10 +115,11 @@ This is for installing python packages and conda packages.
 
     pip install -r <requirements_file> && conda install --file <conda_requirements_file>  && conda install -c conda-forge --file <conda_forge_requirements_file>
 
+    
 
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
+### 4. Install the following apt-get requirements: ###
 
-cd ~/<project_name> && conda activate <project_name> && pip install -r <requirements_file> && conda install --file <conda_requirements_file>  && conda install -c conda-forge --file <conda_forge_requirements_file>
+    [No apt-get requirements]
 
 
 
