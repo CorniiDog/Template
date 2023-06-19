@@ -253,6 +253,9 @@ if output_instructions:
 
     with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
 
+        # Provide link to go back to DOCS.md
+        f.write(f"[Back to DOCS.md](DOCS.md)\n\n")
+
         f.write("# KEYWORDS #\n")
 
         # Rename the project name to <project_name>
