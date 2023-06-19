@@ -24,51 +24,51 @@ This is the documentation for the project Template.
 
 ### [Test](/docs/MAIN.md#test) ###
 
-- [class  Test:](./../main.py#L5) 
+- [class Test:](./../main.py#L5) 
 
 ### [Test.Test_Contact](/docs/MAIN.md#test.test_contact) ###
 
-- [Test.    class Test_Contact:](./../main.py#L21) 
+- [class Test_Contact:](./../main.py#L21) 
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#test.test_contact.__init__) ###
 
-- [Test.Test_Contact.        def __init__(self, phone: str, address: int):](./../main.py#L37) 
+- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
 
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#test.test_contact.__str__) ###
 
-- [Test.Test_Contact.        def __str__(self):](./../main.py#L64) 
+- [def __str__(self):](./../main.py#L64) 
 
 ### [Test.__init__](/docs/MAIN.md#test.__init__) ###
 
-- [Test.    def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
+- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
 
 ### [Test.__str__](/docs/MAIN.md#test.__str__) ###
 
-- [Test.    def __str__(self):](./../main.py#L120) 
+- [def __str__(self):](./../main.py#L120) 
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [def  print_hi(name: str) -> None:](./../main.py#L147) 
+- [def print_hi(name: str) -> None:](./../main.py#L147) 
 
 ## toolbox/database.py ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
-- [def  get(name: str) -> object | None:](./../toolbox/database.py#L9) 
+- [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
-- [def  save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
+- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
-- [def  delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
+- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
-- [def  save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
+- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
-- [def  load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
 

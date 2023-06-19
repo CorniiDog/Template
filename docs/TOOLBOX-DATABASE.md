@@ -4,7 +4,7 @@ Alternative Import Statement: `from toolbox.database import *`
 
 # get #
 
-### [def  get(name: str) -> object | None:](./../toolbox/database.py#L9) ###
+### [def get(name: str) -> object | None:](./../toolbox/database.py#L9) ###
 
 Notes
 
@@ -40,7 +40,7 @@ References
 
 # save #
 
-### [def  save(name: str, data: any) -> None:](./../toolbox/database.py#L40) ###
+### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) ###
 
 Notes
 
@@ -80,7 +80,7 @@ References
 
 # delete_database #
 
-### [def  delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) ###
+### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) ###
 
 Notes
 
@@ -120,7 +120,7 @@ References
 
 # save_key #
 
-### [def  save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) ###
+### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) ###
 
 Notes
 
@@ -160,7 +160,7 @@ References
 
 # load_key #
 
-### [def  load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) ###
+### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) ###
 
 Notes
 

@@ -407,12 +407,8 @@ if output_instructions:
                         file2.write(f"# {name} #\n\n")
 
 
-                        split_line = line.split(" ")
+                        class_declaration = line
 
-
-                        class_declaration = split_line[0] + " " + parent_string
-                        for j in range(1, len(split_line)):
-                            class_declaration += " " + split_line[j]
 
                         file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
 

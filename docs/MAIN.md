@@ -4,7 +4,7 @@ Alternative Import Statement: `from main import *`
 
 # Test #
 
-### [class  Test:](./../main.py#L5) ###
+### [class Test:](./../main.py#L5) ###
 
 Notes
 
@@ -28,7 +28,7 @@ References
 
 # Test.Test_Contact #
 
-### [Test.    class Test_Contact:](./../main.py#L21) ###
+### [class Test_Contact:](./../main.py#L21) ###
 
 Notes
 
@@ -51,7 +51,7 @@ References
 
 # Test.Test_Contact.__init__ #
 
-### [Test.Test_Contact.        def __init__(self, phone: str, address: int):](./../main.py#L37) ###
+### [def __init__(self, phone: str, address: int):](./../main.py#L37) ###
 
 Notes
 
@@ -89,7 +89,7 @@ References
 
 # Test.Test_Contact.__str__ #
 
-### [Test.Test_Contact.        def __str__(self):](./../main.py#L64) ###
+### [def __str__(self):](./../main.py#L64) ###
 
 Notes
 
@@ -125,7 +125,7 @@ References
 
 # Test.__init__ #
 
-### [Test.    def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) ###
+### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) ###
 
 Notes
 
@@ -163,7 +163,7 @@ References
 
 # Test.__str__ #
 
-### [Test.    def __str__(self):](./../main.py#L120) ###
+### [def __str__(self):](./../main.py#L120) ###
 
 Notes
 
@@ -199,7 +199,7 @@ References
 
 # print_hi #
 
-### [def  print_hi(name: str) -> None:](./../main.py#L147) ###
+### [def print_hi(name: str) -> None:](./../main.py#L147) ###
 
 Notes
 
