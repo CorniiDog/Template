@@ -22,6 +22,8 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
+### [Further Documentation](/docs/MAIN.md) ###
+
 ### [Test](/docs/MAIN.md#test) ###
 
 - [class Test:](./../main.py#L5) 
@@ -50,9 +52,9 @@ This is the documentation for the project Template.
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
 
-### [Link to file](/docs/MAIN.md) ###
-
 ## toolbox/database.py ##
+
+### [Further Documentation](/docs/TOOLBOX-DATABASE.md) ###
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
@@ -73,6 +75,4 @@ This is the documentation for the project Template.
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
-
-### [Link to file](/docs/TOOLBOX-DATABASE.md) ###
 

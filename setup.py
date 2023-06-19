@@ -499,10 +499,14 @@ if output_instructions:
                             other_docs = document_data(i, name, line, other_docs)
 
                     if found:
-                        documentation += f"## {file_path} ##\n\n" + other_docs
+
+                        documentation += f"## {file_path} ##\n\n"
 
                         # Provide link to md file
-                        documentation += f"### [Link to file](/{file_document_path}) ###\n\n"
+                        documentation += f"### [Further Documentation](/{file_document_path}) ###\n\n"
+
+                        #Provide The documentation for the file
+                        documentation += other_docs
 
 
                     file2.close()
