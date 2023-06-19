@@ -500,10 +500,8 @@ if output_instructions:
 
                     if found:
 
-                        documentation += f"## {file_path} ##\n\n"
-
                         # Provide link to md file
-                        documentation += f"## [Further Documentation](/{file_document_path}) ##\n\n"
+                        documentation += f"## [{file_path}](/{file_document_path}) ##\n\n"
 
                         #Provide The documentation for the file
                         documentation += other_docs

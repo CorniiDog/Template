@@ -20,9 +20,7 @@ This is the documentation for the project Template.
 
 # API #
 
-## main.py ##
-
-## [Further Documentation](/docs/MAIN.md) ##
+## [main.py](/docs/MAIN.md) ##
 
 ### [Test](/docs/MAIN.md#test) ###
 
@@ -52,9 +50,7 @@ This is the documentation for the project Template.
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
 
-## toolbox/database.py ##
-
-## [Further Documentation](/docs/TOOLBOX-DATABASE.md) ##
+## [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
