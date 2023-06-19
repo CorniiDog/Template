@@ -523,6 +523,9 @@ if output_instructions:
 
     with open(docs_folder + "/DOCS.md", "w") as f:
 
+        # Add the capability to go back to README.md
+        f.write(f"[Back to README.md](README.md)\n\n")
+
         f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
 
         f.write(f"This is the documentation for the project {project_name}.\n\n")
