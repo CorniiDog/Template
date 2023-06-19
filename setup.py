@@ -389,6 +389,10 @@ if output_instructions:
 
 
                     def get_function_documentation(k, offset=0):
+
+                        if len(lines) <= k:
+                            return ""
+
                         if lines[k].strip().startswith("def "):
                             return ""
 
