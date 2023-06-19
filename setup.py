@@ -415,7 +415,7 @@ if output_instructions:
 
 
                         other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}) ###\n\n"
-                        other_docs = f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+                        other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
                         documents = get_class_documentation(i + 1)
 
