@@ -351,7 +351,7 @@ if output_instructions:
 
                     def get_class_name(text_line):
                         print(text_line)
-                        return text_line.strip().split("class ")[1].split("(")[0]
+                        return text_line.strip().split("class ")[1].split("(")[0].split(":")[0]
 
 
                     def count_spaces_at_beginning(text_line):
@@ -403,9 +403,56 @@ if output_instructions:
                                 return get_class_documentation(k + 1, offset=offset + 1)
 
 
+
+
+
                     found = False
                     other_docs = ""
                     for i, line in enumerate(lines):
+
+                        if line.startswith("class"):
+                            found = True
+
+                            name = get_class_name(line)
+                            file2.write(f"# {name} #\n\n")
+
+                            class_declaration = line
+
+                            file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
+
+                            other_docs += f"### [{name}](/{file_document_path}#{name.lower().replace(' ', '-')}) ###\n\n"
+                            other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+
+                            documents = get_class_documentation(i + 1)
+
+                            sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
+
+                            for section in sections:
+                                if section in documents:
+                                    file2.write(section + "\n\n")
+
+                                    sect_back = documents.find(section) + len(section) + 1
+
+                                    while documents[sect_back] == "\n" or documents[sect_back] == "-":
+                                        sect_back += 1
+                                    sect_front = 9999999
+                                    for sect2 in sections:
+                                        if sect2 == section:
+                                            continue
+                                        sect_front2 = documents.find(sect2)
+                                        if sect_front2 != -1:
+                                            if sect_front > sect_front2 > sect_back:
+                                                sect_front = sect_front2
+                                    section_combined = documents[sect_back:sect_front].strip()
+
+                                    # remove first line if its first character is a dash
+                                    if section_combined[0] == "-":
+                                        section_combined = section_combined.split("\n", 1)[1]
+
+                                    file2.write("```python\n" + section_combined + "\n```\n\n")
+
+
+
 
                         # If we fine a function definition
                         if line.startswith("def"):
@@ -426,9 +473,6 @@ if output_instructions:
                             documents = get_function_documentation(i + 1)
 
                             sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
-                            data = {}
-                            for section in sections:
-                                data[section] = []
 
                             for section in sections:
 

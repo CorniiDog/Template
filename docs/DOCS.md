@@ -22,6 +22,10 @@ This is the documentation for the project Template.
 
 ## main.py ##
 
+### [Test](/docs/MAIN.md#test) ###
+
+- [class Test:](./../main.py#L5) 
+
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
