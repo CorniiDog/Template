@@ -24,9 +24,9 @@ This is the documentation for the project Template.
 
 ### [Test](/docs/MAIN.md#test) ###
 
-- [class Test:](./../main.py#L5) 
+- [class Test:](./../main.py#L4) 
 
-<details><summary>Documentation For Test</summary><br>Notes
+- <details><summary>Documentation For Test</summary><br>Notes
 
 ```python
     This is a test class, it is used to test the documentation generator
@@ -50,9 +50,9 @@ References
 
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
-- [class Test_Contact:](./../main.py#L21) 
+- [class Test_Contact:](./../main.py#L20) 
 
-<details><summary>Documentation For Test.Test_Contact</summary><br>Notes
+- <details><summary>Documentation For Test.Test_Contact</summary><br>Notes
 
 ```python
         This is a test class, it is used to test the documentation generator
@@ -75,9 +75,9 @@ References
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
-- [def __init__(self, phone: str, address: int):](./../main.py#L37) 
+- [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
-<details><summary>Documentation For Test.Test_Contact.__init__</summary><br>Notes
+- <details><summary>Documentation For Test.Test_Contact.__init__</summary><br>Notes
 
 ```python
             This function is called when the object is created
@@ -115,9 +115,9 @@ References
 
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
-- [def __str__(self):](./../main.py#L64) 
+- [def __str__(self):](./../main.py#L63) 
 
-<details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
+- <details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
 
 ```python
             This function is called when the object is printed
@@ -153,9 +153,9 @@ References
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
-- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L91) 
+- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
-<details><summary>Documentation For Test.__init__</summary><br>Notes
+- <details><summary>Documentation For Test.__init__</summary><br>Notes
 
 ```python
         This function is called when the object is created
@@ -193,9 +193,9 @@ References
 
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
-- [def __str__(self):](./../main.py#L120) 
+- [def __str__(self):](./../main.py#L119) 
 
-<details><summary>Documentation For Test.__str__</summary><br>Notes
+- <details><summary>Documentation For Test.__str__</summary><br>Notes
 
 ```python
         This function is called when the object is printed
@@ -231,9 +231,9 @@ References
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
-- [def print_hi(name: str) -> None:](./../main.py#L147) 
+- [def print_hi(name: str) -> None:](./../main.py#L146) 
 
-<details><summary>Documentation For print_hi</summary><br>Notes
+- <details><summary>Documentation For print_hi</summary><br>Notes
 
 ```python
         ello
@@ -273,7 +273,7 @@ References
 
 - [def get(name: str) -> object | None:](./../toolbox/database.py#L9) 
 
-<details><summary>Documentation For get</summary><br>Notes
+- <details><summary>Documentation For get</summary><br>Notes
 
 ```python
     This function is used to load objects from the database folder
@@ -311,7 +311,7 @@ References
 
 - [def save(name: str, data: any) -> None:](./../toolbox/database.py#L40) 
 
-<details><summary>Documentation For save</summary><br>Notes
+- <details><summary>Documentation For save</summary><br>Notes
 
 ```python
     This function is used to save objects to the database folder
@@ -353,7 +353,7 @@ References
 
 - [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L75) 
 
-<details><summary>Documentation For delete_database</summary><br>Notes
+- <details><summary>Documentation For delete_database</summary><br>Notes
 
 ```python
     This function is used to delete objects from the database folder
@@ -395,7 +395,7 @@ References
 
 - [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L113) 
 
-<details><summary>Documentation For save_key</summary><br>Notes
+- <details><summary>Documentation For save_key</summary><br>Notes
 
 ```python
     This function is used to save keys in a secure location
@@ -437,7 +437,7 @@ References
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
 
-<details><summary>Documentation For load_key</summary><br>Notes
+- <details><summary>Documentation For load_key</summary><br>Notes
 
 ```python
         This function is used to load keys from a secure location

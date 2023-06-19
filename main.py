@@ -1,6 +1,5 @@
 from toolbox import database
 
-
 # Create test class
 class Test:
     """
