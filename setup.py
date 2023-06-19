@@ -342,6 +342,7 @@ if output_instructions:
                     import_statement = "from " + ".".join(folders) + " import *"
                     file2.write(f"Alternative Import Statement: `{import_statement}`\n\n")
 
+
                     # read the file as a list
                     lines = f.readlines()
 
@@ -499,6 +500,10 @@ if output_instructions:
 
                     if found:
                         documentation += f"## {file_path} ##\n\n" + other_docs
+
+                        # Provide link to md file
+                        documentation += f"### [Link to file](/{file_document_path}) ###\n\n"
+
 
                     file2.close()
 

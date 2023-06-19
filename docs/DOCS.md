@@ -50,6 +50,8 @@ This is the documentation for the project Template.
 
 - [def print_hi(name: str) -> None:](./../main.py#L147) 
 
+### [Link to file](/docs/MAIN.md) ###
+
 ## toolbox/database.py ##
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
@@ -71,4 +73,6 @@ This is the documentation for the project Template.
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L148) 
+
+### [Link to file](/docs/TOOLBOX-DATABASE.md) ###
 
