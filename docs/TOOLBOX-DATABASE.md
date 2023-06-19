@@ -8,9 +8,44 @@ Alternative Import Statement: `from toolbox.database import *`
 
 ### [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) ###
 
+Notes
+
+```python
+    This function is used to slugify strings, which basically means to remove all special characters and replace them with dashes.
+    This is useful for creating file names from strings.
+```
+
+Parameters
+
+```python
+    value : str
+        The string to be slugified
+    allow_unicode : bool
+        Whether or not to allow unicode characters
+```
+
+Returns
+
+```python
+    str
+        The slugified string
+```
+
+Examples
+
+```python
+    slugify('Hello World')
+```
+
+References
+
+```python
+    https://github.com/django/django/blob/master/django/utils/text.py
+```
+
 # get #
 
-### [def get(name: str) -> object | None:](./../toolbox/database.py#L24) ###
+### [def get(name: str) -> object | None:](./../toolbox/database.py#L43) ###
 
 Notes
 
@@ -46,7 +81,7 @@ References
 
 # save #
 
-### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L55) ###
+### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) ###
 
 Notes
 
@@ -86,7 +121,7 @@ References
 
 # delete_database #
 
-### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L90) ###
+### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) ###
 
 Notes
 
@@ -126,7 +161,7 @@ References
 
 # save_key #
 
-### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L128) ###
+### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) ###
 
 Notes
 
@@ -166,7 +201,7 @@ References
 
 # load_key #
 
-### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L175) ###
+### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) ###
 
 Notes
 

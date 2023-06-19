@@ -6,11 +6,30 @@ if not os.path.exists(storage_folder):
 
 def slugify(value, allow_unicode=False):
     """
-    Taken from https://github.com/django/django/blob/master/django/utils/text.py
-    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
-    dashes to single dashes. Remove characters that aren't alphanumerics,
-    underscores, or hyphens. Convert to lowercase. Also strip leading and
-    trailing whitespace, dashes, and underscores.
+    Parameters
+    ----------
+    value : str
+        The string to be slugified
+    allow_unicode : bool
+        Whether or not to allow unicode characters
+
+    Returns
+    -------
+    str
+        The slugified string
+
+    Notes
+    -----
+    This function is used to slugify strings, which basically means to remove all special characters and replace them with dashes.
+    This is useful for creating file names from strings.
+
+    References
+    ----------
+    https://github.com/django/django/blob/master/django/utils/text.py
+
+    Examples
+    --------
+    slugify('Hello World')
     """
     value = str(value)
     if allow_unicode:
