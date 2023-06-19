@@ -4,7 +4,7 @@ Alternative Import Statement: `from main import *`
 
 # Test #
 
-### [class Test:](./../main.py#L5) ###
+### [class  Test:](./../main.py#L5) ###
 
 Notes
 
@@ -199,7 +199,7 @@ References
 
 # print_hi #
 
-### [def print_hi(name: str) -> None:](./../main.py#L147) ###
+### [def  print_hi(name: str) -> None:](./../main.py#L147) ###
 
 Notes
 
