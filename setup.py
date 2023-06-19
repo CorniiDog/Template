@@ -326,6 +326,9 @@ if output_instructions:
 
                     file2 = open(file_document_path, "w")
 
+                    # Provide link to go back to DOCS.md
+                    file2.write(f"[Back to DOCS.md](DOCS.md)\n\n")
+
                     # Turn into a "from ... import ..." statement
                     join_stuff = ".".join(folders[:-1])
 
