@@ -29,7 +29,7 @@ def slugify(value, allow_unicode=False):
 
     Examples
     --------
-    slugify('Hello World')
+    a = slugify('Hello World')
     """
     value = str(value)
     if allow_unicode:

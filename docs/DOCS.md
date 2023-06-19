@@ -313,7 +313,7 @@ Returns
 Examples
 
 ```python
-    slugify('Hello World')
+    a = slugify('Hello World')
 ```
 
 References
