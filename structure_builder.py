@@ -85,30 +85,6 @@ for file in sorted(os.listdir("instructions")):
 
         output += f.read() + "\n\n"
 
-# Replace <project_name> with the project name
-output = output.replace("<project_name>", project_name)
-# Replace <conda_file> with the conda file
-output = output.replace("<conda_file>", conda_file)
-# Replace <conda_install_link> with the conda install link
-output = output.replace("<conda_install_link>", conda_install_link)
-# Replace <project_dir> with the project directory
-output = output.replace("<project_dir>", project_dir)
-# Replace <requirements_file> with the requirements file
-output = output.replace("<requirements_file>", requirements_file)
-# Replace <conda_requirements_file> with the conda requirements file
-output = output.replace("<conda_requirements_file>", conda_requirements_file)
-# Replace <conda_forge_requirements_file> with the conda forge requirements file
-output = output.replace("<conda_forge_requirements_file>", conda_forge_requirements_file)
-# Replace <apt_get_str> with the apt-get string
-output = output.replace("<apt_get_str>", apt_get_str)
-# Replace <service_path> with the service path
-output = output.replace("<service_path>", service_path)
-# Replace <service_moved_path> with the service moved path
-output = output.replace("<service_moved_path>", service_moved_path)
-# Replace <service_name> with the service name
-output = output.replace("<service_name>", service_name)
-
-
 if output_instructions:
 
     def format_for_readme(text, document_path=""):
@@ -405,5 +381,28 @@ output = "\n".join([s for s in output.splitlines() if s.strip() != ""])
 
 # Color the lines (like === and ---) red
 output = re.sub(r"^(=+)$", r"\033[91m\1\033[0m", output, flags=re.MULTILINE)
+
+# Replace <project_name> with the project name
+output = output.replace("<project_name>", project_name)
+# Replace <conda_file> with the conda file
+output = output.replace("<conda_file>", conda_file)
+# Replace <conda_install_link> with the conda install link
+output = output.replace("<conda_install_link>", conda_install_link)
+# Replace <project_dir> with the project directory
+output = output.replace("<project_dir>", project_dir)
+# Replace <requirements_file> with the requirements file
+output = output.replace("<requirements_file>", requirements_file)
+# Replace <conda_requirements_file> with the conda requirements file
+output = output.replace("<conda_requirements_file>", conda_requirements_file)
+# Replace <conda_forge_requirements_file> with the conda forge requirements file
+output = output.replace("<conda_forge_requirements_file>", conda_forge_requirements_file)
+# Replace <apt_get_str> with the apt-get string
+output = output.replace("<apt_get_str>", apt_get_str)
+# Replace <service_path> with the service path
+output = output.replace("<service_path>", service_path)
+# Replace <service_moved_path> with the service moved path
+output = output.replace("<service_moved_path>", service_moved_path)
+# Replace <service_name> with the service name
+output = output.replace("<service_name>", service_name)
 
 print(output)
