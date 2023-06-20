@@ -440,8 +440,8 @@ if output_instructions:
 
                         file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
 
-
-                        other_docs += f"\n\n### [{name}](/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}) ###\n\n"
+                        file_documentation = f"/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}"
+                        writing_header = f"\n\n### [{name}]({file_documentation}) ###\n\n"
 
                         documents = get_class_documentation(i + 1)
 
@@ -475,7 +475,7 @@ if output_instructions:
                                 new_documentation += "```python\n" + section_combined + "\n```\n\n"
 
                         # Add dropdown to other_docs with the documentation
-                        other_docs += f"\n<details>\n<summary>\n\n##### Documentation For {name}\n\n</summary>\n\n{new_documentation}\n\n</details>\n\n"
+                        other_docs += f"\n<details>\n<summary>\n\n{writing_header}\n\n</summary>\n\n{new_documentation}\n\n</details>\n\n"
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
                         # Add small github divider
