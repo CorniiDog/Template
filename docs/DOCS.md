@@ -6,19 +6,19 @@ This is the documentation for the project Template.
 
 ## INSTRUCTIONS.md ##
 
-[HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#how-to-remove-conda-environment)
+[5. HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#5.-how-to-install-service)
 
-[HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#how-to-install-requirements)
+[1. HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#1.-how-to-install-anaconda)
 
-[HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#how-to-uninstall-service)
+[4. HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#4.-how-to-install-requirements)
 
-[HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY](/docs/INSTRUCTIONS.md#how-to-connect-interpreter-to-jetbrains-gateway)
+[A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a.-how-to-remove-conda-environment)
 
-[HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#how-to-create-conda-environment)
+[3. HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY](/docs/INSTRUCTIONS.md#3.-how-to-connect-interpreter-to-jetbrains-gateway)
 
-[HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#how-to-install-service)
+[2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2.-how-to-create-conda-environment)
 
-[HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#how-to-install-anaconda)
+[B.HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b.how-to-uninstall-service)
 
 # API #
 
