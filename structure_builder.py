@@ -534,7 +534,7 @@ if output_instructions:
                     if found:
 
                         # Provide link to md file
-                        documentation += f"<details><summary>## Documentation For [{file_path}](/{file_document_path}) ##</summary><br>\n\n {other_docs}\n\n </details>\n\n"
+                        documentation += f"<details><summary>\n## Documentation For [{file_path}](/{file_document_path}) ##\n</summary>\n{other_docs}\n </details>\n\n"
 
                         #Provide The documentation for the file
                         documentation += other_docs
