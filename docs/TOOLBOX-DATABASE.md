@@ -4,7 +4,7 @@ Import Statement: `from toolbox import database`
 
 Alternative Import Statement: `from toolbox.database import *`
 
-# functionslugify #
+# function slugify #
 
 ### [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) ###
 
@@ -43,7 +43,7 @@ References
     https://github.com/django/django/blob/master/django/utils/text.py
 ```
 
-# functionget #
+# function get #
 
 ### [def get(name: str) -> object | None:](./../toolbox/database.py#L43) ###
 
@@ -79,7 +79,7 @@ References
     No Links
 ```
 
-# functionsave #
+# function save #
 
 ### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) ###
 
@@ -119,7 +119,7 @@ References
     No Links
 ```
 
-# functiondelete_database #
+# function delete_database #
 
 ### [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) ###
 
@@ -159,7 +159,7 @@ References
     No Links
 ```
 
-# functionsave_key #
+# function save_key #
 
 ### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) ###
 
@@ -199,7 +199,7 @@ References
     https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
 ```
 
-# functionload_key #
+# function load_key #
 
 ### [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) ###
 

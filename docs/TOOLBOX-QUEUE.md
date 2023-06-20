@@ -4,7 +4,7 @@ Import Statement: `from toolbox import queue`
 
 Alternative Import Statement: `from toolbox.queue import *`
 
-# classQueue #
+# class Queue #
 
 ### [class Queue:](./../toolbox/queue.py#L2) ###
 
@@ -31,7 +31,7 @@ References
     https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 ```
 
-# functionQueue.__init__ #
+# function Queue.__init__ #
 
 ### [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) ###
 
@@ -57,7 +57,7 @@ Examples
         print(a)
 ```
 
-# functionQueue.enqueue #
+# function Queue.enqueue #
 
 ### [def enqueue(self, item):](./../toolbox/queue.py#L61) ###
 
@@ -84,7 +84,7 @@ Examples
         print(queue)
 ```
 
-# functionQueue.dequeue #
+# function Queue.dequeue #
 
 ### [def dequeue(self):](./../toolbox/queue.py#L90) ###
 
@@ -114,7 +114,7 @@ Examples
         print(a)
 ```
 
-# functionQueue.size #
+# function Queue.size #
 
 ### [def size(self) -> int:](./../toolbox/queue.py#L118) ###
 
@@ -143,7 +143,7 @@ Examples
         print(queue.size())
 ```
 
-# functionQueue.is_empty #
+# function Queue.is_empty #
 
 ### [def is_empty(self) -> bool:](./../toolbox/queue.py#L146) ###
 
@@ -171,7 +171,7 @@ Examples
         print(queue.is_empty())
 ```
 
-# functionQueue.peek #
+# function Queue.peek #
 
 ### [def peek(self):](./../toolbox/queue.py#L173) ###
 
@@ -201,7 +201,7 @@ Examples
         print(a)
 ```
 
-# functionQueue.get_list #
+# function Queue.get_list #
 
 ### [def get_list(self):](./../toolbox/queue.py#L201) ###
 
@@ -231,7 +231,7 @@ Examples
         print(a)
 ```
 
-# functionQueue.__len__ #
+# function Queue.__len__ #
 
 ### [def __len__(self):](./../toolbox/queue.py#L230) ###
 
@@ -259,7 +259,7 @@ Examples
         print(len(queue))
 ```
 
-# functionQueue.copy #
+# function Queue.copy #
 
 ### [def copy(self):](./../toolbox/queue.py#L256) ###
 
@@ -289,7 +289,7 @@ Examples
         print(new_queue)
 ```
 
-# functionQueue.__copy__ #
+# function Queue.__copy__ #
 
 ### [def __copy__(self):](./../toolbox/queue.py#L288) ###
 
@@ -319,7 +319,7 @@ Examples
         print(new_queue)
 ```
 
-# functionQueue.__eq__ #
+# function Queue.__eq__ #
 
 ### [def __eq__(self, other):](./../toolbox/queue.py#L317) ###
 
@@ -345,7 +345,7 @@ Examples
         print(queue == other)
 ```
 
-# functionQueue.__ne__ #
+# function Queue.__ne__ #
 
 ### [def __ne__(self, other):](./../toolbox/queue.py#L348) ###
 
@@ -371,7 +371,7 @@ Examples
         print(queue != other)
 ```
 
-# functionQueue.__getitem__ #
+# function Queue.__getitem__ #
 
 ### [def __getitem__(self, index):](./../toolbox/queue.py#L373) ###
 
@@ -396,7 +396,7 @@ Examples
         print(queue[2])
 ```
 
-# functionQueue.__setitem__ #
+# function Queue.__setitem__ #
 
 ### [def __setitem__(self, index, value):](./../toolbox/queue.py#L397) ###
 
@@ -421,7 +421,7 @@ Examples
         print(queue)
 ```
 
-# functionQueue.__delitem__ #
+# function Queue.__delitem__ #
 
 ### [def __delitem__(self, index):](./../toolbox/queue.py#L423) ###
 
@@ -446,7 +446,7 @@ Examples
         print(queue)
 ```
 
-# functionQueue.__iter__ #
+# function Queue.__iter__ #
 
 ### [def __iter__(self):](./../toolbox/queue.py#L447) ###
 
@@ -472,7 +472,7 @@ Examples
             print(item)
 ```
 
-# functionQueue.__reversed__ #
+# function Queue.__reversed__ #
 
 ### [def __reversed__(self):](./../toolbox/queue.py#L471) ###
 
@@ -498,7 +498,7 @@ Examples
             print(item)
 ```
 
-# functionQueue.__contains__ #
+# function Queue.__contains__ #
 
 ### [def __contains__(self, item):](./../toolbox/queue.py#L495) ###
 
@@ -523,7 +523,7 @@ Examples
         print(1 in queue)
 ```
 
-# functionQueue.__add__ #
+# function Queue.__add__ #
 
 ### [def __add__(self, other):](./../toolbox/queue.py#L519) ###
 
@@ -550,7 +550,7 @@ Examples
         print(new_queue)
 ```
 
-# functionQueue.__iadd__ #
+# function Queue.__iadd__ #
 
 ### [def __iadd__(self, other):](./../toolbox/queue.py#L550) ###
 
@@ -577,7 +577,7 @@ Examples
         print(queue)
 ```
 
-# functionQueue.__mul__ #
+# function Queue.__mul__ #
 
 ### [def __mul__(self, other):](./../toolbox/queue.py#L578) ###
 
@@ -603,7 +603,7 @@ Examples
         print(new_queue)
 ```
 
-# functionQueue.__imul__ #
+# function Queue.__imul__ #
 
 ### [def __imul__(self, other):](./../toolbox/queue.py#L607) ###
 
@@ -629,7 +629,7 @@ Examples
         print(queue)
 ```
 
-# functionQueue.__str__ #
+# function Queue.__str__ #
 
 ### [def __str__(self):](./../toolbox/queue.py#L636) ###
 
