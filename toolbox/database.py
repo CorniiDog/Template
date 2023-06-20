@@ -40,7 +40,7 @@ def slugify(value, allow_unicode=False):
     return re.sub(r'[-\s]+', '-', value).strip('-_')
 
 
-def get(name: str) -> object | None:
+def get(name: str) -> object:
     """
     Parameters
     ----------
@@ -106,7 +106,7 @@ def save(name: str, data: any) -> None:
         pickle.dump(data, f)
 
 
-def delete_database(name: str) -> object | None:
+def delete_database(name: str) -> object:
     """
     Parameters
     ----------
@@ -191,7 +191,7 @@ def save_key(platform: str, key: str, override: bool = False) -> None:
 
 
 
-def load_key(platform: str) -> str | None:
+def load_key(platform: str) -> str:
     """
         Parameters
         ----------
@@ -225,7 +225,7 @@ def load_key(platform: str) -> str | None:
     platform_file = os.path.join(keys_dir, f"{platform}.key")
 
     if not os.path.exists(platform_file):
-        return None
+        return "None"
 
     with open(platform_file, 'r') as f:
         return f.read()

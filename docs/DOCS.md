@@ -1430,7 +1430,7 @@ References
 
 </summary>
 
-[def get(name: str) -> object | None:](./../toolbox/database.py#L43) 
+[def get(name: str) -> object:](./../toolbox/database.py#L43) 
 
 Notes
 
@@ -1534,7 +1534,7 @@ References
 
 </summary>
 
-[def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) 
+[def delete_database(name: str) -> object:](./../toolbox/database.py#L109) 
 
 Notes
 
@@ -1642,7 +1642,7 @@ References
 
 </summary>
 
-[def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) 
+[def load_key(platform: str) -> str:](./../toolbox/database.py#L194) 
 
 Notes
 

@@ -3,11 +3,11 @@
 # KEYWORDS #
 - *<project_name>* is the name of the project. Replace <project_name> with the name of the project (ex. {project_name}).
 
-- *<project_dir>* is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. /Users/connor/Desktop/Template).
+- *<project_dir>* is the path to the project directory. Replace <project_dir> with the path to the project directory (ex. /home/connor/Template).
 
 - *<service_name>* is the name of the service. Replace <service_name> with the name of the service (ex. Template.service).
 
-- *<service_path>* is the path to the service file. Replace <service_path> with the path to the service file (ex. /Users/connor/Desktop/Template/storage/Template.service).
+- *<service_path>* is the path to the service file. Replace <service_path> with the path to the service file (ex. /home/connor/Template/storage/Template.service).
 
 - *<service_moved_path>* is the path to the service file after it has been moved. Replace <service_moved_path> with the path to the service file after it has been moved (ex. /etc/systemd/system/Template.service).
 
@@ -103,7 +103,7 @@ This is for installing python packages and conda packages.
 
 ### 1. CD into the project directory: ###
 
-    cd ~/Desktop/<project_name>
+    cd ~/<project_name>
 
 
 ### 2. Activate the conda environment: ###
@@ -132,7 +132,7 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 1. Run the following command to move the service file to the correct directory: ###
 
-    sudo mv ~/Desktop/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service
+    sudo mv ~/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service
 
 
 ### 2. Reload the daemon: ###
@@ -157,7 +157,7 @@ A service is a program that runs in the background. This is useful for running a
 
 ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
 
-sudo mv ~/Desktop/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service && sudo systemctl daemon-reload && sudo systemctl enable <project_name>.service && sudo systemctl restart <project_name>.service && sudo systemctl status <project_name>.service
+sudo mv ~/<project_name>/storage/<project_name>.service /etc/systemd/system/<project_name>.service && sudo systemctl daemon-reload && sudo systemctl enable <project_name>.service && sudo systemctl restart <project_name>.service && sudo systemctl status <project_name>.service
 
 
 
