@@ -78,13 +78,12 @@ documentation = ""
 
 # Iterate through instructions folder
 for file in sorted(os.listdir("instructions")):
-    if file.endswith(".txt"):
-        with open(f"instructions/{file}", "r") as f:
-            output += "=" * 10 + "\n\n"
+    with open(f"instructions/{file}", "r") as f:
+        output += "=" * 10 + "\n\n"
 
-            output += "-=[" + file.replace(".txt", "").replace("_", " ").upper() + "]=-\n\n"
+        output += "-=[" + file.replace(".txt", "").replace("_", " ").upper() + "]=-\n\n"
 
-            output += f.read() + "\n\n"
+        output += f.read() + "\n\n"
 
 # Replace <project_name> with the project name
 output = output.replace("<project_name>", project_name)

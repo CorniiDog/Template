@@ -6,6 +6,8 @@ This is the documentation for the project Template.
 
 ## INSTRUCTIONS.md ##
 
+[0. HOW TO USE THIS TEMPLATE](/docs/INSTRUCTIONS.md#0.-how-to-use-this-template)
+
 [1. HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#1.-how-to-install-anaconda)
 
 [2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2.-how-to-create-conda-environment)
