@@ -217,8 +217,8 @@ additional_instructions = """
 3. CD into the project directory and remove the git repository:
     cd <project_name> && rm -rf .git
 
-4. Run setup.py for next steps:
-    python3 setup.py
+4. Run structure_builder.py for next steps:
+    python3 structure_builder.py
 
 """
 

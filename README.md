@@ -25,9 +25,9 @@ This is a template for my Python projects. It is a work in progress.
     cd <project_name> && rm -rf .git
 
 
-### 4. Run setup.py for next steps: ###
+### 4. Run structure_builder.py for next steps: ###
 
-    python3 setup.py
+    python3 structure_builder.py
 
 
 
