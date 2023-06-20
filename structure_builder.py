@@ -475,7 +475,7 @@ if output_instructions:
                                 new_documentation += "```python\n" + section_combined + "\n```\n\n"
 
                         # Add dropdown to other_docs with the documentation
-                        other_docs += f"\n<details>\n\n<summary>Documentation For {name}\n\n</summary><br>{new_documentation}\n\n</details>\n\n"
+                        other_docs += f"\n<details>\n\n<summary>\n\nDocumentation For {name}\n\n</summary><br>{new_documentation}\n\n</details>\n\n"
                         other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
 
                         # Add small github divider
