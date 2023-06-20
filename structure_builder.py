@@ -240,6 +240,7 @@ for key in keys:
         output = output.replace(search_item, info.data[key])
 # Remove blank lines from output
 output = "\n".join([s for s in output.splitlines() if s.strip() != ""])
-# Color the lines (like === and ---) red
+# Color the lines (like === and ---) and numbers like 1. 2. 3. etc. red
 output = re.sub(r"^(=+)$", r"\033[91m\1\033[0m", output, flags=re.MULTILINE)
+
 print(output)
