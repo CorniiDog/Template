@@ -4,7 +4,7 @@ Import Statement: `import main`
 
 Alternative Import Statement: `from main import *`
 
-# Test #
+# classTest #
 
 ### [class Test:](./../main.py#L4) ###
 
@@ -28,7 +28,7 @@ References
     No Links
 ```
 
-# Test.Test_Contact #
+# classTest.Test_Contact #
 
 ### [class Test_Contact:](./../main.py#L20) ###
 
@@ -51,7 +51,7 @@ References
         No Links
 ```
 
-# Test.Test_Contact.__init__ #
+# functionTest.Test_Contact.__init__ #
 
 ### [def __init__(self, phone: str, address: int):](./../main.py#L36) ###
 
@@ -89,7 +89,7 @@ References
             No Links
 ```
 
-# Test.Test_Contact.__str__ #
+# functionTest.Test_Contact.__str__ #
 
 ### [def __str__(self):](./../main.py#L63) ###
 
@@ -125,7 +125,7 @@ References
             No Links
 ```
 
-# Test.__init__ #
+# functionTest.__init__ #
 
 ### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) ###
 
@@ -163,7 +163,7 @@ References
         No Links
 ```
 
-# Test.__str__ #
+# functionTest.__str__ #
 
 ### [def __str__(self):](./../main.py#L119) ###
 
@@ -199,7 +199,7 @@ References
         No Links
 ```
 
-# print_hi #
+# functionprint_hi #
 
 ### [def print_hi(name: str) -> None:](./../main.py#L146) ###
 

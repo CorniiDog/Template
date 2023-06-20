@@ -432,7 +432,7 @@ if output_instructions:
                     def document_data(i, name, line, other_docs, parent_string="", obj_type="function"):
                         name = parent_string + name
 
-                        file2.write(f"# {name} #\n\n")
+                        file2.write(f"# {obj_type + name} #\n\n")
 
 
                         class_declaration = line
