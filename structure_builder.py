@@ -411,6 +411,10 @@ if output_instructions:
                                 return get_function_documentation(k + 1, offset=offset + 1)
 
                     def get_class_documentation(k, offset=0):
+
+                        if len(lines) <= k:
+                            return ""
+
                         if lines[k].strip().startswith("class "):
                             return ""
 
