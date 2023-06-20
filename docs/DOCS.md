@@ -29,9 +29,8 @@ This is the documentation for the project Template.
 
 ## Documentation For [main.py](/docs/MAIN.md) ##
 
-</summary>
+</summary><br>### [Test](/docs/MAIN.md#test) ###
 
-### [Test](/docs/MAIN.md#test) ###
 
 <details><summary>Documentation For Test</summary><br>Notes
 
@@ -61,6 +60,7 @@ References
 
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
+
 <details><summary>Documentation For Test.Test_Contact</summary><br>Notes
 
 ```python
@@ -87,6 +87,7 @@ References
 <p align="center">_</p>
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
+
 
 <details><summary>Documentation For Test.Test_Contact.__init__</summary><br>Notes
 
@@ -130,6 +131,7 @@ References
 
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
+
 <details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
 
 ```python
@@ -169,6 +171,7 @@ References
 <p align="center">_</p>
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
+
 
 <details><summary>Documentation For Test.__init__</summary><br>Notes
 
@@ -212,6 +215,7 @@ References
 
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
+
 <details><summary>Documentation For Test.__str__</summary><br>Notes
 
 ```python
@@ -251,6 +255,7 @@ References
 <p align="center">_</p>
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
+
 
 <details><summary>Documentation For print_hi</summary><br>Notes
 
@@ -290,11 +295,10 @@ References
 
 <p align="center">_</p>
 
-
-
-</details>
+<br></details>
 
 ### [Test](/docs/MAIN.md#test) ###
+
 
 <details><summary>Documentation For Test</summary><br>Notes
 
@@ -324,6 +328,7 @@ References
 
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
+
 <details><summary>Documentation For Test.Test_Contact</summary><br>Notes
 
 ```python
@@ -350,6 +355,7 @@ References
 <p align="center">_</p>
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
+
 
 <details><summary>Documentation For Test.Test_Contact.__init__</summary><br>Notes
 
@@ -393,6 +399,7 @@ References
 
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
+
 <details><summary>Documentation For Test.Test_Contact.__str__</summary><br>Notes
 
 ```python
@@ -432,6 +439,7 @@ References
 <p align="center">_</p>
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
+
 
 <details><summary>Documentation For Test.__init__</summary><br>Notes
 
@@ -475,6 +483,7 @@ References
 
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
+
 <details><summary>Documentation For Test.__str__</summary><br>Notes
 
 ```python
@@ -514,6 +523,7 @@ References
 <p align="center">_</p>
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
+
 
 <details><summary>Documentation For print_hi</summary><br>Notes
 
@@ -560,9 +570,8 @@ References
 
 ## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
 
-</summary>
+</summary><br>### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
-### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
 <details><summary>Documentation For Queue</summary><br>Notes
 
@@ -595,6 +604,7 @@ References
 
 ### [Queue.__init__](/docs/TOOLBOX-QUEUE.md#queue__init__) ###
 
+
 <details><summary>Documentation For Queue.__init__</summary><br>Notes
 
 ```python
@@ -624,6 +634,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.enqueue](/docs/TOOLBOX-QUEUE.md#queueenqueue) ###
+
 
 <details><summary>Documentation For Queue.enqueue</summary><br>Notes
 
@@ -655,6 +666,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.dequeue](/docs/TOOLBOX-QUEUE.md#queuedequeue) ###
+
 
 <details><summary>Documentation For Queue.dequeue</summary><br>Notes
 
@@ -690,6 +702,7 @@ Examples
 
 ### [Queue.size](/docs/TOOLBOX-QUEUE.md#queuesize) ###
 
+
 <details><summary>Documentation For Queue.size</summary><br>Notes
 
 ```python
@@ -723,6 +736,7 @@ Examples
 
 ### [Queue.is_empty](/docs/TOOLBOX-QUEUE.md#queueis_empty) ###
 
+
 <details><summary>Documentation For Queue.is_empty</summary><br>Notes
 
 ```python
@@ -754,6 +768,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.peek](/docs/TOOLBOX-QUEUE.md#queuepeek) ###
+
 
 <details><summary>Documentation For Queue.peek</summary><br>Notes
 
@@ -789,6 +804,7 @@ Examples
 
 ### [Queue.get_list](/docs/TOOLBOX-QUEUE.md#queueget_list) ###
 
+
 <details><summary>Documentation For Queue.get_list</summary><br>Notes
 
 ```python
@@ -823,6 +839,7 @@ Examples
 
 ### [Queue.__len__](/docs/TOOLBOX-QUEUE.md#queue__len__) ###
 
+
 <details><summary>Documentation For Queue.__len__</summary><br>Notes
 
 ```python
@@ -854,6 +871,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.copy](/docs/TOOLBOX-QUEUE.md#queuecopy) ###
+
 
 <details><summary>Documentation For Queue.copy</summary><br>Notes
 
@@ -889,6 +907,7 @@ Examples
 
 ### [Queue.__copy__](/docs/TOOLBOX-QUEUE.md#queue__copy__) ###
 
+
 <details><summary>Documentation For Queue.__copy__</summary><br>Notes
 
 ```python
@@ -923,6 +942,7 @@ Examples
 
 ### [Queue.__eq__](/docs/TOOLBOX-QUEUE.md#queue__eq__) ###
 
+
 <details><summary>Documentation For Queue.__eq__</summary><br>Notes
 
 ```python
@@ -952,6 +972,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__ne__](/docs/TOOLBOX-QUEUE.md#queue__ne__) ###
+
 
 <details><summary>Documentation For Queue.__ne__</summary><br>Notes
 
@@ -983,6 +1004,7 @@ Examples
 
 ### [Queue.__getitem__](/docs/TOOLBOX-QUEUE.md#queue__getitem__) ###
 
+
 <details><summary>Documentation For Queue.__getitem__</summary><br>Notes
 
 ```python
@@ -1011,6 +1033,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__setitem__](/docs/TOOLBOX-QUEUE.md#queue__setitem__) ###
+
 
 <details><summary>Documentation For Queue.__setitem__</summary><br>Notes
 
@@ -1041,6 +1064,7 @@ Examples
 
 ### [Queue.__delitem__](/docs/TOOLBOX-QUEUE.md#queue__delitem__) ###
 
+
 <details><summary>Documentation For Queue.__delitem__</summary><br>Notes
 
 ```python
@@ -1069,6 +1093,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__iter__](/docs/TOOLBOX-QUEUE.md#queue__iter__) ###
+
 
 <details><summary>Documentation For Queue.__iter__</summary><br>Notes
 
@@ -1100,6 +1125,7 @@ Examples
 
 ### [Queue.__reversed__](/docs/TOOLBOX-QUEUE.md#queue__reversed__) ###
 
+
 <details><summary>Documentation For Queue.__reversed__</summary><br>Notes
 
 ```python
@@ -1130,6 +1156,7 @@ Examples
 
 ### [Queue.__contains__](/docs/TOOLBOX-QUEUE.md#queue__contains__) ###
 
+
 <details><summary>Documentation For Queue.__contains__</summary><br>Notes
 
 ```python
@@ -1158,6 +1185,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__add__](/docs/TOOLBOX-QUEUE.md#queue__add__) ###
+
 
 <details><summary>Documentation For Queue.__add__</summary><br>Notes
 
@@ -1190,6 +1218,7 @@ Examples
 
 ### [Queue.__iadd__](/docs/TOOLBOX-QUEUE.md#queue__iadd__) ###
 
+
 <details><summary>Documentation For Queue.__iadd__</summary><br>Notes
 
 ```python
@@ -1221,6 +1250,7 @@ Examples
 
 ### [Queue.__mul__](/docs/TOOLBOX-QUEUE.md#queue__mul__) ###
 
+
 <details><summary>Documentation For Queue.__mul__</summary><br>Notes
 
 ```python
@@ -1251,6 +1281,7 @@ Examples
 
 ### [Queue.__imul__](/docs/TOOLBOX-QUEUE.md#queue__imul__) ###
 
+
 <details><summary>Documentation For Queue.__imul__</summary><br>Notes
 
 ```python
@@ -1280,6 +1311,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__str__](/docs/TOOLBOX-QUEUE.md#queue__str__) ###
+
 
 <details><summary>Documentation For Queue.__str__</summary><br>Notes
 
@@ -1308,11 +1340,10 @@ Examples
 
 <p align="center">_</p>
 
-
-
-</details>
+<br></details>
 
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
+
 
 <details><summary>Documentation For Queue</summary><br>Notes
 
@@ -1345,6 +1376,7 @@ References
 
 ### [Queue.__init__](/docs/TOOLBOX-QUEUE.md#queue__init__) ###
 
+
 <details><summary>Documentation For Queue.__init__</summary><br>Notes
 
 ```python
@@ -1374,6 +1406,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.enqueue](/docs/TOOLBOX-QUEUE.md#queueenqueue) ###
+
 
 <details><summary>Documentation For Queue.enqueue</summary><br>Notes
 
@@ -1405,6 +1438,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.dequeue](/docs/TOOLBOX-QUEUE.md#queuedequeue) ###
+
 
 <details><summary>Documentation For Queue.dequeue</summary><br>Notes
 
@@ -1440,6 +1474,7 @@ Examples
 
 ### [Queue.size](/docs/TOOLBOX-QUEUE.md#queuesize) ###
 
+
 <details><summary>Documentation For Queue.size</summary><br>Notes
 
 ```python
@@ -1473,6 +1508,7 @@ Examples
 
 ### [Queue.is_empty](/docs/TOOLBOX-QUEUE.md#queueis_empty) ###
 
+
 <details><summary>Documentation For Queue.is_empty</summary><br>Notes
 
 ```python
@@ -1504,6 +1540,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.peek](/docs/TOOLBOX-QUEUE.md#queuepeek) ###
+
 
 <details><summary>Documentation For Queue.peek</summary><br>Notes
 
@@ -1539,6 +1576,7 @@ Examples
 
 ### [Queue.get_list](/docs/TOOLBOX-QUEUE.md#queueget_list) ###
 
+
 <details><summary>Documentation For Queue.get_list</summary><br>Notes
 
 ```python
@@ -1573,6 +1611,7 @@ Examples
 
 ### [Queue.__len__](/docs/TOOLBOX-QUEUE.md#queue__len__) ###
 
+
 <details><summary>Documentation For Queue.__len__</summary><br>Notes
 
 ```python
@@ -1604,6 +1643,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.copy](/docs/TOOLBOX-QUEUE.md#queuecopy) ###
+
 
 <details><summary>Documentation For Queue.copy</summary><br>Notes
 
@@ -1639,6 +1679,7 @@ Examples
 
 ### [Queue.__copy__](/docs/TOOLBOX-QUEUE.md#queue__copy__) ###
 
+
 <details><summary>Documentation For Queue.__copy__</summary><br>Notes
 
 ```python
@@ -1673,6 +1714,7 @@ Examples
 
 ### [Queue.__eq__](/docs/TOOLBOX-QUEUE.md#queue__eq__) ###
 
+
 <details><summary>Documentation For Queue.__eq__</summary><br>Notes
 
 ```python
@@ -1702,6 +1744,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__ne__](/docs/TOOLBOX-QUEUE.md#queue__ne__) ###
+
 
 <details><summary>Documentation For Queue.__ne__</summary><br>Notes
 
@@ -1733,6 +1776,7 @@ Examples
 
 ### [Queue.__getitem__](/docs/TOOLBOX-QUEUE.md#queue__getitem__) ###
 
+
 <details><summary>Documentation For Queue.__getitem__</summary><br>Notes
 
 ```python
@@ -1761,6 +1805,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__setitem__](/docs/TOOLBOX-QUEUE.md#queue__setitem__) ###
+
 
 <details><summary>Documentation For Queue.__setitem__</summary><br>Notes
 
@@ -1791,6 +1836,7 @@ Examples
 
 ### [Queue.__delitem__](/docs/TOOLBOX-QUEUE.md#queue__delitem__) ###
 
+
 <details><summary>Documentation For Queue.__delitem__</summary><br>Notes
 
 ```python
@@ -1819,6 +1865,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__iter__](/docs/TOOLBOX-QUEUE.md#queue__iter__) ###
+
 
 <details><summary>Documentation For Queue.__iter__</summary><br>Notes
 
@@ -1850,6 +1897,7 @@ Examples
 
 ### [Queue.__reversed__](/docs/TOOLBOX-QUEUE.md#queue__reversed__) ###
 
+
 <details><summary>Documentation For Queue.__reversed__</summary><br>Notes
 
 ```python
@@ -1880,6 +1928,7 @@ Examples
 
 ### [Queue.__contains__](/docs/TOOLBOX-QUEUE.md#queue__contains__) ###
 
+
 <details><summary>Documentation For Queue.__contains__</summary><br>Notes
 
 ```python
@@ -1908,6 +1957,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__add__](/docs/TOOLBOX-QUEUE.md#queue__add__) ###
+
 
 <details><summary>Documentation For Queue.__add__</summary><br>Notes
 
@@ -1940,6 +1990,7 @@ Examples
 
 ### [Queue.__iadd__](/docs/TOOLBOX-QUEUE.md#queue__iadd__) ###
 
+
 <details><summary>Documentation For Queue.__iadd__</summary><br>Notes
 
 ```python
@@ -1971,6 +2022,7 @@ Examples
 
 ### [Queue.__mul__](/docs/TOOLBOX-QUEUE.md#queue__mul__) ###
 
+
 <details><summary>Documentation For Queue.__mul__</summary><br>Notes
 
 ```python
@@ -2001,6 +2053,7 @@ Examples
 
 ### [Queue.__imul__](/docs/TOOLBOX-QUEUE.md#queue__imul__) ###
 
+
 <details><summary>Documentation For Queue.__imul__</summary><br>Notes
 
 ```python
@@ -2030,6 +2083,7 @@ Examples
 <p align="center">_</p>
 
 ### [Queue.__str__](/docs/TOOLBOX-QUEUE.md#queue__str__) ###
+
 
 <details><summary>Documentation For Queue.__str__</summary><br>Notes
 
@@ -2065,9 +2119,8 @@ Examples
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
-</summary>
+</summary><br>### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
-### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
 <details><summary>Documentation For slugify</summary><br>Notes
 
@@ -2112,6 +2165,7 @@ References
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
+
 <details><summary>Documentation For get</summary><br>Notes
 
 ```python
@@ -2151,6 +2205,7 @@ References
 <p align="center">_</p>
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+
 
 <details><summary>Documentation For save</summary><br>Notes
 
@@ -2196,6 +2251,7 @@ References
 
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
+
 <details><summary>Documentation For delete_database</summary><br>Notes
 
 ```python
@@ -2240,6 +2296,7 @@ References
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
+
 <details><summary>Documentation For save_key</summary><br>Notes
 
 ```python
@@ -2283,6 +2340,7 @@ References
 <p align="center">_</p>
 
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+
 
 <details><summary>Documentation For load_key</summary><br>Notes
 
@@ -2322,11 +2380,10 @@ References
 
 <p align="center">_</p>
 
-
-
-</details>
+<br></details>
 
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
+
 
 <details><summary>Documentation For slugify</summary><br>Notes
 
@@ -2371,6 +2428,7 @@ References
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
+
 <details><summary>Documentation For get</summary><br>Notes
 
 ```python
@@ -2410,6 +2468,7 @@ References
 <p align="center">_</p>
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
+
 
 <details><summary>Documentation For save</summary><br>Notes
 
@@ -2455,6 +2514,7 @@ References
 
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
+
 <details><summary>Documentation For delete_database</summary><br>Notes
 
 ```python
@@ -2499,6 +2559,7 @@ References
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
+
 <details><summary>Documentation For save_key</summary><br>Notes
 
 ```python
@@ -2542,6 +2603,7 @@ References
 <p align="center">_</p>
 
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
+
 
 <details><summary>Documentation For load_key</summary><br>Notes
 
