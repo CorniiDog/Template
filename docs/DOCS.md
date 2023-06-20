@@ -24,17 +24,25 @@ This is the documentation for the project Template.
 
 
 <details>
-
 <summary>
 
-## Documentation For [main.py](/docs/MAIN.md) ##
+## Documentation For [main.py](/docs/MAIN.md)
 
-</summary><br>
+</summary>
+
+
 
 ### [Test](/docs/MAIN.md#test) ###
 
 
-<details><br><summary><br>Documentation For Test<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test
+
+</summary>
+
+Notes
 
 ```python
     This is a test class, it is used to test the documentation generator
@@ -55,6 +63,7 @@ References
 ```
 
 
+
 </details>
 
 - [class Test:](./../main.py#L4) 
@@ -66,7 +75,14 @@ References
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 
-<details><br><summary><br>Documentation For Test.Test_Contact<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test.Test_Contact
+
+</summary>
+
+Notes
 
 ```python
         This is a test class, it is used to test the documentation generator
@@ -86,6 +102,7 @@ References
 ```
 
 
+
 </details>
 
 - [class Test_Contact:](./../main.py#L20) 
@@ -97,7 +114,14 @@ References
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
 
-<details><br><summary><br>Documentation For Test.Test_Contact.__init__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test.Test_Contact.__init__
+
+</summary>
+
+Notes
 
 ```python
             This function is called when the object is created
@@ -132,6 +156,7 @@ References
 ```
 
 
+
 </details>
 
 - [def __init__(self, phone: str, address: int):](./../main.py#L36) 
@@ -143,7 +168,14 @@ References
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 
-<details><br><summary><br>Documentation For Test.Test_Contact.__str__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test.Test_Contact.__str__
+
+</summary>
+
+Notes
 
 ```python
             This function is called when the object is printed
@@ -176,6 +208,7 @@ References
 ```
 
 
+
 </details>
 
 - [def __str__(self):](./../main.py#L63) 
@@ -187,7 +220,14 @@ References
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
 
-<details><br><summary><br>Documentation For Test.__init__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test.__init__
+
+</summary>
+
+Notes
 
 ```python
         This function is called when the object is created
@@ -222,6 +262,7 @@ References
 ```
 
 
+
 </details>
 
 - [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
@@ -233,7 +274,14 @@ References
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 
-<details><br><summary><br>Documentation For Test.__str__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Test.__str__
+
+</summary>
+
+Notes
 
 ```python
         This function is called when the object is printed
@@ -266,6 +314,7 @@ References
 ```
 
 
+
 </details>
 
 - [def __str__(self):](./../main.py#L119) 
@@ -277,7 +326,14 @@ References
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 
-<details><br><summary><br>Documentation For print_hi<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For print_hi
+
+</summary>
+
+Notes
 
 ```python
         ello
@@ -310,6 +366,7 @@ References
 ```
 
 
+
 </details>
 
 - [def print_hi(name: str) -> None:](./../main.py#L146) 
@@ -320,17 +377,25 @@ References
 
 
 <details>
-
 <summary>
 
-## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
+## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md)
 
-</summary><br>
+</summary>
+
+
 
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
 
-<details><br><summary><br>Documentation For Queue<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue
+
+</summary>
+
+Notes
 
 ```python
     A queue is a data structure that follows the First In First Out (FIFO) principle.
@@ -354,6 +419,7 @@ References
 ```
 
 
+
 </details>
 
 - [class Queue:](./../toolbox/queue.py#L2) 
@@ -365,7 +431,14 @@ References
 ### [Queue.__init__](/docs/TOOLBOX-QUEUE.md#queue__init__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__init__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__init__
+
+</summary>
+
+Notes
 
 ```python
         If the queue_list is not None, then the queue will be initialized with the list
@@ -388,6 +461,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) 
@@ -399,7 +473,14 @@ Examples
 ### [Queue.enqueue](/docs/TOOLBOX-QUEUE.md#queueenqueue) ###
 
 
-<details><br><summary><br>Documentation For Queue.enqueue<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.enqueue
+
+</summary>
+
+Notes
 
 ```python
         Adds the item to the end of the queue
@@ -423,6 +504,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def enqueue(self, item):](./../toolbox/queue.py#L61) 
@@ -434,7 +516,14 @@ Examples
 ### [Queue.dequeue](/docs/TOOLBOX-QUEUE.md#queuedequeue) ###
 
 
-<details><br><summary><br>Documentation For Queue.dequeue<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.dequeue
+
+</summary>
+
+Notes
 
 ```python
         Removes the first item from the queue
@@ -461,6 +550,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def dequeue(self):](./../toolbox/queue.py#L90) 
@@ -472,7 +562,14 @@ Examples
 ### [Queue.size](/docs/TOOLBOX-QUEUE.md#queuesize) ###
 
 
-<details><br><summary><br>Documentation For Queue.size<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.size
+
+</summary>
+
+Notes
 
 ```python
         Returns the size of the queue
@@ -498,6 +595,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def size(self) -> int:](./../toolbox/queue.py#L118) 
@@ -509,7 +607,14 @@ Examples
 ### [Queue.is_empty](/docs/TOOLBOX-QUEUE.md#queueis_empty) ###
 
 
-<details><br><summary><br>Documentation For Queue.is_empty<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.is_empty
+
+</summary>
+
+Notes
 
 ```python
         Returns True if the queue is empty, False otherwise
@@ -534,6 +639,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def is_empty(self) -> bool:](./../toolbox/queue.py#L146) 
@@ -545,7 +651,14 @@ Examples
 ### [Queue.peek](/docs/TOOLBOX-QUEUE.md#queuepeek) ###
 
 
-<details><br><summary><br>Documentation For Queue.peek<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.peek
+
+</summary>
+
+Notes
 
 ```python
         Returns the first item in the queue without removing it
@@ -572,6 +685,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def peek(self):](./../toolbox/queue.py#L173) 
@@ -583,7 +697,14 @@ Examples
 ### [Queue.get_list](/docs/TOOLBOX-QUEUE.md#queueget_list) ###
 
 
-<details><br><summary><br>Documentation For Queue.get_list<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.get_list
+
+</summary>
+
+Notes
 
 ```python
         Returns the list of items in the queue
@@ -610,6 +731,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def get_list(self):](./../toolbox/queue.py#L201) 
@@ -621,7 +743,14 @@ Examples
 ### [Queue.__len__](/docs/TOOLBOX-QUEUE.md#queue__len__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__len__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__len__
+
+</summary>
+
+Notes
 
 ```python
         Returns the size of the queue
@@ -646,6 +775,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __len__(self):](./../toolbox/queue.py#L230) 
@@ -657,7 +787,14 @@ Examples
 ### [Queue.copy](/docs/TOOLBOX-QUEUE.md#queuecopy) ###
 
 
-<details><br><summary><br>Documentation For Queue.copy<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.copy
+
+</summary>
+
+Notes
 
 ```python
         Returns a copy of the queue
@@ -682,6 +819,7 @@ Examples
         new_queue = queue.copy()
         print(new_queue)
 ```
+
 
 
 </details>
@@ -695,7 +833,14 @@ Examples
 ### [Queue.__copy__](/docs/TOOLBOX-QUEUE.md#queue__copy__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__copy__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__copy__
+
+</summary>
+
+Notes
 
 ```python
         Returns a copy of the queue
@@ -722,6 +867,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __copy__(self):](./../toolbox/queue.py#L288) 
@@ -733,7 +879,14 @@ Examples
 ### [Queue.__eq__](/docs/TOOLBOX-QUEUE.md#queue__eq__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__eq__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__eq__
+
+</summary>
+
+Notes
 
 ```python
         Returns True if the queues are equal, False otherwise
@@ -756,6 +909,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __eq__(self, other):](./../toolbox/queue.py#L317) 
@@ -767,7 +921,14 @@ Examples
 ### [Queue.__ne__](/docs/TOOLBOX-QUEUE.md#queue__ne__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__ne__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__ne__
+
+</summary>
+
+Notes
 
 ```python
         Returns True if the queues are not equal, False otherwise
@@ -790,6 +951,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __ne__(self, other):](./../toolbox/queue.py#L348) 
@@ -801,7 +963,14 @@ Examples
 ### [Queue.__getitem__](/docs/TOOLBOX-QUEUE.md#queue__getitem__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__getitem__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__getitem__
+
+</summary>
+
+Notes
 
 ```python
         Returns the item at the given index
@@ -823,6 +992,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __getitem__(self, index):](./../toolbox/queue.py#L373) 
@@ -834,7 +1004,14 @@ Examples
 ### [Queue.__setitem__](/docs/TOOLBOX-QUEUE.md#queue__setitem__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__setitem__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__setitem__
+
+</summary>
+
+Notes
 
 ```python
         Sets the item at the given index to the given value
@@ -856,6 +1033,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __setitem__(self, index, value):](./../toolbox/queue.py#L397) 
@@ -867,7 +1045,14 @@ Examples
 ### [Queue.__delitem__](/docs/TOOLBOX-QUEUE.md#queue__delitem__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__delitem__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__delitem__
+
+</summary>
+
+Notes
 
 ```python
         Deletes the item at the given index
@@ -889,6 +1074,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __delitem__(self, index):](./../toolbox/queue.py#L423) 
@@ -900,7 +1086,14 @@ Examples
 ### [Queue.__iter__](/docs/TOOLBOX-QUEUE.md#queue__iter__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__iter__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__iter__
+
+</summary>
+
+Notes
 
 ```python
         Returns an iterator for the queue
@@ -923,6 +1116,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __iter__(self):](./../toolbox/queue.py#L447) 
@@ -934,7 +1128,14 @@ Examples
 ### [Queue.__reversed__](/docs/TOOLBOX-QUEUE.md#queue__reversed__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__reversed__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__reversed__
+
+</summary>
+
+Notes
 
 ```python
         Returns an iterator for the queue in reverse order
@@ -957,6 +1158,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __reversed__(self):](./../toolbox/queue.py#L471) 
@@ -968,7 +1170,14 @@ Examples
 ### [Queue.__contains__](/docs/TOOLBOX-QUEUE.md#queue__contains__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__contains__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__contains__
+
+</summary>
+
+Notes
 
 ```python
         Returns True if the item is in the queue, False otherwise
@@ -990,6 +1199,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __contains__(self, item):](./../toolbox/queue.py#L495) 
@@ -1001,7 +1211,14 @@ Examples
 ### [Queue.__add__](/docs/TOOLBOX-QUEUE.md#queue__add__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__add__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__add__
+
+</summary>
+
+Notes
 
 ```python
         Returns a new queue with the items from both queues
@@ -1025,6 +1242,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __add__(self, other):](./../toolbox/queue.py#L519) 
@@ -1036,7 +1254,14 @@ Examples
 ### [Queue.__iadd__](/docs/TOOLBOX-QUEUE.md#queue__iadd__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__iadd__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__iadd__
+
+</summary>
+
+Notes
 
 ```python
         Returns this queue with the items from both queues
@@ -1060,6 +1285,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __iadd__(self, other):](./../toolbox/queue.py#L550) 
@@ -1071,7 +1297,14 @@ Examples
 ### [Queue.__mul__](/docs/TOOLBOX-QUEUE.md#queue__mul__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__mul__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__mul__
+
+</summary>
+
+Notes
 
 ```python
         Returns a new queue with the items from this queue repeated the given number of times
@@ -1094,6 +1327,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __mul__(self, other):](./../toolbox/queue.py#L578) 
@@ -1105,7 +1339,14 @@ Examples
 ### [Queue.__imul__](/docs/TOOLBOX-QUEUE.md#queue__imul__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__imul__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__imul__
+
+</summary>
+
+Notes
 
 ```python
         Returns this queue with the items from this queue repeated the given number of times
@@ -1128,6 +1369,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __imul__(self, other):](./../toolbox/queue.py#L607) 
@@ -1139,7 +1381,14 @@ Examples
 ### [Queue.__str__](/docs/TOOLBOX-QUEUE.md#queue__str__) ###
 
 
-<details><br><summary><br>Documentation For Queue.__str__<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For Queue.__str__
+
+</summary>
+
+Notes
 
 ```python
         Returns a string representation of the queue
@@ -1161,6 +1410,7 @@ Examples
 ```
 
 
+
 </details>
 
 - [def __str__(self):](./../toolbox/queue.py#L636) 
@@ -1171,17 +1421,25 @@ Examples
 
 
 <details>
-
 <summary>
 
-## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
+## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md)
 
-</summary><br>
+</summary>
+
+
 
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
 
-<details><br><summary><br>Documentation For slugify<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For slugify
+
+</summary>
+
+Notes
 
 ```python
     This function is used to slugify strings, which basically means to remove all special characters and replace them with dashes.
@@ -1217,6 +1475,7 @@ References
 ```
 
 
+
 </details>
 
 - [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) 
@@ -1228,7 +1487,14 @@ References
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
 
-<details><br><summary><br>Documentation For get<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For get
+
+</summary>
+
+Notes
 
 ```python
     This function is used to load objects from the database folder
@@ -1261,6 +1527,7 @@ References
 ```
 
 
+
 </details>
 
 - [def get(name: str) -> object | None:](./../toolbox/database.py#L43) 
@@ -1272,7 +1539,14 @@ References
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
 
-<details><br><summary><br>Documentation For save<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For save
+
+</summary>
+
+Notes
 
 ```python
     This function is used to save objects to the database folder
@@ -1309,6 +1583,7 @@ References
 ```
 
 
+
 </details>
 
 - [def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) 
@@ -1320,7 +1595,14 @@ References
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 
-<details><br><summary><br>Documentation For delete_database<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For delete_database
+
+</summary>
+
+Notes
 
 ```python
     This function is used to delete objects from the database folder
@@ -1357,6 +1639,7 @@ References
 ```
 
 
+
 </details>
 
 - [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) 
@@ -1368,7 +1651,14 @@ References
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
 
-<details><br><summary><br>Documentation For save_key<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For save_key
+
+</summary>
+
+Notes
 
 ```python
     This function is used to save keys in a secure location
@@ -1405,6 +1695,7 @@ References
 ```
 
 
+
 </details>
 
 - [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) 
@@ -1416,7 +1707,14 @@ References
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 
-<details><br><summary><br>Documentation For load_key<br></summary><br>Notes
+<details>
+<summary>
+
+Documentation For load_key
+
+</summary>
+
+Notes
 
 ```python
         This function is used to load keys from a secure location
@@ -1447,6 +1745,7 @@ References
 ```python
         https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
 ```
+
 
 
 </details>
