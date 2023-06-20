@@ -38,7 +38,7 @@ This is the documentation for the project Template.
 <details>
 <summary>
 
-Documentation For Test
+##### Documentation For Test
 
 </summary>
 
@@ -78,7 +78,7 @@ References
 <details>
 <summary>
 
-Documentation For Test.Test_Contact
+##### Documentation For Test.Test_Contact
 
 </summary>
 
@@ -117,7 +117,7 @@ References
 <details>
 <summary>
 
-Documentation For Test.Test_Contact.__init__
+##### Documentation For Test.Test_Contact.__init__
 
 </summary>
 
@@ -171,7 +171,7 @@ References
 <details>
 <summary>
 
-Documentation For Test.Test_Contact.__str__
+##### Documentation For Test.Test_Contact.__str__
 
 </summary>
 
@@ -223,7 +223,7 @@ References
 <details>
 <summary>
 
-Documentation For Test.__init__
+##### Documentation For Test.__init__
 
 </summary>
 
@@ -277,7 +277,7 @@ References
 <details>
 <summary>
 
-Documentation For Test.__str__
+##### Documentation For Test.__str__
 
 </summary>
 
@@ -329,7 +329,7 @@ References
 <details>
 <summary>
 
-Documentation For print_hi
+##### Documentation For print_hi
 
 </summary>
 
@@ -391,7 +391,7 @@ References
 <details>
 <summary>
 
-Documentation For Queue
+##### Documentation For Queue
 
 </summary>
 
@@ -434,7 +434,7 @@ References
 <details>
 <summary>
 
-Documentation For Queue.__init__
+##### Documentation For Queue.__init__
 
 </summary>
 
@@ -476,7 +476,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.enqueue
+##### Documentation For Queue.enqueue
 
 </summary>
 
@@ -519,7 +519,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.dequeue
+##### Documentation For Queue.dequeue
 
 </summary>
 
@@ -565,7 +565,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.size
+##### Documentation For Queue.size
 
 </summary>
 
@@ -610,7 +610,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.is_empty
+##### Documentation For Queue.is_empty
 
 </summary>
 
@@ -654,7 +654,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.peek
+##### Documentation For Queue.peek
 
 </summary>
 
@@ -700,7 +700,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.get_list
+##### Documentation For Queue.get_list
 
 </summary>
 
@@ -746,7 +746,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__len__
+##### Documentation For Queue.__len__
 
 </summary>
 
@@ -790,7 +790,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.copy
+##### Documentation For Queue.copy
 
 </summary>
 
@@ -836,7 +836,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__copy__
+##### Documentation For Queue.__copy__
 
 </summary>
 
@@ -882,7 +882,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__eq__
+##### Documentation For Queue.__eq__
 
 </summary>
 
@@ -924,7 +924,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__ne__
+##### Documentation For Queue.__ne__
 
 </summary>
 
@@ -966,7 +966,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__getitem__
+##### Documentation For Queue.__getitem__
 
 </summary>
 
@@ -1007,7 +1007,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__setitem__
+##### Documentation For Queue.__setitem__
 
 </summary>
 
@@ -1048,7 +1048,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__delitem__
+##### Documentation For Queue.__delitem__
 
 </summary>
 
@@ -1089,7 +1089,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__iter__
+##### Documentation For Queue.__iter__
 
 </summary>
 
@@ -1131,7 +1131,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__reversed__
+##### Documentation For Queue.__reversed__
 
 </summary>
 
@@ -1173,7 +1173,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__contains__
+##### Documentation For Queue.__contains__
 
 </summary>
 
@@ -1214,7 +1214,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__add__
+##### Documentation For Queue.__add__
 
 </summary>
 
@@ -1257,7 +1257,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__iadd__
+##### Documentation For Queue.__iadd__
 
 </summary>
 
@@ -1300,7 +1300,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__mul__
+##### Documentation For Queue.__mul__
 
 </summary>
 
@@ -1342,7 +1342,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__imul__
+##### Documentation For Queue.__imul__
 
 </summary>
 
@@ -1384,7 +1384,7 @@ Examples
 <details>
 <summary>
 
-Documentation For Queue.__str__
+##### Documentation For Queue.__str__
 
 </summary>
 
@@ -1435,7 +1435,7 @@ Examples
 <details>
 <summary>
 
-Documentation For slugify
+##### Documentation For slugify
 
 </summary>
 
@@ -1490,7 +1490,7 @@ References
 <details>
 <summary>
 
-Documentation For get
+##### Documentation For get
 
 </summary>
 
@@ -1542,7 +1542,7 @@ References
 <details>
 <summary>
 
-Documentation For save
+##### Documentation For save
 
 </summary>
 
@@ -1598,7 +1598,7 @@ References
 <details>
 <summary>
 
-Documentation For delete_database
+##### Documentation For delete_database
 
 </summary>
 
@@ -1654,7 +1654,7 @@ References
 <details>
 <summary>
 
-Documentation For save_key
+##### Documentation For save_key
 
 </summary>
 
@@ -1710,7 +1710,7 @@ References
 <details>
 <summary>
 
-Documentation For load_key
+##### Documentation For load_key
 
 </summary>
 
