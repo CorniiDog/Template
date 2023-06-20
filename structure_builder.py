@@ -537,7 +537,6 @@ if output_instructions:
                         documentation += f"\n<details><br><summary><br>## Documentation For [{file_path}](/{file_document_path}) ##<br></summary><br>{other_docs}<br></details>\n\n"
 
                         #Provide The documentation for the file
-                        documentation += other_docs
 
 
                     file2.close()
