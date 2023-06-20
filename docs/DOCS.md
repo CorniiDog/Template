@@ -22,7 +22,10 @@ This is the documentation for the project Template.
 
 # API #
 
-<details><summary>
+
+<details>
+
+<summary>
 
 ## Documentation For [main.py](/docs/MAIN.md) ##
 
@@ -550,7 +553,10 @@ References
 
 <p align="center">_</p>
 
-<details><summary>
+
+<details>
+
+<summary>
 
 ## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
 
@@ -2052,7 +2058,10 @@ Examples
 
 <p align="center">_</p>
 
-<details><summary>
+
+<details>
+
+<summary>
 
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
