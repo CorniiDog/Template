@@ -42,6 +42,8 @@ This is the documentation for the project Template.
 
 </summary>
 
+[class Test:](./../main.py#L4) 
+
 Notes
 
 ```python
@@ -66,10 +68,6 @@ References
 
 </details>
 
-- [class Test:](./../main.py#L4) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -81,6 +79,8 @@ References
 
 
 </summary>
+
+[class Test_Contact:](./../main.py#L20) 
 
 Notes
 
@@ -105,10 +105,6 @@ References
 
 </details>
 
-- [class Test_Contact:](./../main.py#L20) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -120,6 +116,8 @@ References
 
 
 </summary>
+
+[def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
 Notes
 
@@ -159,10 +157,6 @@ References
 
 </details>
 
-- [def __init__(self, phone: str, address: int):](./../main.py#L36) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -174,6 +168,8 @@ References
 
 
 </summary>
+
+[def __str__(self):](./../main.py#L63) 
 
 Notes
 
@@ -211,10 +207,6 @@ References
 
 </details>
 
-- [def __str__(self):](./../main.py#L63) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -226,6 +218,8 @@ References
 
 
 </summary>
+
+[def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
 Notes
 
@@ -265,10 +259,6 @@ References
 
 </details>
 
-- [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -280,6 +270,8 @@ References
 
 
 </summary>
+
+[def __str__(self):](./../main.py#L119) 
 
 Notes
 
@@ -317,10 +309,6 @@ References
 
 </details>
 
-- [def __str__(self):](./../main.py#L119) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -332,6 +320,8 @@ References
 
 
 </summary>
+
+[def print_hi(name: str) -> None:](./../main.py#L146) 
 
 Notes
 
@@ -369,10 +359,6 @@ References
 
 </details>
 
-- [def print_hi(name: str) -> None:](./../main.py#L146) 
-
-<p align="center">_</p>
-
 <br></details>
 
 
@@ -394,6 +380,8 @@ References
 
 
 </summary>
+
+[class Queue:](./../toolbox/queue.py#L2) 
 
 Notes
 
@@ -422,10 +410,6 @@ References
 
 </details>
 
-- [class Queue:](./../toolbox/queue.py#L2) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -437,6 +421,8 @@ References
 
 
 </summary>
+
+[def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) 
 
 Notes
 
@@ -464,10 +450,6 @@ Examples
 
 </details>
 
-- [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -479,6 +461,8 @@ Examples
 
 
 </summary>
+
+[def enqueue(self, item):](./../toolbox/queue.py#L61) 
 
 Notes
 
@@ -507,10 +491,6 @@ Examples
 
 </details>
 
-- [def enqueue(self, item):](./../toolbox/queue.py#L61) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -522,6 +502,8 @@ Examples
 
 
 </summary>
+
+[def dequeue(self):](./../toolbox/queue.py#L90) 
 
 Notes
 
@@ -553,10 +535,6 @@ Examples
 
 </details>
 
-- [def dequeue(self):](./../toolbox/queue.py#L90) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -568,6 +546,8 @@ Examples
 
 
 </summary>
+
+[def size(self) -> int:](./../toolbox/queue.py#L118) 
 
 Notes
 
@@ -598,10 +578,6 @@ Examples
 
 </details>
 
-- [def size(self) -> int:](./../toolbox/queue.py#L118) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -613,6 +589,8 @@ Examples
 
 
 </summary>
+
+[def is_empty(self) -> bool:](./../toolbox/queue.py#L146) 
 
 Notes
 
@@ -642,10 +620,6 @@ Examples
 
 </details>
 
-- [def is_empty(self) -> bool:](./../toolbox/queue.py#L146) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -657,6 +631,8 @@ Examples
 
 
 </summary>
+
+[def peek(self):](./../toolbox/queue.py#L173) 
 
 Notes
 
@@ -688,10 +664,6 @@ Examples
 
 </details>
 
-- [def peek(self):](./../toolbox/queue.py#L173) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -703,6 +675,8 @@ Examples
 
 
 </summary>
+
+[def get_list(self):](./../toolbox/queue.py#L201) 
 
 Notes
 
@@ -734,10 +708,6 @@ Examples
 
 </details>
 
-- [def get_list(self):](./../toolbox/queue.py#L201) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -749,6 +719,8 @@ Examples
 
 
 </summary>
+
+[def __len__(self):](./../toolbox/queue.py#L230) 
 
 Notes
 
@@ -778,10 +750,6 @@ Examples
 
 </details>
 
-- [def __len__(self):](./../toolbox/queue.py#L230) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -793,6 +761,8 @@ Examples
 
 
 </summary>
+
+[def copy(self):](./../toolbox/queue.py#L256) 
 
 Notes
 
@@ -823,10 +793,6 @@ Examples
 
 
 </details>
-
-- [def copy(self):](./../toolbox/queue.py#L256) 
-
-<p align="center">_</p>
 
 
 <details>
@@ -840,6 +806,8 @@ Examples
 
 </summary>
 
+[def __copy__(self):](./../toolbox/queue.py#L288) 
+
 Notes
 
 ```python
@@ -870,10 +838,6 @@ Examples
 
 </details>
 
-- [def __copy__(self):](./../toolbox/queue.py#L288) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -885,6 +849,8 @@ Examples
 
 
 </summary>
+
+[def __eq__(self, other):](./../toolbox/queue.py#L317) 
 
 Notes
 
@@ -912,10 +878,6 @@ Examples
 
 </details>
 
-- [def __eq__(self, other):](./../toolbox/queue.py#L317) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -927,6 +889,8 @@ Examples
 
 
 </summary>
+
+[def __ne__(self, other):](./../toolbox/queue.py#L348) 
 
 Notes
 
@@ -954,10 +918,6 @@ Examples
 
 </details>
 
-- [def __ne__(self, other):](./../toolbox/queue.py#L348) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -969,6 +929,8 @@ Examples
 
 
 </summary>
+
+[def __getitem__(self, index):](./../toolbox/queue.py#L373) 
 
 Notes
 
@@ -995,10 +957,6 @@ Examples
 
 </details>
 
-- [def __getitem__(self, index):](./../toolbox/queue.py#L373) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1010,6 +968,8 @@ Examples
 
 
 </summary>
+
+[def __setitem__(self, index, value):](./../toolbox/queue.py#L397) 
 
 Notes
 
@@ -1036,10 +996,6 @@ Examples
 
 </details>
 
-- [def __setitem__(self, index, value):](./../toolbox/queue.py#L397) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1051,6 +1007,8 @@ Examples
 
 
 </summary>
+
+[def __delitem__(self, index):](./../toolbox/queue.py#L423) 
 
 Notes
 
@@ -1077,10 +1035,6 @@ Examples
 
 </details>
 
-- [def __delitem__(self, index):](./../toolbox/queue.py#L423) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1092,6 +1046,8 @@ Examples
 
 
 </summary>
+
+[def __iter__(self):](./../toolbox/queue.py#L447) 
 
 Notes
 
@@ -1119,10 +1075,6 @@ Examples
 
 </details>
 
-- [def __iter__(self):](./../toolbox/queue.py#L447) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1134,6 +1086,8 @@ Examples
 
 
 </summary>
+
+[def __reversed__(self):](./../toolbox/queue.py#L471) 
 
 Notes
 
@@ -1161,10 +1115,6 @@ Examples
 
 </details>
 
-- [def __reversed__(self):](./../toolbox/queue.py#L471) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1176,6 +1126,8 @@ Examples
 
 
 </summary>
+
+[def __contains__(self, item):](./../toolbox/queue.py#L495) 
 
 Notes
 
@@ -1202,10 +1154,6 @@ Examples
 
 </details>
 
-- [def __contains__(self, item):](./../toolbox/queue.py#L495) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1217,6 +1165,8 @@ Examples
 
 
 </summary>
+
+[def __add__(self, other):](./../toolbox/queue.py#L519) 
 
 Notes
 
@@ -1245,10 +1195,6 @@ Examples
 
 </details>
 
-- [def __add__(self, other):](./../toolbox/queue.py#L519) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1260,6 +1206,8 @@ Examples
 
 
 </summary>
+
+[def __iadd__(self, other):](./../toolbox/queue.py#L550) 
 
 Notes
 
@@ -1288,10 +1236,6 @@ Examples
 
 </details>
 
-- [def __iadd__(self, other):](./../toolbox/queue.py#L550) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1303,6 +1247,8 @@ Examples
 
 
 </summary>
+
+[def __mul__(self, other):](./../toolbox/queue.py#L578) 
 
 Notes
 
@@ -1330,10 +1276,6 @@ Examples
 
 </details>
 
-- [def __mul__(self, other):](./../toolbox/queue.py#L578) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1345,6 +1287,8 @@ Examples
 
 
 </summary>
+
+[def __imul__(self, other):](./../toolbox/queue.py#L607) 
 
 Notes
 
@@ -1372,10 +1316,6 @@ Examples
 
 </details>
 
-- [def __imul__(self, other):](./../toolbox/queue.py#L607) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1387,6 +1327,8 @@ Examples
 
 
 </summary>
+
+[def __str__(self):](./../toolbox/queue.py#L636) 
 
 Notes
 
@@ -1413,10 +1355,6 @@ Examples
 
 </details>
 
-- [def __str__(self):](./../toolbox/queue.py#L636) 
-
-<p align="center">_</p>
-
 <br></details>
 
 
@@ -1438,6 +1376,8 @@ Examples
 
 
 </summary>
+
+[def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) 
 
 Notes
 
@@ -1478,10 +1418,6 @@ References
 
 </details>
 
-- [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1493,6 +1429,8 @@ References
 
 
 </summary>
+
+[def get(name: str) -> object | None:](./../toolbox/database.py#L43) 
 
 Notes
 
@@ -1530,10 +1468,6 @@ References
 
 </details>
 
-- [def get(name: str) -> object | None:](./../toolbox/database.py#L43) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1545,6 +1479,8 @@ References
 
 
 </summary>
+
+[def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) 
 
 Notes
 
@@ -1586,10 +1522,6 @@ References
 
 </details>
 
-- [def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1601,6 +1533,8 @@ References
 
 
 </summary>
+
+[def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) 
 
 Notes
 
@@ -1642,10 +1576,6 @@ References
 
 </details>
 
-- [def delete_database(name: str) -> object | None:](./../toolbox/database.py#L109) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1657,6 +1587,8 @@ References
 
 
 </summary>
+
+[def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) 
 
 Notes
 
@@ -1698,10 +1630,6 @@ References
 
 </details>
 
-- [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) 
-
-<p align="center">_</p>
-
 
 <details>
 <summary>
@@ -1713,6 +1641,8 @@ References
 
 
 </summary>
+
+[def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) 
 
 Notes
 
@@ -1749,10 +1679,6 @@ References
 
 
 </details>
-
-- [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) 
-
-<p align="center">_</p>
 
 <br></details>
 

@@ -474,12 +474,13 @@ if output_instructions:
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
                                 new_documentation += "```python\n" + section_combined + "\n```\n\n"
 
+                        class_declaration_reference = f"[{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+
                         # Add dropdown to other_docs with the documentation
-                        other_docs += f"\n<details>\n<summary>\n\n{writing_header}\n\n</summary>\n\n{new_documentation}\n\n</details>\n\n"
-                        other_docs += f"- [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
+                        other_docs += f"\n<details>\n<summary>\n\n{writing_header}\n\n</summary>\n\n{class_declaration_reference + new_documentation}\n\n</details>\n\n"
 
                         # Add small github divider
-                        other_docs += "<p align=\"center\">_</p>\n\n"
+                        #other_docs += "<p align=\"center\">_</p>\n\n"
 
                         # Identify the level of tabbing for the class
                         tab_level = count_spaces_at_beginning(line)
