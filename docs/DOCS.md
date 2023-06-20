@@ -24,7 +24,6 @@ This is the documentation for the project Template.
 
 
 <details>
-
 <summary>
 ## Documentation For [main.py](/docs/MAIN.md) ##
 
@@ -34,7 +33,6 @@ This is the documentation for the project Template.
 
 
 <details>
-
 <summary>
 Documentation For Test
 
@@ -72,7 +70,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact
 
@@ -109,7 +106,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact.__init__
 
@@ -161,7 +157,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact.__str__
 
@@ -211,7 +206,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.__init__
 
@@ -263,7 +257,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.__str__
 
@@ -313,7 +306,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For print_hi
 
@@ -365,7 +357,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test
 
@@ -403,7 +394,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact
 
@@ -440,7 +430,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact.__init__
 
@@ -492,7 +481,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.Test_Contact.__str__
 
@@ -542,7 +530,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.__init__
 
@@ -594,7 +581,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Test.__str__
 
@@ -644,7 +630,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For print_hi
 
@@ -690,7 +675,6 @@ References
 
 
 <details>
-
 <summary>
 ## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
 
@@ -700,7 +684,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Queue
 
@@ -741,7 +724,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Queue.__init__
 
@@ -781,7 +763,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.enqueue
 
@@ -822,7 +803,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.dequeue
 
@@ -866,7 +846,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.size
 
@@ -909,7 +888,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.is_empty
 
@@ -951,7 +929,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.peek
 
@@ -995,7 +972,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.get_list
 
@@ -1039,7 +1015,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__len__
 
@@ -1081,7 +1056,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.copy
 
@@ -1125,7 +1099,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__copy__
 
@@ -1169,7 +1142,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__eq__
 
@@ -1209,7 +1181,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__ne__
 
@@ -1249,7 +1220,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__getitem__
 
@@ -1288,7 +1258,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__setitem__
 
@@ -1327,7 +1296,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__delitem__
 
@@ -1366,7 +1334,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__iter__
 
@@ -1406,7 +1373,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__reversed__
 
@@ -1446,7 +1412,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__contains__
 
@@ -1485,7 +1450,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__add__
 
@@ -1526,7 +1490,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__iadd__
 
@@ -1567,7 +1530,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__mul__
 
@@ -1607,7 +1569,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__imul__
 
@@ -1647,7 +1608,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__str__
 
@@ -1688,7 +1648,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue
 
@@ -1729,7 +1688,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For Queue.__init__
 
@@ -1769,7 +1727,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.enqueue
 
@@ -1810,7 +1767,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.dequeue
 
@@ -1854,7 +1810,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.size
 
@@ -1897,7 +1852,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.is_empty
 
@@ -1939,7 +1893,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.peek
 
@@ -1983,7 +1936,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.get_list
 
@@ -2027,7 +1979,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__len__
 
@@ -2069,7 +2020,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.copy
 
@@ -2113,7 +2063,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__copy__
 
@@ -2157,7 +2106,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__eq__
 
@@ -2197,7 +2145,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__ne__
 
@@ -2237,7 +2184,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__getitem__
 
@@ -2276,7 +2222,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__setitem__
 
@@ -2315,7 +2260,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__delitem__
 
@@ -2354,7 +2298,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__iter__
 
@@ -2394,7 +2337,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__reversed__
 
@@ -2434,7 +2376,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__contains__
 
@@ -2473,7 +2414,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__add__
 
@@ -2514,7 +2454,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__iadd__
 
@@ -2555,7 +2494,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__mul__
 
@@ -2595,7 +2533,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__imul__
 
@@ -2635,7 +2572,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For Queue.__str__
 
@@ -2670,7 +2606,6 @@ Examples
 
 
 <details>
-
 <summary>
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
 
@@ -2680,7 +2615,6 @@ Examples
 
 
 <details>
-
 <summary>
 Documentation For slugify
 
@@ -2733,7 +2667,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For get
 
@@ -2783,7 +2716,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For save
 
@@ -2837,7 +2769,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For delete_database
 
@@ -2891,7 +2822,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For save_key
 
@@ -2945,7 +2875,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For load_key
 
@@ -2997,7 +2926,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For slugify
 
@@ -3050,7 +2978,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For get
 
@@ -3100,7 +3027,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For save
 
@@ -3154,7 +3080,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For delete_database
 
@@ -3208,7 +3133,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For save_key
 
@@ -3262,7 +3186,6 @@ References
 
 
 <details>
-
 <summary>
 Documentation For load_key
 
