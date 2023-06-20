@@ -23,7 +23,13 @@ This is the documentation for the project Template.
 # API #
 
 
-<details><br><summary><br>## Documentation For [main.py](/docs/MAIN.md) ##<br></summary><br>
+<details>
+
+<summary>
+
+## Documentation For [main.py](/docs/MAIN.md) ##
+
+</summary><br>
 
 ### [Test](/docs/MAIN.md#test) ###
 
@@ -313,7 +319,13 @@ References
 <br></details>
 
 
-<details><br><summary><br>## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##<br></summary><br>
+<details>
+
+<summary>
+
+## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
+
+</summary><br>
 
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
@@ -1158,7 +1170,13 @@ Examples
 <br></details>
 
 
-<details><br><summary><br>## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##<br></summary><br>
+<details>
+
+<summary>
+
+## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
+
+</summary><br>
 
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
