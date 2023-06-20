@@ -20,7 +20,7 @@ This is the documentation for the project Template.
 
 [A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a.-how-to-remove-conda-environment)
 
-[B.HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b.how-to-uninstall-service)
+[B. HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b.-how-to-uninstall-service)
 
 # API #
 

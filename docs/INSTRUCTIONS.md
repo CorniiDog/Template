@@ -207,7 +207,7 @@ conda env remove --name Template && source ~/.bashrc
 
 
 
-## B.HOW TO UNINSTALL SERVICE ##
+## B. HOW TO UNINSTALL SERVICE ##
 
 
 This is for uninstalling and removing the service.
