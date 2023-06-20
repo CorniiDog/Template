@@ -23,8 +23,11 @@ This is the documentation for the project Template.
 # API #
 
 <details><summary>
+
 ## Documentation For [main.py](/docs/MAIN.md) ##
+
 </summary>
+
 ### [Test](/docs/MAIN.md#test) ###
 
 <details><summary>Documentation For Test</summary><br>Notes
@@ -283,6 +286,7 @@ References
 - [def print_hi(name: str) -> None:](./../main.py#L146) 
 
 <p align="center">_</p>
+
 
 
 </details>
@@ -547,8 +551,11 @@ References
 <p align="center">_</p>
 
 <details><summary>
+
 ## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md) ##
+
 </summary>
+
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
 <details><summary>Documentation For Queue</summary><br>Notes
@@ -1294,6 +1301,7 @@ Examples
 - [def __str__(self):](./../toolbox/queue.py#L636) 
 
 <p align="center">_</p>
+
 
 
 </details>
@@ -2045,8 +2053,11 @@ Examples
 <p align="center">_</p>
 
 <details><summary>
+
 ## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md) ##
+
 </summary>
+
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
 <details><summary>Documentation For slugify</summary><br>Notes
@@ -2301,6 +2312,7 @@ References
 - [def load_key(platform: str) -> str | None:](./../toolbox/database.py#L194) 
 
 <p align="center">_</p>
+
 
 
 </details>
