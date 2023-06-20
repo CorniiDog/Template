@@ -1,4 +1,4 @@
-import os
+import os, re
 
 # Set project directory to current directory
 
@@ -334,7 +334,6 @@ if output_instructions:
 
                     # Get path between project directory and file
                     file_path = os.path.join(root, file).replace(project_dir, "")
-                    print(file_path)
 
                     if file_path.startswith("/"):
                         file_path = file_path[1:]
@@ -553,5 +552,11 @@ if output_instructions:
         f.write(f"This is the documentation for the project {project_name}.\n\n")
 
         f.write(documentation)
+
+# Remove blank lines from output
+output = "\n".join([s for s in output.splitlines() if s.strip() != ""])
+
+# Color the lines (like === and ---) red
+output = re.sub(r"^(=+)$", r"\033[91m\1\033[0m", output, flags=re.MULTILINE)
 
 print(output)
