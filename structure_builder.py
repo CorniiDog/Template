@@ -440,7 +440,7 @@ if output_instructions:
 
                         file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
 
-                        file_documentation = f"/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}"
+                        file_documentation = f"/{file_document_path}#{obj_type}-{name.lower().replace(' ', '-').replace('.', '')}"
                         writing_header = f"\n\n### [{obj_type + ' ' + name}]({file_documentation}) ###\n\n"
 
                         documents = get_class_documentation(i + 1)
