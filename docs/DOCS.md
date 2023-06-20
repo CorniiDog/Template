@@ -111,7 +111,7 @@ References
 
 
 
-### [function Test.Test_Contact.__init__](/docs/MAIN.md#function-testtest_contact__init__) ###
+### [function Test.Test_Contact.init](/docs/MAIN.md#function-testtest_contactinit) ###
 
 
 
@@ -163,7 +163,7 @@ References
 
 
 
-### [function Test.Test_Contact.__str__](/docs/MAIN.md#function-testtest_contact__str__) ###
+### [function Test.Test_Contact.str](/docs/MAIN.md#function-testtest_contactstr) ###
 
 
 
@@ -213,7 +213,7 @@ References
 
 
 
-### [function Test.__init__](/docs/MAIN.md#function-test__init__) ###
+### [function Test.init](/docs/MAIN.md#function-testinit) ###
 
 
 
@@ -265,7 +265,7 @@ References
 
 
 
-### [function Test.__str__](/docs/MAIN.md#function-test__str__) ###
+### [function Test.str](/docs/MAIN.md#function-teststr) ###
 
 
 
@@ -416,7 +416,7 @@ References
 
 
 
-### [function Queue.__init__](/docs/TOOLBOX-QUEUE.md#function-queue__init__) ###
+### [function Queue.init](/docs/TOOLBOX-QUEUE.md#function-queueinit) ###
 
 
 
@@ -714,7 +714,7 @@ Examples
 
 
 
-### [function Queue.__len__](/docs/TOOLBOX-QUEUE.md#function-queue__len__) ###
+### [function Queue.len](/docs/TOOLBOX-QUEUE.md#function-queuelen) ###
 
 
 
@@ -800,7 +800,7 @@ Examples
 
 
 
-### [function Queue.__copy__](/docs/TOOLBOX-QUEUE.md#function-queue__copy__) ###
+### [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
 
 
 
@@ -844,7 +844,7 @@ Examples
 
 
 
-### [function Queue.__eq__](/docs/TOOLBOX-QUEUE.md#function-queue__eq__) ###
+### [function Queue.eq](/docs/TOOLBOX-QUEUE.md#function-queueeq) ###
 
 
 
@@ -884,7 +884,7 @@ Examples
 
 
 
-### [function Queue.__ne__](/docs/TOOLBOX-QUEUE.md#function-queue__ne__) ###
+### [function Queue.ne](/docs/TOOLBOX-QUEUE.md#function-queuene) ###
 
 
 
@@ -924,7 +924,7 @@ Examples
 
 
 
-### [function Queue.__getitem__](/docs/TOOLBOX-QUEUE.md#function-queue__getitem__) ###
+### [function Queue.getitem](/docs/TOOLBOX-QUEUE.md#function-queuegetitem) ###
 
 
 
@@ -963,7 +963,7 @@ Examples
 
 
 
-### [function Queue.__setitem__](/docs/TOOLBOX-QUEUE.md#function-queue__setitem__) ###
+### [function Queue.setitem](/docs/TOOLBOX-QUEUE.md#function-queuesetitem) ###
 
 
 
@@ -1002,7 +1002,7 @@ Examples
 
 
 
-### [function Queue.__delitem__](/docs/TOOLBOX-QUEUE.md#function-queue__delitem__) ###
+### [function Queue.delitem](/docs/TOOLBOX-QUEUE.md#function-queuedelitem) ###
 
 
 
@@ -1041,7 +1041,7 @@ Examples
 
 
 
-### [function Queue.__iter__](/docs/TOOLBOX-QUEUE.md#function-queue__iter__) ###
+### [function Queue.iter](/docs/TOOLBOX-QUEUE.md#function-queueiter) ###
 
 
 
@@ -1081,7 +1081,7 @@ Examples
 
 
 
-### [function Queue.__reversed__](/docs/TOOLBOX-QUEUE.md#function-queue__reversed__) ###
+### [function Queue.reversed](/docs/TOOLBOX-QUEUE.md#function-queuereversed) ###
 
 
 
@@ -1121,7 +1121,7 @@ Examples
 
 
 
-### [function Queue.__contains__](/docs/TOOLBOX-QUEUE.md#function-queue__contains__) ###
+### [function Queue.contains](/docs/TOOLBOX-QUEUE.md#function-queuecontains) ###
 
 
 
@@ -1160,7 +1160,7 @@ Examples
 
 
 
-### [function Queue.__add__](/docs/TOOLBOX-QUEUE.md#function-queue__add__) ###
+### [function Queue.add](/docs/TOOLBOX-QUEUE.md#function-queueadd) ###
 
 
 
@@ -1201,7 +1201,7 @@ Examples
 
 
 
-### [function Queue.__iadd__](/docs/TOOLBOX-QUEUE.md#function-queue__iadd__) ###
+### [function Queue.iadd](/docs/TOOLBOX-QUEUE.md#function-queueiadd) ###
 
 
 
@@ -1242,7 +1242,7 @@ Examples
 
 
 
-### [function Queue.__mul__](/docs/TOOLBOX-QUEUE.md#function-queue__mul__) ###
+### [function Queue.mul](/docs/TOOLBOX-QUEUE.md#function-queuemul) ###
 
 
 
@@ -1282,7 +1282,7 @@ Examples
 
 
 
-### [function Queue.__imul__](/docs/TOOLBOX-QUEUE.md#function-queue__imul__) ###
+### [function Queue.imul](/docs/TOOLBOX-QUEUE.md#function-queueimul) ###
 
 
 
@@ -1322,7 +1322,7 @@ Examples
 
 
 
-### [function Queue.__str__](/docs/TOOLBOX-QUEUE.md#function-queue__str__) ###
+### [function Queue.str](/docs/TOOLBOX-QUEUE.md#function-queuestr) ###
 
 
 

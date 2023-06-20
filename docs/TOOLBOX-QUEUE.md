@@ -31,7 +31,7 @@ References
     https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 ```
 
-# function Queue.__init__ #
+# function Queue.init #
 
 ### [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) ###
 
@@ -231,7 +231,7 @@ Examples
         print(a)
 ```
 
-# function Queue.__len__ #
+# function Queue.len #
 
 ### [def __len__(self):](./../toolbox/queue.py#L230) ###
 
@@ -289,7 +289,7 @@ Examples
         print(new_queue)
 ```
 
-# function Queue.__copy__ #
+# function Queue.copy #
 
 ### [def __copy__(self):](./../toolbox/queue.py#L288) ###
 
@@ -319,7 +319,7 @@ Examples
         print(new_queue)
 ```
 
-# function Queue.__eq__ #
+# function Queue.eq #
 
 ### [def __eq__(self, other):](./../toolbox/queue.py#L317) ###
 
@@ -345,7 +345,7 @@ Examples
         print(queue == other)
 ```
 
-# function Queue.__ne__ #
+# function Queue.ne #
 
 ### [def __ne__(self, other):](./../toolbox/queue.py#L348) ###
 
@@ -371,7 +371,7 @@ Examples
         print(queue != other)
 ```
 
-# function Queue.__getitem__ #
+# function Queue.getitem #
 
 ### [def __getitem__(self, index):](./../toolbox/queue.py#L373) ###
 
@@ -396,7 +396,7 @@ Examples
         print(queue[2])
 ```
 
-# function Queue.__setitem__ #
+# function Queue.setitem #
 
 ### [def __setitem__(self, index, value):](./../toolbox/queue.py#L397) ###
 
@@ -421,7 +421,7 @@ Examples
         print(queue)
 ```
 
-# function Queue.__delitem__ #
+# function Queue.delitem #
 
 ### [def __delitem__(self, index):](./../toolbox/queue.py#L423) ###
 
@@ -446,7 +446,7 @@ Examples
         print(queue)
 ```
 
-# function Queue.__iter__ #
+# function Queue.iter #
 
 ### [def __iter__(self):](./../toolbox/queue.py#L447) ###
 
@@ -472,7 +472,7 @@ Examples
             print(item)
 ```
 
-# function Queue.__reversed__ #
+# function Queue.reversed #
 
 ### [def __reversed__(self):](./../toolbox/queue.py#L471) ###
 
@@ -498,7 +498,7 @@ Examples
             print(item)
 ```
 
-# function Queue.__contains__ #
+# function Queue.contains #
 
 ### [def __contains__(self, item):](./../toolbox/queue.py#L495) ###
 
@@ -523,7 +523,7 @@ Examples
         print(1 in queue)
 ```
 
-# function Queue.__add__ #
+# function Queue.add #
 
 ### [def __add__(self, other):](./../toolbox/queue.py#L519) ###
 
@@ -550,7 +550,7 @@ Examples
         print(new_queue)
 ```
 
-# function Queue.__iadd__ #
+# function Queue.iadd #
 
 ### [def __iadd__(self, other):](./../toolbox/queue.py#L550) ###
 
@@ -577,7 +577,7 @@ Examples
         print(queue)
 ```
 
-# function Queue.__mul__ #
+# function Queue.mul #
 
 ### [def __mul__(self, other):](./../toolbox/queue.py#L578) ###
 
@@ -603,7 +603,7 @@ Examples
         print(new_queue)
 ```
 
-# function Queue.__imul__ #
+# function Queue.imul #
 
 ### [def __imul__(self, other):](./../toolbox/queue.py#L607) ###
 
@@ -629,7 +629,7 @@ Examples
         print(queue)
 ```
 
-# function Queue.__str__ #
+# function Queue.str #
 
 ### [def __str__(self):](./../toolbox/queue.py#L636) ###
 

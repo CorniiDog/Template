@@ -51,7 +51,7 @@ References
         No Links
 ```
 
-# function Test.Test_Contact.__init__ #
+# function Test.Test_Contact.init #
 
 ### [def __init__(self, phone: str, address: int):](./../main.py#L36) ###
 
@@ -89,7 +89,7 @@ References
             No Links
 ```
 
-# function Test.Test_Contact.__str__ #
+# function Test.Test_Contact.str #
 
 ### [def __str__(self):](./../main.py#L63) ###
 
@@ -125,7 +125,7 @@ References
             No Links
 ```
 
-# function Test.__init__ #
+# function Test.init #
 
 ### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) ###
 
@@ -163,7 +163,7 @@ References
         No Links
 ```
 
-# function Test.__str__ #
+# function Test.str #
 
 ### [def __str__(self):](./../main.py#L119) ###
 

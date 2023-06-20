@@ -430,6 +430,10 @@ if output_instructions:
                                 return get_class_documentation(k + 1, offset=offset + 1)
 
                     def document_data(i, name, line, other_docs, parent_string="", obj_type="function"):
+
+                        # Remove underscores from front and back only, not in the middle
+                        name = name.strip("_")
+
                         name = parent_string + name
 
                         file2.write(f"# {obj_type + ' ' + name} #\n\n")
