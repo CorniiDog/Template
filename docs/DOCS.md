@@ -285,7 +285,7 @@ References
 <p align="center">_</p>
 
 
- </details>
+</details>
 
 ### [Test](/docs/MAIN.md#test) ###
 
@@ -1296,7 +1296,7 @@ Examples
 <p align="center">_</p>
 
 
- </details>
+</details>
 
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
@@ -2303,7 +2303,7 @@ References
 <p align="center">_</p>
 
 
- </details>
+</details>
 
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
