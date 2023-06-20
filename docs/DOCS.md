@@ -6,17 +6,17 @@ This is the documentation for the project Template.
 
 ## INSTRUCTIONS.md ##
 
-[5. HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#5.-how-to-install-service)
-
 [1. HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#1.-how-to-install-anaconda)
 
-[4. HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#4.-how-to-install-requirements)
-
-[A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a.-how-to-remove-conda-environment)
+[2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2.-how-to-create-conda-environment)
 
 [3. HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY](/docs/INSTRUCTIONS.md#3.-how-to-connect-interpreter-to-jetbrains-gateway)
 
-[2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2.-how-to-create-conda-environment)
+[4. HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#4.-how-to-install-requirements)
+
+[5. HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#5.-how-to-install-service)
+
+[A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a.-how-to-remove-conda-environment)
 
 [B.HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b.how-to-uninstall-service)
 

@@ -77,7 +77,7 @@ output = ""
 documentation = ""
 
 # Iterate through instructions folder
-for file in os.listdir("instructions"):
+for file in sorted(os.listdir("instructions")):
     if file.endswith(".txt"):
         with open(f"instructions/{file}", "r") as f:
             output += "=" * 10 + "\n\n"
