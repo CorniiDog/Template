@@ -19,7 +19,7 @@ data["conda_forge_requirements_file"] = f"{data['requirements_folder']}/conda_fo
 data["docs_folder"] = f"{data['project_dir']}/docs"
 data["service_name"] = f"{data['project_name']}.service"
 data["service_path"] = f"{data['storage_folder']}/{data['service_name']}"
-data["service_path_after_moved"] = f"{data['path_to_services']}/{data['service_name']}"
+data["service_moved_path"] = f"{data['path_to_services']}/{data['service_name']}"
 data["conda_file"] = data["conda_install_link"].split("/")[-1]
 
 
