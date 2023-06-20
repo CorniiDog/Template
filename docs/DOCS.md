@@ -31,14 +31,14 @@ This is the documentation for the project Template.
 </summary>
 
 
+<details>
+<summary>
+
+
 
 ### [Test](/docs/MAIN.md#test) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test
 
 </summary>
 
@@ -71,14 +71,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Test.Test_Contact](/docs/MAIN.md#testtest_contact) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test.Test_Contact
 
 </summary>
 
@@ -110,14 +110,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Test.Test_Contact.__init__](/docs/MAIN.md#testtest_contact__init__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test.Test_Contact.__init__
 
 </summary>
 
@@ -164,14 +164,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Test.Test_Contact.__str__](/docs/MAIN.md#testtest_contact__str__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test.Test_Contact.__str__
 
 </summary>
 
@@ -216,14 +216,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Test.__init__](/docs/MAIN.md#test__init__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test.__init__
 
 </summary>
 
@@ -270,14 +270,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Test.__str__](/docs/MAIN.md#test__str__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Test.__str__
 
 </summary>
 
@@ -322,14 +322,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [print_hi](/docs/MAIN.md#print_hi) ###
 
 
-<details>
-<summary>
-
-##### Documentation For print_hi
 
 </summary>
 
@@ -384,14 +384,14 @@ References
 </summary>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue](/docs/TOOLBOX-QUEUE.md#queue) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue
 
 </summary>
 
@@ -427,14 +427,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__init__](/docs/TOOLBOX-QUEUE.md#queue__init__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__init__
 
 </summary>
 
@@ -469,14 +469,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.enqueue](/docs/TOOLBOX-QUEUE.md#queueenqueue) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.enqueue
 
 </summary>
 
@@ -512,14 +512,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.dequeue](/docs/TOOLBOX-QUEUE.md#queuedequeue) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.dequeue
 
 </summary>
 
@@ -558,14 +558,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.size](/docs/TOOLBOX-QUEUE.md#queuesize) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.size
 
 </summary>
 
@@ -603,14 +603,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.is_empty](/docs/TOOLBOX-QUEUE.md#queueis_empty) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.is_empty
 
 </summary>
 
@@ -647,14 +647,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.peek](/docs/TOOLBOX-QUEUE.md#queuepeek) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.peek
 
 </summary>
 
@@ -693,14 +693,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.get_list](/docs/TOOLBOX-QUEUE.md#queueget_list) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.get_list
 
 </summary>
 
@@ -739,14 +739,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__len__](/docs/TOOLBOX-QUEUE.md#queue__len__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__len__
 
 </summary>
 
@@ -783,14 +783,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.copy](/docs/TOOLBOX-QUEUE.md#queuecopy) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.copy
 
 </summary>
 
@@ -829,14 +829,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__copy__](/docs/TOOLBOX-QUEUE.md#queue__copy__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__copy__
 
 </summary>
 
@@ -875,14 +875,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__eq__](/docs/TOOLBOX-QUEUE.md#queue__eq__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__eq__
 
 </summary>
 
@@ -917,14 +917,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__ne__](/docs/TOOLBOX-QUEUE.md#queue__ne__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__ne__
 
 </summary>
 
@@ -959,14 +959,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__getitem__](/docs/TOOLBOX-QUEUE.md#queue__getitem__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__getitem__
 
 </summary>
 
@@ -1000,14 +1000,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__setitem__](/docs/TOOLBOX-QUEUE.md#queue__setitem__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__setitem__
 
 </summary>
 
@@ -1041,14 +1041,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__delitem__](/docs/TOOLBOX-QUEUE.md#queue__delitem__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__delitem__
 
 </summary>
 
@@ -1082,14 +1082,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__iter__](/docs/TOOLBOX-QUEUE.md#queue__iter__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__iter__
 
 </summary>
 
@@ -1124,14 +1124,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__reversed__](/docs/TOOLBOX-QUEUE.md#queue__reversed__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__reversed__
 
 </summary>
 
@@ -1166,14 +1166,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__contains__](/docs/TOOLBOX-QUEUE.md#queue__contains__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__contains__
 
 </summary>
 
@@ -1207,14 +1207,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__add__](/docs/TOOLBOX-QUEUE.md#queue__add__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__add__
 
 </summary>
 
@@ -1250,14 +1250,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__iadd__](/docs/TOOLBOX-QUEUE.md#queue__iadd__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__iadd__
 
 </summary>
 
@@ -1293,14 +1293,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__mul__](/docs/TOOLBOX-QUEUE.md#queue__mul__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__mul__
 
 </summary>
 
@@ -1335,14 +1335,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__imul__](/docs/TOOLBOX-QUEUE.md#queue__imul__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__imul__
 
 </summary>
 
@@ -1377,14 +1377,14 @@ Examples
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [Queue.__str__](/docs/TOOLBOX-QUEUE.md#queue__str__) ###
 
 
-<details>
-<summary>
-
-##### Documentation For Queue.__str__
 
 </summary>
 
@@ -1428,14 +1428,14 @@ Examples
 </summary>
 
 
+<details>
+<summary>
+
+
 
 ### [slugify](/docs/TOOLBOX-DATABASE.md#slugify) ###
 
 
-<details>
-<summary>
-
-##### Documentation For slugify
 
 </summary>
 
@@ -1483,14 +1483,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [get](/docs/TOOLBOX-DATABASE.md#get) ###
 
 
-<details>
-<summary>
-
-##### Documentation For get
 
 </summary>
 
@@ -1535,14 +1535,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [save](/docs/TOOLBOX-DATABASE.md#save) ###
 
 
-<details>
-<summary>
-
-##### Documentation For save
 
 </summary>
 
@@ -1591,14 +1591,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [delete_database](/docs/TOOLBOX-DATABASE.md#delete_database) ###
 
 
-<details>
-<summary>
-
-##### Documentation For delete_database
 
 </summary>
 
@@ -1647,14 +1647,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [save_key](/docs/TOOLBOX-DATABASE.md#save_key) ###
 
 
-<details>
-<summary>
-
-##### Documentation For save_key
 
 </summary>
 
@@ -1703,14 +1703,14 @@ References
 <p align="center">_</p>
 
 
+<details>
+<summary>
+
+
 
 ### [load_key](/docs/TOOLBOX-DATABASE.md#load_key) ###
 
 
-<details>
-<summary>
-
-##### Documentation For load_key
 
 </summary>
 
