@@ -429,7 +429,7 @@ if output_instructions:
                             else:
                                 return get_class_documentation(k + 1, offset=offset + 1)
 
-                    def document_data(i, name, line, other_docs, parent_string=""):
+                    def document_data(i, name, line, other_docs, parent_string="", obj_type="function"):
                         name = parent_string + name
 
                         file2.write(f"# {name} #\n\n")
@@ -441,7 +441,7 @@ if output_instructions:
                         file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
 
                         file_documentation = f"/{file_document_path}#{name.lower().replace(' ', '-').replace('.', '')}"
-                        writing_header = f"\n\n### [{name}]({file_documentation}) ###\n\n"
+                        writing_header = f"\n\n### [{obj_type + ' ' + name}]({file_documentation}) ###\n\n"
 
                         documents = get_class_documentation(i + 1)
 
@@ -501,10 +501,10 @@ if output_instructions:
 
                                 if lines[j].strip().startswith("def "):
                                     name2 = get_function_name(lines[j])
-                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
+                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".", obj_type="function")
                                 elif lines[j].strip().startswith("class "):
                                     name2 = get_class_name(lines[j])
-                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".")
+                                    other_docs = document_data(j, name2, lines[j], other_docs, parent_string=name+".", obj_type="class")
 
                             if count_spaces_at_beginning(lines[j]) < tab_level2:
                                 # if not empty
@@ -523,14 +523,14 @@ if output_instructions:
                             found = True
 
                             name = get_class_name(line)
-                            other_docs = document_data(i, name, line, other_docs)
+                            other_docs = document_data(i, name, line, other_docs, obj_type="class")
 
                         # If we find a function definition
                         elif line.startswith("def"):
                             found = True
 
                             name = get_function_name(line)
-                            other_docs = document_data(i, name, line, other_docs)
+                            other_docs = document_data(i, name, line, other_docs, obj_type="function")
 
                     if found:
 
