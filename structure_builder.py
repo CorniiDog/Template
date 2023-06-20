@@ -1,77 +1,17 @@
 import os, re
-
+import info
 # Set project directory to current directory
-
-project_dir = os.path.dirname(os.path.realpath(__file__))
-os.chdir(project_dir)
-home_dir = os.path.expanduser("~")
-
-project_name = os.path.basename(project_dir)
-path_to_conda_python = f"{home_dir}/anaconda3/envs/{project_name}/bin/python3"
-file_to_run = "main.py"
-
-requirements_folder = "requirements"
-storage_folder = "storage"
-toolbox_folder = "toolbox"
-requirements_file = f"{requirements_folder}/requirements.txt"
-conda_requirements_file = f"{requirements_folder}/conda_requirements.txt"
-conda_forge_requirements_file = f"{requirements_folder}/conda_forge_requirements.txt"
-
-docs_folder = "docs"
 
 output_instructions = True
 
-conda_install_link = "https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh"
-conda_file = conda_install_link.split("/")[-1]
+if not os.path.exists(info.data["requirements_folder"]):
+    os.mkdir(info.data["requirements_folder"])
 
-if not os.path.exists(requirements_folder):
-    os.mkdir(requirements_folder)
+if not os.path.exists(info.data["storage_folder"]):
+    os.mkdir(info.data["storage_folder"])
 
-if not os.path.exists(storage_folder):
-    os.mkdir(storage_folder)
-
-path_to_services = "/etc/systemd/system"
-service_name = f"{project_name}.service"
-
-requirements_abs_path = os.path.join(project_dir, requirements_folder)
-storage_abs_path = os.path.join(project_dir, storage_folder)
-
-# Create a new file called "VR_Storage_System.service"
-service_path = os.path.join(storage_abs_path, service_name)
-service_moved_path = os.path.join(path_to_services, service_name)
-
-f = open(service_path, "w")
-
-f.write(f"""
-[Unit]
-Description={project_name}
-After=network-online.target
-Wants=network-online.target
-
-[Service]
-Type=simple
-User=connor
-ExecStart={path_to_conda_python} {file_to_run}
-WorkingDirectory={project_dir}
-Restart=always
-RestartSec=120
-
-[Install]
-WantedBy=multi-user.target
-""")
-
-f.close()
-
-
-apt_get_str = ""
-with open("requirements/apt_get_requirements.txt", "r") as f:
-    for line in f:
-        apt_get_str += line.strip() + " "
-if len(apt_get_str) > 0:
-    apt_get_str = "sudo apt-get install -y " + apt_get_str
-else:
-    apt_get_str = "[No apt-get requirements]"
-
+with open(info.data["service_path"], "w") as f:
+    f.write(info.data["service_information"])
 
 output = ""
 documentation = ""
@@ -79,7 +19,7 @@ documentation = ""
 # Iterate through instructions folder
 for file in sorted(os.listdir("instructions")):
     with open(f"instructions/{file}", "r") as f:
-        output += "=" * 10 + "\n\n"
+        output += "=" * 30 + "\n\n"
 
         output += "-=[" + file.replace(".txt", "").replace("_", " ").upper() + "]=-\n\n"
 
@@ -124,7 +64,7 @@ if output_instructions:
                 f.write(line)
             f.write("\n\n")
 
-    with open(docs_folder + "/INSTRUCTIONS.md", "w") as f:
+    with open(info.data["docs_folder"] + "/INSTRUCTIONS.md", "w") as f:
 
         # Provide link to go back to DOCS.md
         f.write(f"[Back to DOCS.md](DOCS.md)\n\n")
@@ -134,7 +74,7 @@ if output_instructions:
     documentation += f"# API #\n\n"
 
     # walk through every .py file in the toolbox folder
-    for root, dirs, files in os.walk(project_dir):
+    for root, dirs, files in os.walk(info.data["project_dir"]):
         for file in files:
             if file[0] == ".":
                 continue
@@ -144,7 +84,7 @@ if output_instructions:
                 with open(os.path.join(root, file), "r") as f:
 
                     # Get path between project directory and file
-                    file_path = os.path.join(root, file).replace(project_dir, "")
+                    file_path = os.path.join(root, file).replace(info.data["project_dir"], "")
 
                     if file_path.startswith("/"):
                         file_path = file_path[1:]
@@ -153,7 +93,7 @@ if output_instructions:
                     folders = str(file_path).split("/")
                     last_part = folders[-1].split(".")[0]
 
-                    file_document_path = docs_folder + "/" + (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
+                    file_document_path = info.data["docs_folder"] + "/" + (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
 
                     file2 = open(file_document_path, "w")
 
@@ -361,19 +301,24 @@ if output_instructions:
 
                     file2.close()
 
-    with open(docs_folder + "/DOCS.md", "w") as f:
+    with open(info.data["docs_folder"] + "/DOCS.md", "w") as f:
 
         # Add the capability to go back to README.md
         f.write(f"[Back to README.md](/README.md)\n\n")
 
         f.write("# DOCUMENTATION TABLE OF CONTENTS #\n\n")
 
-        f.write(f"This is the documentation for the project {project_name}.\n\n")
+        f.write(f"This is the documentation for the project {info.data['project_name']}.\n\n")
 
         f.write(documentation)
 
 
-
+keys = info.data.keys()
+for key in keys:
+    search_item = "<" + key + ">"
+    if search_item in output:
+        # Replace with the value
+        output = output.replace(search_item, info.data[key])
 
 
 # Remove blank lines from output
@@ -381,28 +326,5 @@ output = "\n".join([s for s in output.splitlines() if s.strip() != ""])
 
 # Color the lines (like === and ---) red
 output = re.sub(r"^(=+)$", r"\033[91m\1\033[0m", output, flags=re.MULTILINE)
-
-# Replace <project_name> with the project name
-output = output.replace("<project_name>", project_name)
-# Replace <conda_file> with the conda file
-output = output.replace("<conda_file>", conda_file)
-# Replace <conda_install_link> with the conda install link
-output = output.replace("<conda_install_link>", conda_install_link)
-# Replace <project_dir> with the project directory
-output = output.replace("<project_dir>", project_dir)
-# Replace <requirements_file> with the requirements file
-output = output.replace("<requirements_file>", requirements_file)
-# Replace <conda_requirements_file> with the conda requirements file
-output = output.replace("<conda_requirements_file>", conda_requirements_file)
-# Replace <conda_forge_requirements_file> with the conda forge requirements file
-output = output.replace("<conda_forge_requirements_file>", conda_forge_requirements_file)
-# Replace <apt_get_str> with the apt-get string
-output = output.replace("<apt_get_str>", apt_get_str)
-# Replace <service_path> with the service path
-output = output.replace("<service_path>", service_path)
-# Replace <service_moved_path> with the service moved path
-output = output.replace("<service_moved_path>", service_moved_path)
-# Replace <service_name> with the service name
-output = output.replace("<service_name>", service_name)
 
 print(output)

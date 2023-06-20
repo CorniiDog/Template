@@ -7,7 +7,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=connor
-ExecStart=/home/connor/anaconda3/envs/Template/bin/python3 main.py
+ExecStart=/home/connor/anaconda3/envs/Template/bin/python3 /home/connor/Template/main.py
 WorkingDirectory=/home/connor/Template
 Restart=always
 RestartSec=120

@@ -28,7 +28,7 @@ This is the documentation for the project Template.
 <details>
 <summary>
 
-## Documentation For [main.py](/docs/MAIN.md)
+## Documentation For [main.py](//home/connor/Template/docs/MAIN.md)
 
 </summary>
 
@@ -38,7 +38,7 @@ This is the documentation for the project Template.
 
 
 
-### [class Test](/docs/MAIN.md#class-test) ###
+### [class Test](//home/connor/Template/docs/MAIN.md#class-test) ###
 
 
 
@@ -76,7 +76,7 @@ References
 
 
 
-### [class Test.Test_Contact](/docs/MAIN.md#class-testtest_contact) ###
+### [class Test.Test_Contact](//home/connor/Template/docs/MAIN.md#class-testtest_contact) ###
 
 
 
@@ -113,7 +113,7 @@ References
 
 
 
-### [function Test.Test_Contact.init](/docs/MAIN.md#function-testtest_contactinit) ###
+### [function Test.Test_Contact.init](//home/connor/Template/docs/MAIN.md#function-testtest_contactinit) ###
 
 
 
@@ -165,7 +165,7 @@ References
 
 
 
-### [function Test.Test_Contact.str](/docs/MAIN.md#function-testtest_contactstr) ###
+### [function Test.Test_Contact.str](//home/connor/Template/docs/MAIN.md#function-testtest_contactstr) ###
 
 
 
@@ -215,7 +215,7 @@ References
 
 
 
-### [function Test.init](/docs/MAIN.md#function-testinit) ###
+### [function Test.init](//home/connor/Template/docs/MAIN.md#function-testinit) ###
 
 
 
@@ -267,7 +267,7 @@ References
 
 
 
-### [function Test.str](/docs/MAIN.md#function-teststr) ###
+### [function Test.str](//home/connor/Template/docs/MAIN.md#function-teststr) ###
 
 
 
@@ -317,7 +317,7 @@ References
 
 
 
-### [function print_hi](/docs/MAIN.md#function-print_hi) ###
+### [function print_hi](//home/connor/Template/docs/MAIN.md#function-print_hi) ###
 
 
 
@@ -367,7 +367,7 @@ References
 <details>
 <summary>
 
-## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md)
+## Documentation For [toolbox/queue.py](//home/connor/Template/docs/TOOLBOX-QUEUE.md)
 
 </summary>
 
@@ -377,7 +377,7 @@ References
 
 
 
-### [class Queue](/docs/TOOLBOX-QUEUE.md#class-queue) ###
+### [class Queue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#class-queue) ###
 
 
 
@@ -418,7 +418,7 @@ References
 
 
 
-### [function Queue.init](/docs/TOOLBOX-QUEUE.md#function-queueinit) ###
+### [function Queue.init](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueinit) ###
 
 
 
@@ -458,7 +458,7 @@ Examples
 
 
 
-### [function Queue.enqueue](/docs/TOOLBOX-QUEUE.md#function-queueenqueue) ###
+### [function Queue.enqueue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueenqueue) ###
 
 
 
@@ -499,7 +499,7 @@ Examples
 
 
 
-### [function Queue.dequeue](/docs/TOOLBOX-QUEUE.md#function-queuedequeue) ###
+### [function Queue.dequeue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuedequeue) ###
 
 
 
@@ -543,7 +543,7 @@ Examples
 
 
 
-### [function Queue.size](/docs/TOOLBOX-QUEUE.md#function-queuesize) ###
+### [function Queue.size](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuesize) ###
 
 
 
@@ -586,7 +586,7 @@ Examples
 
 
 
-### [function Queue.is_empty](/docs/TOOLBOX-QUEUE.md#function-queueis_empty) ###
+### [function Queue.is_empty](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueis_empty) ###
 
 
 
@@ -628,7 +628,7 @@ Examples
 
 
 
-### [function Queue.peek](/docs/TOOLBOX-QUEUE.md#function-queuepeek) ###
+### [function Queue.peek](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuepeek) ###
 
 
 
@@ -672,7 +672,7 @@ Examples
 
 
 
-### [function Queue.get_list](/docs/TOOLBOX-QUEUE.md#function-queueget_list) ###
+### [function Queue.get_list](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueget_list) ###
 
 
 
@@ -716,7 +716,7 @@ Examples
 
 
 
-### [function Queue.len](/docs/TOOLBOX-QUEUE.md#function-queuelen) ###
+### [function Queue.len](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuelen) ###
 
 
 
@@ -758,7 +758,7 @@ Examples
 
 
 
-### [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
+### [function Queue.copy](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
 
 
 
@@ -802,7 +802,7 @@ Examples
 
 
 
-### [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
+### [function Queue.copy](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
 
 
 
@@ -846,7 +846,7 @@ Examples
 
 
 
-### [function Queue.eq](/docs/TOOLBOX-QUEUE.md#function-queueeq) ###
+### [function Queue.eq](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueeq) ###
 
 
 
@@ -886,7 +886,7 @@ Examples
 
 
 
-### [function Queue.ne](/docs/TOOLBOX-QUEUE.md#function-queuene) ###
+### [function Queue.ne](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuene) ###
 
 
 
@@ -926,7 +926,7 @@ Examples
 
 
 
-### [function Queue.getitem](/docs/TOOLBOX-QUEUE.md#function-queuegetitem) ###
+### [function Queue.getitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuegetitem) ###
 
 
 
@@ -965,7 +965,7 @@ Examples
 
 
 
-### [function Queue.setitem](/docs/TOOLBOX-QUEUE.md#function-queuesetitem) ###
+### [function Queue.setitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuesetitem) ###
 
 
 
@@ -1004,7 +1004,7 @@ Examples
 
 
 
-### [function Queue.delitem](/docs/TOOLBOX-QUEUE.md#function-queuedelitem) ###
+### [function Queue.delitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuedelitem) ###
 
 
 
@@ -1043,7 +1043,7 @@ Examples
 
 
 
-### [function Queue.iter](/docs/TOOLBOX-QUEUE.md#function-queueiter) ###
+### [function Queue.iter](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueiter) ###
 
 
 
@@ -1083,7 +1083,7 @@ Examples
 
 
 
-### [function Queue.reversed](/docs/TOOLBOX-QUEUE.md#function-queuereversed) ###
+### [function Queue.reversed](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuereversed) ###
 
 
 
@@ -1123,7 +1123,7 @@ Examples
 
 
 
-### [function Queue.contains](/docs/TOOLBOX-QUEUE.md#function-queuecontains) ###
+### [function Queue.contains](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecontains) ###
 
 
 
@@ -1162,7 +1162,7 @@ Examples
 
 
 
-### [function Queue.add](/docs/TOOLBOX-QUEUE.md#function-queueadd) ###
+### [function Queue.add](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueadd) ###
 
 
 
@@ -1203,7 +1203,7 @@ Examples
 
 
 
-### [function Queue.iadd](/docs/TOOLBOX-QUEUE.md#function-queueiadd) ###
+### [function Queue.iadd](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueiadd) ###
 
 
 
@@ -1244,7 +1244,7 @@ Examples
 
 
 
-### [function Queue.mul](/docs/TOOLBOX-QUEUE.md#function-queuemul) ###
+### [function Queue.mul](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuemul) ###
 
 
 
@@ -1284,7 +1284,7 @@ Examples
 
 
 
-### [function Queue.imul](/docs/TOOLBOX-QUEUE.md#function-queueimul) ###
+### [function Queue.imul](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueimul) ###
 
 
 
@@ -1324,7 +1324,7 @@ Examples
 
 
 
-### [function Queue.str](/docs/TOOLBOX-QUEUE.md#function-queuestr) ###
+### [function Queue.str](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuestr) ###
 
 
 
@@ -1363,7 +1363,7 @@ Examples
 <details>
 <summary>
 
-## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md)
+## Documentation For [toolbox/database.py](//home/connor/Template/docs/TOOLBOX-DATABASE.md)
 
 </summary>
 
@@ -1373,7 +1373,7 @@ Examples
 
 
 
-### [function slugify](/docs/TOOLBOX-DATABASE.md#function-slugify) ###
+### [function slugify](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-slugify) ###
 
 
 
@@ -1426,7 +1426,7 @@ References
 
 
 
-### [function get](/docs/TOOLBOX-DATABASE.md#function-get) ###
+### [function get](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-get) ###
 
 
 
@@ -1476,7 +1476,7 @@ References
 
 
 
-### [function save](/docs/TOOLBOX-DATABASE.md#function-save) ###
+### [function save](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-save) ###
 
 
 
@@ -1530,7 +1530,7 @@ References
 
 
 
-### [function delete_database](/docs/TOOLBOX-DATABASE.md#function-delete_database) ###
+### [function delete_database](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-delete_database) ###
 
 
 
@@ -1584,7 +1584,7 @@ References
 
 
 
-### [function save_key](/docs/TOOLBOX-DATABASE.md#function-save_key) ###
+### [function save_key](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-save_key) ###
 
 
 
@@ -1638,7 +1638,7 @@ References
 
 
 
-### [function load_key](/docs/TOOLBOX-DATABASE.md#function-load_key) ###
+### [function load_key](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-load_key) ###
 
 
 
