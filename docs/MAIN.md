@@ -4,9 +4,9 @@ Import Statement: `import main`
 
 Alternative Import Statement: `from main import *`
 
-# class Test #
+# >  class Test #
 
-### [class Test:](./../main.py#L4) ###
+### [class Test:](./../main.py#L4) 
 
 Notes
 
@@ -28,9 +28,17 @@ References
     No Links
 ```
 
-# class Test.Test_Contact #
 
-### [class Test_Contact:](./../main.py#L20) ###
+ <details>
+<summary>
+
+#### Functions and Classes
+
+</summary>
+
+# >  >  class Test.Test_Contact #
+
+### [class Test_Contact:](./../main.py#L20) 
 
 Notes
 
@@ -51,9 +59,17 @@ References
         No Links
 ```
 
-# function Test.Test_Contact.init #
 
-### [def __init__(self, phone: str, address: int):](./../main.py#L36) ###
+ <details>
+<summary>
+
+#### Functions and Classes
+
+</summary>
+
+# >  >  >  function Test.Test_Contact.init #
+
+### [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
 Notes
 
@@ -89,9 +105,9 @@ References
             No Links
 ```
 
-# function Test.Test_Contact.str #
+# >  >  >  function Test.Test_Contact.str #
 
-### [def __str__(self):](./../main.py#L63) ###
+### [def __str__(self):](./../main.py#L63) 
 
 Notes
 
@@ -125,9 +141,11 @@ References
             No Links
 ```
 
-# function Test.init #
+</details>
 
-### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) ###
+# >  >  function Test.init #
+
+### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
 Notes
 
@@ -163,9 +181,9 @@ References
         No Links
 ```
 
-# function Test.str #
+# >  >  function Test.str #
 
-### [def __str__(self):](./../main.py#L119) ###
+### [def __str__(self):](./../main.py#L119) 
 
 Notes
 
@@ -199,9 +217,11 @@ References
         No Links
 ```
 
-# function print_hi #
+</details>
 
-### [def print_hi(name: str) -> None:](./../main.py#L146) ###
+# >  function print_hi #
+
+### [def print_hi(name: str) -> None:](./../main.py#L146) 
 
 Notes
 

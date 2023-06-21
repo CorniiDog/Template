@@ -34,7 +34,7 @@ if output_instructions:
             if text_line.startswith("-=["):
                 new_text += f"## {text_line[3:-3]} ##\n" + "\n"
                 if document_path != "":
-                    documentation += f"[{text_line[3:-3]}](/{document_path}#{text_line[3:-3].lower().replace(' ', '-')})\n\n"
+                    documentation += f"[{text_line[3:-3]}](/{document_path}#{text_line[3:-3].lower().replace(' ', '-').replace('.', '')})\n\n"
             elif len(text_line) > 0 and text_line[0] in "1234567890":
                 new_text += f"### {text_line} ###\n" + "\n"
                 # new_text += line + "\n" + "\n"
@@ -80,7 +80,8 @@ if output_instructions:
                     # Split the path into folders
                     folders = str(file_path).split("/")
                     last_part = folders[-1].split(".")[0]
-                    file_document_path = info.data["docs_folder"] + "/" + (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
+                    file_document_path = info.data["docs_folder_dir"] + "/" + (str(file_path).strip().replace("/", "-").upper().split(".PY")[0]) + ".md"
+
                     file2 = open(file_document_path, "w")
                     # Provide link to go back to DOCS.md
                     file2.write(f"[Back to DOCS.md](DOCS.md)\n\n")
@@ -146,15 +147,15 @@ if output_instructions:
                             else:
                                 return get_class_documentation(k + 1, offset=offset + 1)
 
-                    def document_data(i, name, line, docs, parent_string="", obj_type="function"):
+                    def document_data(i, name, line, docs, parent_string="", obj_type="function", spaces = "> "):
                         # Remove underscores from front and back only, not in the middle
                         name = name.strip("_")
                         name = parent_string + name
-                        file2.write(f"# {obj_type + ' ' + name} #\n\n")
+                        file2.write(f"# {spaces} {obj_type + ' ' + name} #\n\n")
                         class_declaration = line
-                        file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) ###\n\n")
+                        file2.write(f"### [{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n")
                         file_documentation = f"/{file_document_path}#{obj_type}-{name.lower().replace(' ', '-').replace('.', '')}"
-                        writing_header = f"\n\n### [{obj_type + ' ' + name}]({file_documentation}) ###\n\n"
+                        writing_header = f"### {spaces}[{obj_type + ' ' + name}]({file_documentation}) \n\n"
                         documents = get_class_documentation(i + 1)
                         sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
                         new_documentation = ""
@@ -179,11 +180,11 @@ if output_instructions:
                                 if section_combined[0] == "-":
                                     section_combined = section_combined.split("\n", 1)[1]
                                 file2.write("```python\n" + section_combined + "\n```\n\n")
-                                new_documentation += "```python\n" + section_combined + "\n```\n\n"
+                                new_documentation += "\n```python\n" + section_combined + "\n```\n\n"
 
                         class_declaration_reference = f"[{class_declaration.strip()}](./../{file_path}#L{i + 1}) \n\n"
                         # Add dropdown to docs with the documentation
-                        docs += f"\n<details>\n<summary>\n\n{writing_header}\n\n</summary>\n\n{class_declaration_reference + new_documentation}\n\n</details>\n\n"
+                        docs += f"\n <details>\n<summary>\n\n{writing_header}\n\n</summary>\n\n{class_declaration_reference + new_documentation}\n\n"
                         # Identify level of tabbing for any statements after the class
                         tab_level2 = 0
                         for j in range(i+1, len(lines)):
@@ -193,18 +194,35 @@ if output_instructions:
                                 break
                         # Locate functions and classes within the class, if their tab level is equal to tab_level2
                         # Once the tab level is less than tab_level2, then we know we have reached the end of the class
+
+                        identified_functions_or_classes = False
                         for j in range(i+1, len(lines)):
                             if count_spaces_at_beginning(lines[j]) == tab_level2:
-                                if lines[j].strip().startswith("def "):
-                                    name2 = get_function_name(lines[j])
-                                    docs = document_data(j, name2, lines[j], docs, parent_string=name+".", obj_type="function")
-                                elif lines[j].strip().startswith("class "):
-                                    name2 = get_class_name(lines[j])
-                                    docs = document_data(j, name2, lines[j], docs, parent_string=name+".", obj_type="class")
+                                if lines[j].strip().startswith("def ") or lines[j].strip().startswith("class "):
+                                    identified_functions_or_classes = True
+                                    break
                             if count_spaces_at_beginning(lines[j]) < tab_level2:
                                 # if not empty
                                 if len(lines[j].strip()) > 0:
                                     break
+
+                        if identified_functions_or_classes:
+                            file2.write(f"\n <details>\n<summary>\n\n#### Functions and Classes\n\n</summary>\n\n")
+                            for j in range(i+1, len(lines)):
+                                if count_spaces_at_beginning(lines[j]) == tab_level2:
+                                    if lines[j].strip().startswith("def "):
+                                        name2 = get_function_name(lines[j])
+                                        docs = document_data(j, name2, lines[j], docs, parent_string=name+".", obj_type="function", spaces=spaces + " " + spaces.split(" ")[0] + " ")
+                                    elif lines[j].strip().startswith("class "):
+                                        name2 = get_class_name(lines[j])
+                                        docs = document_data(j, name2, lines[j], docs, parent_string=name+".", obj_type="class", spaces=spaces + " " + spaces.split(" ")[0] + " ")
+                                if count_spaces_at_beginning(lines[j]) < tab_level2:
+                                    # if not empty
+                                    if len(lines[j].strip()) > 0:
+                                        break
+                            file2.write(f"</details>\n\n")
+
+                        docs += "</details>\n\n"
                         return docs
 
                     found = False

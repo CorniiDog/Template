@@ -6,21 +6,21 @@ This is the documentation for the project Template.
 
 ## INSTRUCTIONS.md ##
 
-[0. HOW TO USE THIS TEMPLATE](/docs/INSTRUCTIONS.md#0.-how-to-use-this-template)
+[0. HOW TO USE THIS TEMPLATE](/docs/INSTRUCTIONS.md#0-how-to-use-this-template)
 
-[1. HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#1.-how-to-install-anaconda)
+[1. HOW TO INSTALL ANACONDA](/docs/INSTRUCTIONS.md#1-how-to-install-anaconda)
 
-[2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2.-how-to-create-conda-environment)
+[2. HOW TO CREATE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#2-how-to-create-conda-environment)
 
-[3. HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY](/docs/INSTRUCTIONS.md#3.-how-to-connect-interpreter-to-jetbrains-gateway)
+[3. HOW TO CONNECT INTERPRETER TO JETBRAINS GATEWAY](/docs/INSTRUCTIONS.md#3-how-to-connect-interpreter-to-jetbrains-gateway)
 
-[4. HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#4.-how-to-install-requirements)
+[4. HOW TO INSTALL REQUIREMENTS](/docs/INSTRUCTIONS.md#4-how-to-install-requirements)
 
-[5. HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#5.-how-to-install-service)
+[5. HOW TO INSTALL SERVICE](/docs/INSTRUCTIONS.md#5-how-to-install-service)
 
-[A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a.-how-to-remove-conda-environment)
+[A. HOW TO REMOVE CONDA ENVIRONMENT](/docs/INSTRUCTIONS.md#a-how-to-remove-conda-environment)
 
-[B. HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b.-how-to-uninstall-service)
+[B. HOW TO UNINSTALL SERVICE](/docs/INSTRUCTIONS.md#b-how-to-uninstall-service)
 
 # API #
 
@@ -28,17 +28,15 @@ This is the documentation for the project Template.
 <details>
 <summary>
 
-## Documentation For [main.py](//home/connor/Template/docs/MAIN.md)
+## Documentation For [main.py](/docs/MAIN.md)
 
 </summary>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [class Test](//home/connor/Template/docs/MAIN.md#class-test) ###
+### > [class Test](/docs/MAIN.md#class-test) 
 
 
 
@@ -48,11 +46,13 @@ This is the documentation for the project Template.
 
 Notes
 
+
 ```python
     This is a test class, it is used to test the documentation generator
 ```
 
 Examples
+
 
 ```python
     test_contact = Test.Test_Contact("123-456-7890", 1234)
@@ -62,21 +62,18 @@ Examples
 
 References
 
+
 ```python
     No Links
 ```
 
 
 
-</details>
 
-
-<details>
+ <details>
 <summary>
 
-
-
-### [class Test.Test_Contact](//home/connor/Template/docs/MAIN.md#class-testtest_contact) ###
+### >  > [class Test.Test_Contact](/docs/MAIN.md#class-testtest_contact) 
 
 
 
@@ -86,11 +83,13 @@ References
 
 Notes
 
+
 ```python
         This is a test class, it is used to test the documentation generator
 ```
 
 Examples
+
 
 ```python
         test_contact = Test.Test_Contact("123-456-7890", 1234)
@@ -99,21 +98,18 @@ Examples
 
 References
 
+
 ```python
         No Links
 ```
 
 
 
-</details>
 
-
-<details>
+ <details>
 <summary>
 
-
-
-### [function Test.Test_Contact.init](//home/connor/Template/docs/MAIN.md#function-testtest_contactinit) ###
+### >  >  > [function Test.Test_Contact.init](/docs/MAIN.md#function-testtest_contactinit) 
 
 
 
@@ -123,11 +119,13 @@ References
 
 Notes
 
+
 ```python
             This function is called when the object is created
 ```
 
 Parameters
+
 
 ```python
             phone : str
@@ -138,6 +136,7 @@ Parameters
 
 Returns
 
+
 ```python
             None
                 This function does not return anything
@@ -145,11 +144,13 @@ Returns
 
 Examples
 
+
 ```python
             address_object = Test.Test_Contact("123-456-7890", 1234)
 ```
 
 References
+
 
 ```python
             No Links
@@ -160,12 +161,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Test.Test_Contact.str](//home/connor/Template/docs/MAIN.md#function-testtest_contactstr) ###
+### >  >  > [function Test.Test_Contact.str](/docs/MAIN.md#function-testtest_contactstr) 
 
 
 
@@ -175,17 +174,20 @@ References
 
 Notes
 
+
 ```python
             This function is called when the object is printed
 ```
 
 Parameters
 
+
 ```python
             None
 ```
 
 Returns
+
 
 ```python
             str
@@ -194,12 +196,14 @@ Returns
 
 Examples
 
+
 ```python
             address_object = Test.Test_Contact("123-456-7890", 1234)
             print(address_object)
 ```
 
 References
+
 
 ```python
             No Links
@@ -209,13 +213,13 @@ References
 
 </details>
 
+</details>
 
-<details>
+
+ <details>
 <summary>
 
-
-
-### [function Test.init](//home/connor/Template/docs/MAIN.md#function-testinit) ###
+### >  > [function Test.init](/docs/MAIN.md#function-testinit) 
 
 
 
@@ -225,11 +229,13 @@ References
 
 Notes
 
+
 ```python
         This function is called when the object is created
 ```
 
 Parameters
+
 
 ```python
         name : str
@@ -240,6 +246,7 @@ Parameters
 
 Returns
 
+
 ```python
         None
             This function does not return anything
@@ -247,11 +254,13 @@ Returns
 
 Examples
 
+
 ```python
         test_object = Test("Bill", 20)
 ```
 
 References
+
 
 ```python
         No Links
@@ -262,12 +271,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Test.str](//home/connor/Template/docs/MAIN.md#function-teststr) ###
+### >  > [function Test.str](/docs/MAIN.md#function-teststr) 
 
 
 
@@ -277,17 +284,20 @@ References
 
 Notes
 
+
 ```python
         This function is called when the object is printed
 ```
 
 Parameters
 
+
 ```python
         None
 ```
 
 Returns
+
 
 ```python
         str
@@ -296,12 +306,14 @@ Returns
 
 Examples
 
+
 ```python
         test_object = Test("Bill", 20)
         print(test_object)
 ```
 
 References
+
 
 ```python
         No Links
@@ -311,13 +323,13 @@ References
 
 </details>
 
+</details>
 
-<details>
+
+ <details>
 <summary>
 
-
-
-### [function print_hi](//home/connor/Template/docs/MAIN.md#function-print_hi) ###
+### > [function print_hi](/docs/MAIN.md#function-print_hi) 
 
 
 
@@ -327,11 +339,13 @@ References
 
 Notes
 
+
 ```python
         ello
 ```
 
 Parameters
+
 
 ```python
         name : str
@@ -340,6 +354,7 @@ Parameters
 
 Returns
 
+
 ```python
         None
             This function does not return anything
@@ -347,11 +362,13 @@ Returns
 
 Examples
 
+
 ```python
         print_hi('PyCharm')
 ```
 
 References
+
 
 ```python
         https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
@@ -367,17 +384,15 @@ References
 <details>
 <summary>
 
-## Documentation For [toolbox/queue.py](//home/connor/Template/docs/TOOLBOX-QUEUE.md)
+## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md)
 
 </summary>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [class Queue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#class-queue) ###
+### > [class Queue](/docs/TOOLBOX-QUEUE.md#class-queue) 
 
 
 
@@ -387,6 +402,7 @@ References
 
 Notes
 
+
 ```python
     A queue is a data structure that follows the First In First Out (FIFO) principle.
     This means that the first item added to the queue will be the first item removed from the queue.
@@ -394,6 +410,7 @@ Notes
 ```
 
 Examples
+
 
 ```python
     queue = Queue([1, 2, 3, 4, 5], 10)
@@ -404,21 +421,18 @@ Examples
 
 References
 
+
 ```python
     https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
 ```
 
 
 
-</details>
 
-
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.init](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueinit) ###
+### >  > [function Queue.init](/docs/TOOLBOX-QUEUE.md#function-queueinit) 
 
 
 
@@ -428,6 +442,7 @@ References
 
 Notes
 
+
 ```python
         If the queue_list is not None, then the queue will be initialized with the list
         If the max_size is not None, then the queue will be initialized with the max_size
@@ -435,11 +450,13 @@ Notes
 
 Returns
 
+
 ```python
         None
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], 10)
@@ -453,12 +470,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.enqueue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueenqueue) ###
+### >  > [function Queue.enqueue](/docs/TOOLBOX-QUEUE.md#function-queueenqueue) 
 
 
 
@@ -468,17 +483,20 @@ Examples
 
 Notes
 
+
 ```python
         Adds the item to the end of the queue
 ```
 
 Returns
 
+
 ```python
         None
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -494,12 +512,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.dequeue](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuedequeue) ###
+### >  > [function Queue.dequeue](/docs/TOOLBOX-QUEUE.md#function-queuedequeue) 
 
 
 
@@ -509,11 +525,13 @@ Examples
 
 Notes
 
+
 ```python
         Removes the first item from the queue
 ```
 
 Returns
+
 
 ```python
         item: any
@@ -521,6 +539,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -538,12 +557,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.size](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuesize) ###
+### >  > [function Queue.size](/docs/TOOLBOX-QUEUE.md#function-queuesize) 
 
 
 
@@ -553,11 +570,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns the size of the queue
 ```
 
 Returns
+
 
 ```python
         size: int
@@ -565,6 +584,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -581,12 +601,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.is_empty](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueis_empty) ###
+### >  > [function Queue.is_empty](/docs/TOOLBOX-QUEUE.md#function-queueis_empty) 
 
 
 
@@ -596,11 +614,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns True if the queue is empty, False otherwise
 ```
 
 Returns
+
 
 ```python
         is_empty: bool
@@ -608,6 +628,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -623,12 +644,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.peek](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuepeek) ###
+### >  > [function Queue.peek](/docs/TOOLBOX-QUEUE.md#function-queuepeek) 
 
 
 
@@ -638,11 +657,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns the first item in the queue without removing it
 ```
 
 Returns
+
 
 ```python
         item: any
@@ -650,6 +671,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -667,12 +689,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.get_list](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueget_list) ###
+### >  > [function Queue.get_list](/docs/TOOLBOX-QUEUE.md#function-queueget_list) 
 
 
 
@@ -682,11 +702,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns the list of items in the queue
 ```
 
 Returns
+
 
 ```python
         list: list
@@ -694,6 +716,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -711,12 +734,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.len](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuelen) ###
+### >  > [function Queue.len](/docs/TOOLBOX-QUEUE.md#function-queuelen) 
 
 
 
@@ -726,11 +747,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns the size of the queue
 ```
 
 Returns
+
 
 ```python
         size: int
@@ -738,6 +761,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -753,12 +777,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.copy](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
+### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) 
 
 
 
@@ -768,11 +790,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns a copy of the queue
 ```
 
 Returns
+
 
 ```python
         new_queue: Queue
@@ -780,6 +804,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -797,12 +822,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.copy](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecopy) ###
+### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) 
 
 
 
@@ -812,11 +835,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns a copy of the queue
 ```
 
 Returns
+
 
 ```python
         new_queue: Queue
@@ -824,6 +849,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue(max_size=10)
@@ -841,12 +867,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.eq](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueeq) ###
+### >  > [function Queue.eq](/docs/TOOLBOX-QUEUE.md#function-queueeq) 
 
 
 
@@ -856,11 +880,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns True if the queues are equal, False otherwise
 ```
 
 Returns
+
 
 ```python
         is_equal: bool
@@ -868,6 +894,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -881,12 +908,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.ne](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuene) ###
+### >  > [function Queue.ne](/docs/TOOLBOX-QUEUE.md#function-queuene) 
 
 
 
@@ -896,11 +921,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns True if the queues are not equal, False otherwise
 ```
 
 Returns
+
 
 ```python
         is_not_equal: bool
@@ -908,6 +935,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -921,12 +949,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.getitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuegetitem) ###
+### >  > [function Queue.getitem](/docs/TOOLBOX-QUEUE.md#function-queuegetitem) 
 
 
 
@@ -936,11 +962,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns the item at the given index
 ```
 
 Returns
+
 
 ```python
         item: any
@@ -948,6 +976,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -960,12 +989,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.setitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuesetitem) ###
+### >  > [function Queue.setitem](/docs/TOOLBOX-QUEUE.md#function-queuesetitem) 
 
 
 
@@ -975,17 +1002,20 @@ Examples
 
 Notes
 
+
 ```python
         Sets the item at the given index to the given value
 ```
 
 Returns
 
+
 ```python
         None
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -999,12 +1029,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.delitem](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuedelitem) ###
+### >  > [function Queue.delitem](/docs/TOOLBOX-QUEUE.md#function-queuedelitem) 
 
 
 
@@ -1014,17 +1042,20 @@ Examples
 
 Notes
 
+
 ```python
         Deletes the item at the given index
 ```
 
 Returns
 
+
 ```python
         None
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1038,12 +1069,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.iter](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueiter) ###
+### >  > [function Queue.iter](/docs/TOOLBOX-QUEUE.md#function-queueiter) 
 
 
 
@@ -1053,11 +1082,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns an iterator for the queue
 ```
 
 Returns
+
 
 ```python
         iter: iter
@@ -1065,6 +1096,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1078,12 +1110,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.reversed](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuereversed) ###
+### >  > [function Queue.reversed](/docs/TOOLBOX-QUEUE.md#function-queuereversed) 
 
 
 
@@ -1093,11 +1123,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns an iterator for the queue in reverse order
 ```
 
 Returns
+
 
 ```python
         reversed: iter
@@ -1105,6 +1137,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1118,12 +1151,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.contains](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuecontains) ###
+### >  > [function Queue.contains](/docs/TOOLBOX-QUEUE.md#function-queuecontains) 
 
 
 
@@ -1133,11 +1164,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns True if the item is in the queue, False otherwise
 ```
 
 Returns
+
 
 ```python
         is_in: bool
@@ -1145,6 +1178,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1157,12 +1191,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.add](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueadd) ###
+### >  > [function Queue.add](/docs/TOOLBOX-QUEUE.md#function-queueadd) 
 
 
 
@@ -1172,11 +1204,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns a new queue with the items from both queues
 ```
 
 Returns
+
 
 ```python
         new_queue: Queue
@@ -1184,6 +1218,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1198,12 +1233,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.iadd](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueiadd) ###
+### >  > [function Queue.iadd](/docs/TOOLBOX-QUEUE.md#function-queueiadd) 
 
 
 
@@ -1213,11 +1246,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns this queue with the items from both queues
 ```
 
 Returns
+
 
 ```python
         self: Queue
@@ -1225,6 +1260,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1239,12 +1275,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.mul](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuemul) ###
+### >  > [function Queue.mul](/docs/TOOLBOX-QUEUE.md#function-queuemul) 
 
 
 
@@ -1254,11 +1288,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns a new queue with the items from this queue repeated the given number of times
 ```
 
 Returns
+
 
 ```python
         new_queue: Queue
@@ -1266,6 +1302,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1279,12 +1316,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.imul](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queueimul) ###
+### >  > [function Queue.imul](/docs/TOOLBOX-QUEUE.md#function-queueimul) 
 
 
 
@@ -1294,11 +1329,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns this queue with the items from this queue repeated the given number of times
 ```
 
 Returns
+
 
 ```python
         self: Queue
@@ -1306,6 +1343,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1319,12 +1357,10 @@ Examples
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function Queue.str](//home/connor/Template/docs/TOOLBOX-QUEUE.md#function-queuestr) ###
+### >  > [function Queue.str](/docs/TOOLBOX-QUEUE.md#function-queuestr) 
 
 
 
@@ -1334,11 +1370,13 @@ Examples
 
 Notes
 
+
 ```python
         Returns a string representation of the queue
 ```
 
 Returns
+
 
 ```python
         string: str
@@ -1346,6 +1384,7 @@ Returns
 ```
 
 Examples
+
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -1357,23 +1396,23 @@ Examples
 
 </details>
 
+</details>
+
 <br></details>
 
 
 <details>
 <summary>
 
-## Documentation For [toolbox/database.py](//home/connor/Template/docs/TOOLBOX-DATABASE.md)
+## Documentation For [toolbox/database.py](/docs/TOOLBOX-DATABASE.md)
 
 </summary>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function slugify](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-slugify) ###
+### > [function slugify](/docs/TOOLBOX-DATABASE.md#function-slugify) 
 
 
 
@@ -1383,12 +1422,14 @@ Examples
 
 Notes
 
+
 ```python
     This function is used to slugify strings, which basically means to remove all special characters and replace them with dashes.
     This is useful for creating file names from strings.
 ```
 
 Parameters
+
 
 ```python
     value : str
@@ -1399,6 +1440,7 @@ Parameters
 
 Returns
 
+
 ```python
     str
         The slugified string
@@ -1406,11 +1448,13 @@ Returns
 
 Examples
 
+
 ```python
     a = slugify('Hello World')
 ```
 
 References
+
 
 ```python
     https://github.com/django/django/blob/master/django/utils/text.py
@@ -1421,12 +1465,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function get](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-get) ###
+### > [function get](/docs/TOOLBOX-DATABASE.md#function-get) 
 
 
 
@@ -1436,11 +1478,13 @@ References
 
 Notes
 
+
 ```python
     This function is used to load objects from the database folder
 ```
 
 Parameters
+
 
 ```python
     name : str
@@ -1449,6 +1493,7 @@ Parameters
 
 Returns
 
+
 ```python
     object or None
         The object loaded from the file, could be anything
@@ -1456,11 +1501,13 @@ Returns
 
 Examples
 
+
 ```python
     spreadsheet_data = get('spreadsheet_people')
 ```
 
 References
+
 
 ```python
     No Links
@@ -1471,12 +1518,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function save](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-save) ###
+### > [function save](/docs/TOOLBOX-DATABASE.md#function-save) 
 
 
 
@@ -1486,11 +1531,13 @@ References
 
 Notes
 
+
 ```python
     This function is used to save objects to the database folder
 ```
 
 Parameters
+
 
 ```python
     name : str
@@ -1501,12 +1548,14 @@ Parameters
 
 Returns
 
+
 ```python
     None
         This function does not return anything
 ```
 
 Examples
+
 
 ```python
     spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
@@ -1515,6 +1564,7 @@ Examples
 ```
 
 References
+
 
 ```python
     No Links
@@ -1525,12 +1575,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function delete_database](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-delete_database) ###
+### > [function delete_database](/docs/TOOLBOX-DATABASE.md#function-delete_database) 
 
 
 
@@ -1540,11 +1588,13 @@ References
 
 Notes
 
+
 ```python
     This function is used to delete objects from the database folder
 ```
 
 Parameters
+
 
 ```python
     name : str
@@ -1553,12 +1603,14 @@ Parameters
 
 Returns
 
+
 ```python
     object or None
         The object loaded from the file, could be anything
 ```
 
 Examples
+
 
 ```python
     spreadsheet_data = {"People": ["Bill", "Kent", "Steve"], "Ages": [20, 30, 40]}
@@ -1570,6 +1622,7 @@ Examples
 
 References
 
+
 ```python
     No Links
 ```
@@ -1579,12 +1632,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function save_key](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-save_key) ###
+### > [function save_key](/docs/TOOLBOX-DATABASE.md#function-save_key) 
 
 
 
@@ -1594,11 +1645,13 @@ References
 
 Notes
 
+
 ```python
     This function is used to save keys in a secure location
 ```
 
 Parameters
+
 
 ```python
     platform: str
@@ -1611,6 +1664,7 @@ Parameters
 
 Returns
 
+
 ```python
     None
         This function does not return anything
@@ -1618,11 +1672,13 @@ Returns
 
 Examples
 
+
 ```python
     save_key('google', '<google_api_key>')
 ```
 
 References
+
 
 ```python
     https://www.nylas.com/blog/making-use-of-environment-variables-in-python/
@@ -1633,12 +1689,10 @@ References
 </details>
 
 
-<details>
+ <details>
 <summary>
 
-
-
-### [function load_key](//home/connor/Template/docs/TOOLBOX-DATABASE.md#function-load_key) ###
+### > [function load_key](/docs/TOOLBOX-DATABASE.md#function-load_key) 
 
 
 
@@ -1648,11 +1702,13 @@ References
 
 Notes
 
+
 ```python
         This function is used to load keys from a secure location
 ```
 
 Parameters
+
 
 ```python
         platform: str
@@ -1661,6 +1717,7 @@ Parameters
 
 Returns
 
+
 ```python
         str or None
             This function returns the key if it exists, otherwise it returns None
@@ -1668,11 +1725,13 @@ Returns
 
 Examples
 
+
 ```python
         key = load_key('google')
 ```
 
 References
+
 
 ```python
         https://www.nylas.com/blog/making-use-of-environment-variables-in-python/

@@ -5,6 +5,7 @@ data = {
     "path_to_services": "/etc/systemd/system",
     "project_dir": os.path.dirname(os.path.realpath(__file__)),
     "home_dir": os.path.expanduser("~"),
+    "docs_folder_dir": "docs",
 }
 
 data["project_name"] = os.path.basename(data["project_dir"])
@@ -16,7 +17,7 @@ data["toolbox_folder"] = f"{data['project_dir']}/toolbox"
 data["requirements_file"] = f"{data['requirements_folder']}/requirements.txt"
 data["conda_requirements_file"] = f"{data['requirements_folder']}/conda_requirements.txt"
 data["conda_forge_requirements_file"] = f"{data['requirements_folder']}/conda_forge_requirements.txt"
-data["docs_folder"] = f"{data['project_dir']}/docs"
+data["docs_folder"] = f"{data['project_dir']}/{data['docs_folder_dir']}"
 data["service_name"] = f"{data['project_name']}.service"
 data["service_path"] = f"{data['storage_folder']}/{data['service_name']}"
 data["service_moved_path"] = f"{data['path_to_services']}/{data['service_name']}"
