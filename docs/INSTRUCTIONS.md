@@ -7,11 +7,11 @@
 
 ### 1. Git Clone this repository: ###
 
-    git clone https://github.com/ConnorAtmos/Template
+    git clone https://github.com/ConnorAtmos/Template <project_name>
 
     or
 
-    git clone git@github.com:ConnorAtmos/Template.git
+    git clone git@github.com:ConnorAtmos/Template.git <project_name>
 
 
 ### 2. Rename the project directory: ###
