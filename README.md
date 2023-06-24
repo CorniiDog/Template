@@ -1,5 +1,3 @@
-[For Documentation, Click Here](docs/DOCS.md)
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -84,4 +82,7 @@ Project Link: [https://github.com/ConnorAtmos/Template](https://github.com/Conno
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/connor-white-38a5501a0/
 
+
+<!-- DOCUMENTATION -->
+                            ## DOCUMENTATION[For Documentation, Click Here](docs/DOCS.md)
 
