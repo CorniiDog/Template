@@ -50,7 +50,6 @@ if output_instructions:
     turn_to_readme = format_for_readme(output, document_path="docs/INSTRUCTIONS.md")
 
     with open("README.md", "w") as f:
-        f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
         # Add all lines from ABOUT.md to README.md
         with open("ABOUT.md", "r") as about:
             for line in about.readlines():
@@ -60,6 +59,9 @@ if output_instructions:
 
                 f.write(line)
             f.write("\n\n")
+        f.write("""<!-- DOCUMENTATION -->
+                            ## DOCUMENTATION""")
+        f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
     with open(info.data["docs_folder"] + "/INSTRUCTIONS.md", "w") as f:
         # Provide link to go back to DOCS.md
