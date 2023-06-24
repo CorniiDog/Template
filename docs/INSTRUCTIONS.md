@@ -38,12 +38,20 @@ Conda is a package manager for python. It is used to install python packages and
 
 ### 2. Run the following command to download the conda installer: ###
 
-    wget <conda_install_link>
+
+    wget [conda_install_link]
+
+
+    wget https://repo.anaconda.com/archive/anaconda3-2022.05-linux-x86_64.sh
 
 
 ### 3. Run the following command to install conda: ###
 
-    bash <conda_file>
+
+    bash [conda_file]
+
+
+    bash anaconda3-2022.05-linux-x86_64.sh
 
 
 ### 4. Run the following command to update conda: ###
@@ -68,7 +76,10 @@ This is for creating a new conda environment.
 
 ### 1. Run the following command to create a new conda environment: ###
 
-    conda create --name <project_name>
+    conda create --name [project_name]
+
+
+    conda create --name template
 
 
 ### 2. Reload the bashrc file: ###
@@ -106,22 +117,32 @@ This is for installing python packages and conda packages.
 
 ### 1. CD into the project directory: ###
 
-    cd <project_dir>
+    cd [project_dir]
+
+
+    cd /home/connor/template
 
 
 ### 2. Activate the conda environment: ###
 
-    conda activate <project_name>
+    conda activate [project_name]
+
+
+    conda activate template
 
 
 ### 3. Install the following requirements: ###
 
-    pip install -r <requirements_file> && conda install --file <conda_requirements_file>  && conda install -c conda-forge --file <conda_forge_requirements_file>
+
+    pip install -r [requirements_file] && conda install --file [conda_requirements_file]  && conda install -c conda-forge --file [conda_forge_requirements_file]
+
+
+    pip install -r /home/connor/template/requirements/requirements.txt && conda install --file /home/connor/template/requirements/conda_requirements.txt  && conda install -c conda-forge --file /home/connor/template/requirements/conda_forge_requirements.txt
 
 
 ### 4. Install the following apt-get requirements: ###
 
-    <apt_get_str>
+    [no apt-get requirements]
 
 
 
@@ -136,7 +157,10 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 1. Run the following command to move the service file to the correct directory: ###
 
-    sudo mv <service_path> <service_moved_path>
+    sudo mv [service_path] [service_moved_path]
+
+
+    sudo mv /home/connor/template/storage/template.service /etc/systemd/system/template.service
 
 
 ### 2. Reload the daemon: ###
@@ -146,32 +170,42 @@ A service is a program that runs in the background. This is useful for running a
 
 ### 3. Run the following command to enable the service: ###
 
-    sudo systemctl enable <service_name>
+    sudo systemctl enable [service_name]
+
+
+    sudo systemctl enable template.service
 
 
 ### 4. Start the service: ###
 
-    sudo systemctl restart <service_name>
+    sudo systemctl restart [service_name]
+
+
+    sudo systemctl restart template.service
 
 
 ### 5. View status of service: ###
 
-    sudo systemctl status <service_name>
+    sudo systemctl status [service_name]
 
 
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-
-sudo mv <service_path> <service_moved_path> && sudo systemctl daemon-reload && sudo systemctl enable <service_name> && sudo systemctl restart <service_name> && sudo systemctl status <service_name>
+    sudo systemctl status template.service
 
 
 To stop the service, run:
 
-    sudo systemctl stop <service_name>
+    sudo systemctl stop [service_name]
+
+
+    sudo systemctl stop template.service
 
 
 To disable the service, run:
 
-    sudo systemctl disable <service_name>
+    sudo systemctl disable [service_name
+
+
+    sudo systemctl disable template.service
 
 
 
@@ -185,17 +219,15 @@ This is for removing the conda environment.
 
 ### 1. Run the following command to remove the conda environment: ###
 
-    conda env remove --name <project_name>
+    conda env remove --name [project_name]
+
+
+    conda env remove --name template
 
 
 ### 2. Reload the bashrc file: ###
 
     source ~/.bashrc
-
-
-ALTERNATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-
-conda env remove --name <project_name> && source ~/.bashrc
 
 
 
@@ -209,22 +241,26 @@ This is for uninstalling and removing the service.
 
 ### 1. Run the following command to disable the service: ###
 
-    sudo systemctl disable <service_name>
+    sudo systemctl disable [service_name]
+
+
+    sudo systemctl disable template.service
 
 
 ### 2. Run the following command to stop the service: ###
 
-    sudo systemctl stop <service_name>
+    sudo systemctl stop [service_name]
+
+
+    sudo systemctl stop template.service
 
 
 ### 3. Run the following command to delete the service file: ###
 
-    sudo rm <service_moved_path>
+    sudo rm [service_moved_path]
 
 
-ALTENATIVE, RUN THE FOLLOWING COMMAND THAT DOES ALL OF THE ABOVE:
-
-sudo systemctl disable <service_name> && sudo systemctl stop <service_name> && sudo systemctl daemon-reload && sudo rm <service_moved_path>
+    sudo rm /etc/systemd/system/template.service
 
 
 

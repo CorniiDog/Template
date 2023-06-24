@@ -35,6 +35,11 @@
   </a>
 </div>
 
+<!-- ABOUT -->
+## About
+
+
+This project is a template. It will be used to create other projects.
 
 
 <!-- GETTING STARTED -->

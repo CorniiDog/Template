@@ -35,7 +35,10 @@
   </a>
 </div>
 
+<!-- ABOUT -->
+## About
 
+<about>
 
 <!-- GETTING STARTED -->
 ## Getting Started
