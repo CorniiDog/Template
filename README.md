@@ -83,8 +83,7 @@ Project Link: [https://github.com/ConnorAtmos/Template](https://github.com/Conno
 [linkedin-url]: https://www.linkedin.com/in/connor-white-38a5501a0/
 
 
-<!-- DOCUMENTATION -->
-                            ## DOCUMENTATION
+## DOCUMENTATION
 
 [For Documentation, Click Here](docs/DOCS.md)
 
