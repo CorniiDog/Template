@@ -84,5 +84,7 @@ Project Link: [https://github.com/ConnorAtmos/Template](https://github.com/Conno
 
 
 <!-- DOCUMENTATION -->
-                            ## DOCUMENTATION[For Documentation, Click Here](docs/DOCS.md)
+                            ## DOCUMENTATION
+
+[For Documentation, Click Here](docs/DOCS.md)
 

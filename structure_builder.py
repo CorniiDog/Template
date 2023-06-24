@@ -60,7 +60,7 @@ if output_instructions:
                 f.write(line)
             f.write("\n\n")
         f.write("""<!-- DOCUMENTATION -->
-                            ## DOCUMENTATION""")
+                            ## DOCUMENTATION\n\n""")
         f.write("[For Documentation, Click Here](docs/DOCS.md)\n\n")
 
     with open(info.data["docs_folder"] + "/INSTRUCTIONS.md", "w") as f:
