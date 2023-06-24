@@ -5,26 +5,17 @@
 ## 0. HOW TO USE THIS TEMPLATE ##
 
 
-### 1. Git Clone this repository: ###
+### 1. Git Clone this repository (project_name is the name of the project you want to create): ###
 
-    git clone https://github.com/ConnorAtmos/Template <project_name>
-
-    or
-
-    git clone git@github.com:ConnorAtmos/Template.git <project_name>
+    git clone https://github.com/connoratmos/template <project_name>
 
 
-### 2. Rename the project directory: ###
-
-    mv Template <project_name>
-
-
-### 3. CD into the project directory and remove the git repository: ###
+### 2. CD into the project directory and remove the git repository: ###
 
     cd <project_name> && rm -rf .git
 
 
-### 4. Run structure_builder.py for next steps: ###
+### 3. Run structure_builder.py for next steps: ###
 
     python3 structure_builder.py
 
