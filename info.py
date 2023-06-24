@@ -15,7 +15,7 @@ data = {
     "project_name": "Template",
     "project_link": "https://github.com/ConnorAtmos/Template",
     "linked_in_url": "https://www.linkedin.com/in/connor-white-38a5501a0/",
-    "path_to_logo": "storage/logo.png",
+    "path_to_logo": "/storage/logo.png",
     "email": "connor.sw.personal@gmail.com",
     "full_name": "Connor White",
 }
