@@ -384,7 +384,7 @@ References
 <details>
 <summary>
 
-## Documentation For [toolbox/queue.py](/docs/TOOLBOX-QUEUE.md)
+## Documentation For [toolbox/queue_local.py](/docs/TOOLBOX-QUEUE_LOCAL.md)
 
 </summary>
 
@@ -392,13 +392,13 @@ References
  <details>
 <summary>
 
-### > [class Queue](/docs/TOOLBOX-QUEUE.md#class-queue) 
+### > [class Queue](/docs/TOOLBOX-QUEUE_LOCAL.md#class-queue) 
 
 
 
 </summary>
 
-[class Queue:](./../toolbox/queue.py#L2) 
+[class Queue:](./../toolbox/queue_local.py#L2) 
 
 Notes
 
@@ -432,13 +432,13 @@ References
  <details>
 <summary>
 
-### >  > [function Queue.init](/docs/TOOLBOX-QUEUE.md#function-queueinit) 
+### >  > [function Queue.init](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueinit) 
 
 
 
 </summary>
 
-[def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue.py#L30) 
+[def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue_local.py#L30) 
 
 Notes
 
@@ -473,13 +473,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.enqueue](/docs/TOOLBOX-QUEUE.md#function-queueenqueue) 
+### >  > [function Queue.enqueue](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueenqueue) 
 
 
 
 </summary>
 
-[def enqueue(self, item):](./../toolbox/queue.py#L61) 
+[def enqueue(self, item):](./../toolbox/queue_local.py#L61) 
 
 Notes
 
@@ -515,13 +515,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.dequeue](/docs/TOOLBOX-QUEUE.md#function-queuedequeue) 
+### >  > [function Queue.dequeue](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuedequeue) 
 
 
 
 </summary>
 
-[def dequeue(self):](./../toolbox/queue.py#L90) 
+[def dequeue(self):](./../toolbox/queue_local.py#L90) 
 
 Notes
 
@@ -560,13 +560,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.size](/docs/TOOLBOX-QUEUE.md#function-queuesize) 
+### >  > [function Queue.size](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuesize) 
 
 
 
 </summary>
 
-[def size(self) -> int:](./../toolbox/queue.py#L118) 
+[def size(self) -> int:](./../toolbox/queue_local.py#L118) 
 
 Notes
 
@@ -604,13 +604,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.is_empty](/docs/TOOLBOX-QUEUE.md#function-queueis_empty) 
+### >  > [function Queue.is_empty](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueis_empty) 
 
 
 
 </summary>
 
-[def is_empty(self) -> bool:](./../toolbox/queue.py#L146) 
+[def is_empty(self) -> bool:](./../toolbox/queue_local.py#L146) 
 
 Notes
 
@@ -647,13 +647,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.peek](/docs/TOOLBOX-QUEUE.md#function-queuepeek) 
+### >  > [function Queue.peek](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuepeek) 
 
 
 
 </summary>
 
-[def peek(self):](./../toolbox/queue.py#L173) 
+[def peek(self):](./../toolbox/queue_local.py#L173) 
 
 Notes
 
@@ -692,13 +692,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.get_list](/docs/TOOLBOX-QUEUE.md#function-queueget_list) 
+### >  > [function Queue.get_list](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueget_list) 
 
 
 
 </summary>
 
-[def get_list(self):](./../toolbox/queue.py#L201) 
+[def get_list(self):](./../toolbox/queue_local.py#L201) 
 
 Notes
 
@@ -737,13 +737,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.len](/docs/TOOLBOX-QUEUE.md#function-queuelen) 
+### >  > [function Queue.len](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuelen) 
 
 
 
 </summary>
 
-[def __len__(self):](./../toolbox/queue.py#L230) 
+[def __len__(self):](./../toolbox/queue_local.py#L230) 
 
 Notes
 
@@ -780,13 +780,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) 
+### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuecopy) 
 
 
 
 </summary>
 
-[def copy(self):](./../toolbox/queue.py#L256) 
+[def copy(self):](./../toolbox/queue_local.py#L256) 
 
 Notes
 
@@ -825,13 +825,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE.md#function-queuecopy) 
+### >  > [function Queue.copy](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuecopy) 
 
 
 
 </summary>
 
-[def __copy__(self):](./../toolbox/queue.py#L288) 
+[def __copy__(self):](./../toolbox/queue_local.py#L288) 
 
 Notes
 
@@ -870,13 +870,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.eq](/docs/TOOLBOX-QUEUE.md#function-queueeq) 
+### >  > [function Queue.eq](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueeq) 
 
 
 
 </summary>
 
-[def __eq__(self, other):](./../toolbox/queue.py#L317) 
+[def __eq__(self, other):](./../toolbox/queue_local.py#L317) 
 
 Notes
 
@@ -911,13 +911,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.ne](/docs/TOOLBOX-QUEUE.md#function-queuene) 
+### >  > [function Queue.ne](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuene) 
 
 
 
 </summary>
 
-[def __ne__(self, other):](./../toolbox/queue.py#L348) 
+[def __ne__(self, other):](./../toolbox/queue_local.py#L348) 
 
 Notes
 
@@ -952,13 +952,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.getitem](/docs/TOOLBOX-QUEUE.md#function-queuegetitem) 
+### >  > [function Queue.getitem](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuegetitem) 
 
 
 
 </summary>
 
-[def __getitem__(self, index):](./../toolbox/queue.py#L373) 
+[def __getitem__(self, index):](./../toolbox/queue_local.py#L373) 
 
 Notes
 
@@ -992,13 +992,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.setitem](/docs/TOOLBOX-QUEUE.md#function-queuesetitem) 
+### >  > [function Queue.setitem](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuesetitem) 
 
 
 
 </summary>
 
-[def __setitem__(self, index, value):](./../toolbox/queue.py#L397) 
+[def __setitem__(self, index, value):](./../toolbox/queue_local.py#L397) 
 
 Notes
 
@@ -1032,13 +1032,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.delitem](/docs/TOOLBOX-QUEUE.md#function-queuedelitem) 
+### >  > [function Queue.delitem](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuedelitem) 
 
 
 
 </summary>
 
-[def __delitem__(self, index):](./../toolbox/queue.py#L423) 
+[def __delitem__(self, index):](./../toolbox/queue_local.py#L423) 
 
 Notes
 
@@ -1072,13 +1072,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.iter](/docs/TOOLBOX-QUEUE.md#function-queueiter) 
+### >  > [function Queue.iter](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueiter) 
 
 
 
 </summary>
 
-[def __iter__(self):](./../toolbox/queue.py#L447) 
+[def __iter__(self):](./../toolbox/queue_local.py#L447) 
 
 Notes
 
@@ -1113,13 +1113,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.reversed](/docs/TOOLBOX-QUEUE.md#function-queuereversed) 
+### >  > [function Queue.reversed](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuereversed) 
 
 
 
 </summary>
 
-[def __reversed__(self):](./../toolbox/queue.py#L471) 
+[def __reversed__(self):](./../toolbox/queue_local.py#L471) 
 
 Notes
 
@@ -1154,13 +1154,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.contains](/docs/TOOLBOX-QUEUE.md#function-queuecontains) 
+### >  > [function Queue.contains](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuecontains) 
 
 
 
 </summary>
 
-[def __contains__(self, item):](./../toolbox/queue.py#L495) 
+[def __contains__(self, item):](./../toolbox/queue_local.py#L495) 
 
 Notes
 
@@ -1194,13 +1194,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.add](/docs/TOOLBOX-QUEUE.md#function-queueadd) 
+### >  > [function Queue.add](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueadd) 
 
 
 
 </summary>
 
-[def __add__(self, other):](./../toolbox/queue.py#L519) 
+[def __add__(self, other):](./../toolbox/queue_local.py#L519) 
 
 Notes
 
@@ -1236,13 +1236,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.iadd](/docs/TOOLBOX-QUEUE.md#function-queueiadd) 
+### >  > [function Queue.iadd](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueiadd) 
 
 
 
 </summary>
 
-[def __iadd__(self, other):](./../toolbox/queue.py#L550) 
+[def __iadd__(self, other):](./../toolbox/queue_local.py#L550) 
 
 Notes
 
@@ -1278,13 +1278,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.mul](/docs/TOOLBOX-QUEUE.md#function-queuemul) 
+### >  > [function Queue.mul](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuemul) 
 
 
 
 </summary>
 
-[def __mul__(self, other):](./../toolbox/queue.py#L578) 
+[def __mul__(self, other):](./../toolbox/queue_local.py#L578) 
 
 Notes
 
@@ -1319,13 +1319,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.imul](/docs/TOOLBOX-QUEUE.md#function-queueimul) 
+### >  > [function Queue.imul](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queueimul) 
 
 
 
 </summary>
 
-[def __imul__(self, other):](./../toolbox/queue.py#L607) 
+[def __imul__(self, other):](./../toolbox/queue_local.py#L607) 
 
 Notes
 
@@ -1360,13 +1360,13 @@ Examples
  <details>
 <summary>
 
-### >  > [function Queue.str](/docs/TOOLBOX-QUEUE.md#function-queuestr) 
+### >  > [function Queue.str](/docs/TOOLBOX-QUEUE_LOCAL.md#function-queuestr) 
 
 
 
 </summary>
 
-[def __str__(self):](./../toolbox/queue.py#L636) 
+[def __str__(self):](./../toolbox/queue_local.py#L636) 
 
 Notes
 

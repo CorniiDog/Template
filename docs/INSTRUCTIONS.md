@@ -29,6 +29,9 @@
     python3 structure_builder.py
 
 
+You should then modify info.py. This file contains all the information about your project.
+
+
 
 
 ## 1. HOW TO INSTALL ANACONDA ##

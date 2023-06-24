@@ -54,6 +54,10 @@ if output_instructions:
         # Add all lines from ABOUT.md to README.md
         with open("ABOUT.md", "r") as about:
             for line in about.readlines():
+
+                for key, value in info.data.items():
+                    line = line.replace("<" + key + ">", str(value))
+
                 f.write(line)
             f.write("\n\n")
 

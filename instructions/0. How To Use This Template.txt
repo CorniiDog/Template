@@ -11,3 +11,5 @@
 
 4. Run structure_builder.py for next steps:
     python3 structure_builder.py
+
+You should then modify info.py. This file contains all the information about your project.
