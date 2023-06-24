@@ -4,6 +4,39 @@ storage_folder = os.path.join(os.path.dirname(__file__), 'database')
 if not os.path.exists(storage_folder):
     os.makedirs(storage_folder)
 
+
+def set_storage_path(path):
+    """
+    Parameters
+    ----------
+    path : str
+        The path to the folder where the database files will be stored
+
+    Returns
+    -------
+    None
+        This function does not return anything
+
+    Notes
+    -----
+    This function is used to set the path to the folder where the database files will be stored
+
+    References
+    ----------
+    No Links
+
+    Examples
+    --------
+    set_storage_path('C:/Users/JohnDoe/Documents/MyDatabase')
+    """
+    global storage_folder
+    if not os.path.exists(storage_folder):
+        # throw error
+        raise Exception(f"Path {path} does not exist")
+
+    storage_folder = path
+
+
 def slugify(value, allow_unicode=False):
     """
     Parameters

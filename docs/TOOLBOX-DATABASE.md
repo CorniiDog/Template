@@ -4,9 +4,45 @@ Import Statement: `from toolbox import database`
 
 Alternative Import Statement: `from toolbox.database import *`
 
+# >  function set_storage_path #
+
+### [def set_storage_path(path):](./../toolbox/database.py#L8) 
+
+Notes
+
+```python
+    This function is used to set the path to the folder where the database files will be stored
+```
+
+Parameters
+
+```python
+    path : str
+        The path to the folder where the database files will be stored
+```
+
+Returns
+
+```python
+    None
+        This function does not return anything
+```
+
+Examples
+
+```python
+    set_storage_path('C:/Users/JohnDoe/Documents/MyDatabase')
+```
+
+References
+
+```python
+    No Links
+```
+
 # >  function slugify #
 
-### [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L7) 
+### [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L40) 
 
 Notes
 
@@ -45,7 +81,7 @@ References
 
 # >  function get #
 
-### [def get(name: str) -> object:](./../toolbox/database.py#L43) 
+### [def get(name: str) -> object:](./../toolbox/database.py#L76) 
 
 Notes
 
@@ -81,7 +117,7 @@ References
 
 # >  function save #
 
-### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L74) 
+### [def save(name: str, data: any) -> None:](./../toolbox/database.py#L107) 
 
 Notes
 
@@ -121,7 +157,7 @@ References
 
 # >  function delete_database #
 
-### [def delete_database(name: str) -> object:](./../toolbox/database.py#L109) 
+### [def delete_database(name: str) -> object:](./../toolbox/database.py#L142) 
 
 Notes
 
@@ -161,7 +197,7 @@ References
 
 # >  function save_key #
 
-### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L147) 
+### [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L180) 
 
 Notes
 
@@ -201,7 +237,7 @@ References
 
 # >  function load_key #
 
-### [def load_key(platform: str) -> str:](./../toolbox/database.py#L194) 
+### [def load_key(platform: str) -> str:](./../toolbox/database.py#L227) 
 
 Notes
 
