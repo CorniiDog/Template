@@ -11,9 +11,6 @@ data = {
     "Ubuntu_Username": "connor",
     "github_image": "https://avatars.githubusercontent.com/u/69062901?v=4",
     "github_name": "ConnorAtmos",
-    "github_url": "https://github.com/ConnorAtmos",
-    "project_name": "Template",
-    "project_link": "https://github.com/ConnorAtmos/Template",
     "linked_in_url": "https://www.linkedin.com/in/connor-white-38a5501a0/",
     "path_to_logo": "/storage/logo.png",
     "email": "connor.sw.personal@gmail.com",
@@ -25,6 +22,8 @@ This project is a template. It will be used to create other projects.
 """
 
 data["project_name"] = os.path.basename(data["project_dir"])
+data["project_link"] = f"https://github.com/{data['github_name']}/{data['project_name']}"
+data["github_url"] = f"https://github.com/{data['github_name']}"
 data["path_to_conda_python"] = f"{data['home_dir']}/anaconda3/envs/{data['project_name']}/bin/python3"
 data["file_to_run"] = f"{data['project_dir']}/main.py"
 data["requirements_folder"] = f"{data['project_dir']}/requirements"
