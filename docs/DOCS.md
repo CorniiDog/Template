@@ -44,14 +44,14 @@ This is the documentation for the project Template.
 
 [class Test:](./../main.py#L4) 
 
-Notes
+Note
 
 
 ```python
     This is a test class, it is used to test the documentation generator
 ```
 
-Examples
+Example
 
 
 ```python
@@ -60,7 +60,7 @@ Examples
     print(test_object)
 ```
 
-References
+Reference
 
 
 ```python
@@ -81,14 +81,14 @@ References
 
 [class Test_Contact:](./../main.py#L20) 
 
-Notes
+Note
 
 
 ```python
         This is a test class, it is used to test the documentation generator
 ```
 
-Examples
+Example
 
 
 ```python
@@ -96,7 +96,7 @@ Examples
         print(test_contact)
 ```
 
-References
+Reference
 
 
 ```python
@@ -117,14 +117,14 @@ References
 
 [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
-Notes
+Note
 
 
 ```python
             This function is called when the object is created
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -134,7 +134,7 @@ Parameters
                 The address of the person to greet
 ```
 
-Returns
+Return
 
 
 ```python
@@ -142,14 +142,14 @@ Returns
                 This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
             address_object = Test.Test_Contact("123-456-7890", 1234)
 ```
 
-References
+Reference
 
 
 ```python
@@ -172,21 +172,21 @@ References
 
 [def __str__(self):](./../main.py#L63) 
 
-Notes
+Note
 
 
 ```python
             This function is called when the object is printed
 ```
 
-Parameters
+Parameter
 
 
 ```python
             None
 ```
 
-Returns
+Return
 
 
 ```python
@@ -194,7 +194,7 @@ Returns
                 This function returns a string representation of the object
 ```
 
-Examples
+Example
 
 
 ```python
@@ -202,7 +202,7 @@ Examples
             print(address_object)
 ```
 
-References
+Reference
 
 
 ```python
@@ -227,14 +227,14 @@ References
 
 [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
-Notes
+Note
 
 
 ```python
         This function is called when the object is created
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -244,7 +244,7 @@ Parameters
             The age of the person to greet
 ```
 
-Returns
+Return
 
 
 ```python
@@ -252,14 +252,14 @@ Returns
             This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
         test_object = Test("Bill", 20)
 ```
 
-References
+Reference
 
 
 ```python
@@ -282,21 +282,21 @@ References
 
 [def __str__(self):](./../main.py#L119) 
 
-Notes
+Note
 
 
 ```python
         This function is called when the object is printed
 ```
 
-Parameters
+Parameter
 
 
 ```python
         None
 ```
 
-Returns
+Return
 
 
 ```python
@@ -304,7 +304,7 @@ Returns
             This function returns a string representation of the object
 ```
 
-Examples
+Example
 
 
 ```python
@@ -312,7 +312,7 @@ Examples
         print(test_object)
 ```
 
-References
+Reference
 
 
 ```python
@@ -337,14 +337,14 @@ References
 
 [def print_hi(name: str) -> None:](./../main.py#L146) 
 
-Notes
+Note
 
 
 ```python
         ello
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -352,7 +352,7 @@ Parameters
             The name of the person to greet
 ```
 
-Returns
+Return
 
 
 ```python
@@ -360,14 +360,14 @@ Returns
             This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
         print_hi('PyCharm')
 ```
 
-References
+Reference
 
 
 ```python
@@ -400,7 +400,7 @@ References
 
 [class Queue:](./../toolbox/queue_local.py#L2) 
 
-Notes
+Note
 
 
 ```python
@@ -409,7 +409,7 @@ Notes
     A queue can be implemented using a list or a linked list.
 ```
 
-Examples
+Example
 
 
 ```python
@@ -419,7 +419,7 @@ Examples
     print(a)
 ```
 
-References
+Reference
 
 
 ```python
@@ -440,7 +440,7 @@ References
 
 [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue_local.py#L30) 
 
-Notes
+Note
 
 
 ```python
@@ -448,14 +448,14 @@ Notes
         If the max_size is not None, then the queue will be initialized with the max_size
 ```
 
-Returns
+Return
 
 
 ```python
         None
 ```
 
-Examples
+Example
 
 
 ```python
@@ -481,21 +481,21 @@ Examples
 
 [def enqueue(self, item):](./../toolbox/queue_local.py#L61) 
 
-Notes
+Note
 
 
 ```python
         Adds the item to the end of the queue
 ```
 
-Returns
+Return
 
 
 ```python
         None
 ```
 
-Examples
+Example
 
 
 ```python
@@ -523,14 +523,14 @@ Examples
 
 [def dequeue(self):](./../toolbox/queue_local.py#L90) 
 
-Notes
+Note
 
 
 ```python
         Removes the first item from the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -538,7 +538,7 @@ Returns
             The item that was removed from the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -568,14 +568,14 @@ Examples
 
 [def size(self) -> int:](./../toolbox/queue_local.py#L118) 
 
-Notes
+Note
 
 
 ```python
         Returns the size of the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -583,7 +583,7 @@ Returns
             The size of the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -612,14 +612,14 @@ Examples
 
 [def is_empty(self) -> bool:](./../toolbox/queue_local.py#L146) 
 
-Notes
+Note
 
 
 ```python
         Returns True if the queue is empty, False otherwise
 ```
 
-Returns
+Return
 
 
 ```python
@@ -627,7 +627,7 @@ Returns
             True if the queue is empty, False otherwise
 ```
 
-Examples
+Example
 
 
 ```python
@@ -655,14 +655,14 @@ Examples
 
 [def peek(self):](./../toolbox/queue_local.py#L173) 
 
-Notes
+Note
 
 
 ```python
         Returns the first item in the queue without removing it
 ```
 
-Returns
+Return
 
 
 ```python
@@ -670,7 +670,7 @@ Returns
             The first item in the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -700,14 +700,14 @@ Examples
 
 [def get_list(self):](./../toolbox/queue_local.py#L201) 
 
-Notes
+Note
 
 
 ```python
         Returns the list of items in the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -715,7 +715,7 @@ Returns
             The list of items in the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -745,14 +745,14 @@ Examples
 
 [def __len__(self):](./../toolbox/queue_local.py#L230) 
 
-Notes
+Note
 
 
 ```python
         Returns the size of the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -760,7 +760,7 @@ Returns
             The size of the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -788,14 +788,14 @@ Examples
 
 [def copy(self):](./../toolbox/queue_local.py#L256) 
 
-Notes
+Note
 
 
 ```python
         Returns a copy of the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -803,7 +803,7 @@ Returns
             A copy of the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -833,14 +833,14 @@ Examples
 
 [def __copy__(self):](./../toolbox/queue_local.py#L288) 
 
-Notes
+Note
 
 
 ```python
         Returns a copy of the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -848,7 +848,7 @@ Returns
             A copy of the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -878,14 +878,14 @@ Examples
 
 [def __eq__(self, other):](./../toolbox/queue_local.py#L317) 
 
-Notes
+Note
 
 
 ```python
         Returns True if the queues are equal, False otherwise
 ```
 
-Returns
+Return
 
 
 ```python
@@ -893,7 +893,7 @@ Returns
             True if the queues are equal, False otherwise
 ```
 
-Examples
+Example
 
 
 ```python
@@ -919,14 +919,14 @@ Examples
 
 [def __ne__(self, other):](./../toolbox/queue_local.py#L348) 
 
-Notes
+Note
 
 
 ```python
         Returns True if the queues are not equal, False otherwise
 ```
 
-Returns
+Return
 
 
 ```python
@@ -934,7 +934,7 @@ Returns
             True if the queues are not equal, False otherwise
 ```
 
-Examples
+Example
 
 
 ```python
@@ -960,14 +960,14 @@ Examples
 
 [def __getitem__(self, index):](./../toolbox/queue_local.py#L373) 
 
-Notes
+Note
 
 
 ```python
         Returns the item at the given index
 ```
 
-Returns
+Return
 
 
 ```python
@@ -975,7 +975,7 @@ Returns
             The item at the given index
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1000,21 +1000,21 @@ Examples
 
 [def __setitem__(self, index, value):](./../toolbox/queue_local.py#L397) 
 
-Notes
+Note
 
 
 ```python
         Sets the item at the given index to the given value
 ```
 
-Returns
+Return
 
 
 ```python
         None
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1040,21 +1040,21 @@ Examples
 
 [def __delitem__(self, index):](./../toolbox/queue_local.py#L423) 
 
-Notes
+Note
 
 
 ```python
         Deletes the item at the given index
 ```
 
-Returns
+Return
 
 
 ```python
         None
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1080,14 +1080,14 @@ Examples
 
 [def __iter__(self):](./../toolbox/queue_local.py#L447) 
 
-Notes
+Note
 
 
 ```python
         Returns an iterator for the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1095,7 +1095,7 @@ Returns
             An iterator for the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1121,14 +1121,14 @@ Examples
 
 [def __reversed__(self):](./../toolbox/queue_local.py#L471) 
 
-Notes
+Note
 
 
 ```python
         Returns an iterator for the queue in reverse order
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1136,7 +1136,7 @@ Returns
             An iterator for the queue in reverse order
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1162,14 +1162,14 @@ Examples
 
 [def __contains__(self, item):](./../toolbox/queue_local.py#L495) 
 
-Notes
+Note
 
 
 ```python
         Returns True if the item is in the queue, False otherwise
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1177,7 +1177,7 @@ Returns
             True if the item is in the queue, False otherwise
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1202,14 +1202,14 @@ Examples
 
 [def __add__(self, other):](./../toolbox/queue_local.py#L519) 
 
-Notes
+Note
 
 
 ```python
         Returns a new queue with the items from both queues
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1217,7 +1217,7 @@ Returns
             A new queue with the items from both queues
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1244,14 +1244,14 @@ Examples
 
 [def __iadd__(self, other):](./../toolbox/queue_local.py#L550) 
 
-Notes
+Note
 
 
 ```python
         Returns this queue with the items from both queues
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1259,7 +1259,7 @@ Returns
             This queue with the items from both queues
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1286,14 +1286,14 @@ Examples
 
 [def __mul__(self, other):](./../toolbox/queue_local.py#L578) 
 
-Notes
+Note
 
 
 ```python
         Returns a new queue with the items from this queue repeated the given number of times
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1301,7 +1301,7 @@ Returns
             A new queue with the items from this queue repeated the given number of times
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1327,14 +1327,14 @@ Examples
 
 [def __imul__(self, other):](./../toolbox/queue_local.py#L607) 
 
-Notes
+Note
 
 
 ```python
         Returns this queue with the items from this queue repeated the given number of times
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1342,7 +1342,7 @@ Returns
             This queue with the items from this queue repeated the given number of times
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1368,14 +1368,14 @@ Examples
 
 [def __str__(self):](./../toolbox/queue_local.py#L636) 
 
-Notes
+Note
 
 
 ```python
         Returns a string representation of the queue
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1383,7 +1383,7 @@ Returns
             A string representation of the queue
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1420,14 +1420,14 @@ Examples
 
 [def set_storage_path(path):](./../toolbox/database.py#L8) 
 
-Notes
+Note
 
 
 ```python
     This function is used to set the path to the folder where the database files will be stored
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1435,7 +1435,7 @@ Parameters
         The path to the folder where the database files will be stored
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1443,14 +1443,14 @@ Returns
         This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
     set_storage_path('C:/Users/JohnDoe/Documents/MyDatabase')
 ```
 
-References
+Reference
 
 
 ```python
@@ -1473,7 +1473,7 @@ References
 
 [def slugify(value, allow_unicode=False):](./../toolbox/database.py#L40) 
 
-Notes
+Note
 
 
 ```python
@@ -1481,7 +1481,7 @@ Notes
     This is useful for creating file names from strings.
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1491,7 +1491,7 @@ Parameters
         Whether or not to allow unicode characters
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1499,14 +1499,14 @@ Returns
         The slugified string
 ```
 
-Examples
+Example
 
 
 ```python
     a = slugify('Hello World')
 ```
 
-References
+Reference
 
 
 ```python
@@ -1529,14 +1529,14 @@ References
 
 [def get(name: str) -> object:](./../toolbox/database.py#L76) 
 
-Notes
+Note
 
 
 ```python
     This function is used to load objects from the database folder
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1544,7 +1544,7 @@ Parameters
         The name of the file to be loaded
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1552,14 +1552,14 @@ Returns
         The object loaded from the file, could be anything
 ```
 
-Examples
+Example
 
 
 ```python
     spreadsheet_data = get('spreadsheet_people')
 ```
 
-References
+Reference
 
 
 ```python
@@ -1582,14 +1582,14 @@ References
 
 [def save(name: str, data: any) -> None:](./../toolbox/database.py#L107) 
 
-Notes
+Note
 
 
 ```python
     This function is used to save objects to the database folder
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1599,7 +1599,7 @@ Parameters
         The data to be saved
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1607,7 +1607,7 @@ Returns
         This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1616,7 +1616,7 @@ Examples
     save('spreadsheet_people', spreadsheet_data)
 ```
 
-References
+Reference
 
 
 ```python
@@ -1639,14 +1639,14 @@ References
 
 [def delete_database(name: str) -> object:](./../toolbox/database.py#L142) 
 
-Notes
+Note
 
 
 ```python
     This function is used to delete objects from the database folder
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1654,7 +1654,7 @@ Parameters
         The name of the file to be deleted
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1662,7 +1662,7 @@ Returns
         The object loaded from the file, could be anything
 ```
 
-Examples
+Example
 
 
 ```python
@@ -1673,7 +1673,7 @@ Examples
     delete_database('spreadsheet_people')
 ```
 
-References
+Reference
 
 
 ```python
@@ -1696,14 +1696,14 @@ References
 
 [def save_key(platform: str, key: str, override: bool = False) -> None:](./../toolbox/database.py#L180) 
 
-Notes
+Note
 
 
 ```python
     This function is used to save keys in a secure location
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1715,7 +1715,7 @@ Parameters
         Whether or not to override the key if it already exists
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1723,14 +1723,14 @@ Returns
         This function does not return anything
 ```
 
-Examples
+Example
 
 
 ```python
     save_key('google', '<google_api_key>')
 ```
 
-References
+Reference
 
 
 ```python
@@ -1753,14 +1753,14 @@ References
 
 [def load_key(platform: str) -> str:](./../toolbox/database.py#L227) 
 
-Notes
+Note
 
 
 ```python
         This function is used to load keys from a secure location
 ```
 
-Parameters
+Parameter
 
 
 ```python
@@ -1768,7 +1768,7 @@ Parameters
             The key to be loaded (e.g. '<google_api_key>')
 ```
 
-Returns
+Return
 
 
 ```python
@@ -1776,14 +1776,14 @@ Returns
             This function returns the key if it exists, otherwise it returns None
 ```
 
-Examples
+Example
 
 
 ```python
         key = load_key('google')
 ```
 
-References
+Reference
 
 
 ```python

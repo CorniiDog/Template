@@ -8,13 +8,13 @@ Alternative Import Statement: `from main import *`
 
 ### [class Test:](./../main.py#L4) 
 
-Notes
+Note
 
 ```python
     This is a test class, it is used to test the documentation generator
 ```
 
-Examples
+Example
 
 ```python
     test_contact = Test.Test_Contact("123-456-7890", 1234)
@@ -22,7 +22,7 @@ Examples
     print(test_object)
 ```
 
-References
+Reference
 
 ```python
     No Links
@@ -40,20 +40,20 @@ References
 
 ### [class Test_Contact:](./../main.py#L20) 
 
-Notes
+Note
 
 ```python
         This is a test class, it is used to test the documentation generator
 ```
 
-Examples
+Example
 
 ```python
         test_contact = Test.Test_Contact("123-456-7890", 1234)
         print(test_contact)
 ```
 
-References
+Reference
 
 ```python
         No Links
@@ -71,13 +71,13 @@ References
 
 ### [def __init__(self, phone: str, address: int):](./../main.py#L36) 
 
-Notes
+Note
 
 ```python
             This function is called when the object is created
 ```
 
-Parameters
+Parameter
 
 ```python
             phone : str
@@ -86,20 +86,20 @@ Parameters
                 The address of the person to greet
 ```
 
-Returns
+Return
 
 ```python
             None
                 This function does not return anything
 ```
 
-Examples
+Example
 
 ```python
             address_object = Test.Test_Contact("123-456-7890", 1234)
 ```
 
-References
+Reference
 
 ```python
             No Links
@@ -109,33 +109,33 @@ References
 
 ### [def __str__(self):](./../main.py#L63) 
 
-Notes
+Note
 
 ```python
             This function is called when the object is printed
 ```
 
-Parameters
+Parameter
 
 ```python
             None
 ```
 
-Returns
+Return
 
 ```python
             str
                 This function returns a string representation of the object
 ```
 
-Examples
+Example
 
 ```python
             address_object = Test.Test_Contact("123-456-7890", 1234)
             print(address_object)
 ```
 
-References
+Reference
 
 ```python
             No Links
@@ -147,13 +147,13 @@ References
 
 ### [def __init__(self, name: str, age: int, contact: Test_Contact):](./../main.py#L90) 
 
-Notes
+Note
 
 ```python
         This function is called when the object is created
 ```
 
-Parameters
+Parameter
 
 ```python
         name : str
@@ -162,20 +162,20 @@ Parameters
             The age of the person to greet
 ```
 
-Returns
+Return
 
 ```python
         None
             This function does not return anything
 ```
 
-Examples
+Example
 
 ```python
         test_object = Test("Bill", 20)
 ```
 
-References
+Reference
 
 ```python
         No Links
@@ -185,33 +185,33 @@ References
 
 ### [def __str__(self):](./../main.py#L119) 
 
-Notes
+Note
 
 ```python
         This function is called when the object is printed
 ```
 
-Parameters
+Parameter
 
 ```python
         None
 ```
 
-Returns
+Return
 
 ```python
         str
             This function returns a string representation of the object
 ```
 
-Examples
+Example
 
 ```python
         test_object = Test("Bill", 20)
         print(test_object)
 ```
 
-References
+Reference
 
 ```python
         No Links
@@ -223,33 +223,33 @@ References
 
 ### [def print_hi(name: str) -> None:](./../main.py#L146) 
 
-Notes
+Note
 
 ```python
         ello
 ```
 
-Parameters
+Parameter
 
 ```python
         name : str
             The name of the person to greet
 ```
 
-Returns
+Return
 
 ```python
         None
             This function does not return anything
 ```
 
-Examples
+Example
 
 ```python
         print_hi('PyCharm')
 ```
 
-References
+Reference
 
 ```python
         https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html

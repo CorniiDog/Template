@@ -52,7 +52,7 @@ if output_instructions:
         search_item2 = "!<" + key + ">"
         if search_item2 in output:
             # Replace with the value
-            output = output.replace(search_item2, info.data[key].lower())
+            output = output.replace(search_item2, info.data[key])
 
     turn_to_readme = format_for_readme(output, document_path="docs/INSTRUCTIONS.md")
 
@@ -169,7 +169,7 @@ if output_instructions:
                         file_documentation = f"/{file_document_path}#{obj_type}-{name.lower().replace(' ', '-').replace('.', '')}"
                         writing_header = f"### {spaces}[{obj_type + ' ' + name}]({file_documentation}) \n\n"
                         documents = get_class_documentation(i + 1)
-                        sections = ["Notes", "Parameters", "Returns", "Examples", "References"]
+                        sections = ["Note", "Parameter", "Return", "Example", "Reference", "Description"]
                         new_documentation = ""
                         for section in sections:
                             if section in documents:

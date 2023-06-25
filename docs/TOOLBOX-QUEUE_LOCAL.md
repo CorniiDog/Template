@@ -8,7 +8,7 @@ Alternative Import Statement: `from toolbox.queue_local import *`
 
 ### [class Queue:](./../toolbox/queue_local.py#L2) 
 
-Notes
+Note
 
 ```python
     A queue is a data structure that follows the First In First Out (FIFO) principle.
@@ -16,7 +16,7 @@ Notes
     A queue can be implemented using a list or a linked list.
 ```
 
-Examples
+Example
 
 ```python
     queue = Queue([1, 2, 3, 4, 5], 10)
@@ -25,7 +25,7 @@ Examples
     print(a)
 ```
 
-References
+Reference
 
 ```python
     https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
@@ -43,20 +43,20 @@ References
 
 ### [def __init__(self, queue_list: list = None, max_size: int = None):](./../toolbox/queue_local.py#L30) 
 
-Notes
+Note
 
 ```python
         If the queue_list is not None, then the queue will be initialized with the list
         If the max_size is not None, then the queue will be initialized with the max_size
 ```
 
-Returns
+Return
 
 ```python
         None
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], 10)
@@ -69,19 +69,19 @@ Examples
 
 ### [def enqueue(self, item):](./../toolbox/queue_local.py#L61) 
 
-Notes
+Note
 
 ```python
         Adds the item to the end of the queue
 ```
 
-Returns
+Return
 
 ```python
         None
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -96,20 +96,20 @@ Examples
 
 ### [def dequeue(self):](./../toolbox/queue_local.py#L90) 
 
-Notes
+Note
 
 ```python
         Removes the first item from the queue
 ```
 
-Returns
+Return
 
 ```python
         item: any
             The item that was removed from the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -126,20 +126,20 @@ Examples
 
 ### [def size(self) -> int:](./../toolbox/queue_local.py#L118) 
 
-Notes
+Note
 
 ```python
         Returns the size of the queue
 ```
 
-Returns
+Return
 
 ```python
         size: int
             The size of the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -155,20 +155,20 @@ Examples
 
 ### [def is_empty(self) -> bool:](./../toolbox/queue_local.py#L146) 
 
-Notes
+Note
 
 ```python
         Returns True if the queue is empty, False otherwise
 ```
 
-Returns
+Return
 
 ```python
         is_empty: bool
             True if the queue is empty, False otherwise
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -183,20 +183,20 @@ Examples
 
 ### [def peek(self):](./../toolbox/queue_local.py#L173) 
 
-Notes
+Note
 
 ```python
         Returns the first item in the queue without removing it
 ```
 
-Returns
+Return
 
 ```python
         item: any
             The first item in the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -213,20 +213,20 @@ Examples
 
 ### [def get_list(self):](./../toolbox/queue_local.py#L201) 
 
-Notes
+Note
 
 ```python
         Returns the list of items in the queue
 ```
 
-Returns
+Return
 
 ```python
         list: list
             The list of items in the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -243,20 +243,20 @@ Examples
 
 ### [def __len__(self):](./../toolbox/queue_local.py#L230) 
 
-Notes
+Note
 
 ```python
         Returns the size of the queue
 ```
 
-Returns
+Return
 
 ```python
         size: int
             The size of the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -271,20 +271,20 @@ Examples
 
 ### [def copy(self):](./../toolbox/queue_local.py#L256) 
 
-Notes
+Note
 
 ```python
         Returns a copy of the queue
 ```
 
-Returns
+Return
 
 ```python
         new_queue: Queue
             A copy of the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -301,20 +301,20 @@ Examples
 
 ### [def __copy__(self):](./../toolbox/queue_local.py#L288) 
 
-Notes
+Note
 
 ```python
         Returns a copy of the queue
 ```
 
-Returns
+Return
 
 ```python
         new_queue: Queue
             A copy of the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue(max_size=10)
@@ -331,20 +331,20 @@ Examples
 
 ### [def __eq__(self, other):](./../toolbox/queue_local.py#L317) 
 
-Notes
+Note
 
 ```python
         Returns True if the queues are equal, False otherwise
 ```
 
-Returns
+Return
 
 ```python
         is_equal: bool
             True if the queues are equal, False otherwise
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -357,20 +357,20 @@ Examples
 
 ### [def __ne__(self, other):](./../toolbox/queue_local.py#L348) 
 
-Notes
+Note
 
 ```python
         Returns True if the queues are not equal, False otherwise
 ```
 
-Returns
+Return
 
 ```python
         is_not_equal: bool
             True if the queues are not equal, False otherwise
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -383,20 +383,20 @@ Examples
 
 ### [def __getitem__(self, index):](./../toolbox/queue_local.py#L373) 
 
-Notes
+Note
 
 ```python
         Returns the item at the given index
 ```
 
-Returns
+Return
 
 ```python
         item: any
             The item at the given index
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -408,19 +408,19 @@ Examples
 
 ### [def __setitem__(self, index, value):](./../toolbox/queue_local.py#L397) 
 
-Notes
+Note
 
 ```python
         Sets the item at the given index to the given value
 ```
 
-Returns
+Return
 
 ```python
         None
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -433,19 +433,19 @@ Examples
 
 ### [def __delitem__(self, index):](./../toolbox/queue_local.py#L423) 
 
-Notes
+Note
 
 ```python
         Deletes the item at the given index
 ```
 
-Returns
+Return
 
 ```python
         None
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -458,20 +458,20 @@ Examples
 
 ### [def __iter__(self):](./../toolbox/queue_local.py#L447) 
 
-Notes
+Note
 
 ```python
         Returns an iterator for the queue
 ```
 
-Returns
+Return
 
 ```python
         iter: iter
             An iterator for the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -484,20 +484,20 @@ Examples
 
 ### [def __reversed__(self):](./../toolbox/queue_local.py#L471) 
 
-Notes
+Note
 
 ```python
         Returns an iterator for the queue in reverse order
 ```
 
-Returns
+Return
 
 ```python
         reversed: iter
             An iterator for the queue in reverse order
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -510,20 +510,20 @@ Examples
 
 ### [def __contains__(self, item):](./../toolbox/queue_local.py#L495) 
 
-Notes
+Note
 
 ```python
         Returns True if the item is in the queue, False otherwise
 ```
 
-Returns
+Return
 
 ```python
         is_in: bool
             True if the item is in the queue, False otherwise
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -535,20 +535,20 @@ Examples
 
 ### [def __add__(self, other):](./../toolbox/queue_local.py#L519) 
 
-Notes
+Note
 
 ```python
         Returns a new queue with the items from both queues
 ```
 
-Returns
+Return
 
 ```python
         new_queue: Queue
             A new queue with the items from both queues
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -562,20 +562,20 @@ Examples
 
 ### [def __iadd__(self, other):](./../toolbox/queue_local.py#L550) 
 
-Notes
+Note
 
 ```python
         Returns this queue with the items from both queues
 ```
 
-Returns
+Return
 
 ```python
         self: Queue
             This queue with the items from both queues
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -589,20 +589,20 @@ Examples
 
 ### [def __mul__(self, other):](./../toolbox/queue_local.py#L578) 
 
-Notes
+Note
 
 ```python
         Returns a new queue with the items from this queue repeated the given number of times
 ```
 
-Returns
+Return
 
 ```python
         new_queue: Queue
             A new queue with the items from this queue repeated the given number of times
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -615,20 +615,20 @@ Examples
 
 ### [def __imul__(self, other):](./../toolbox/queue_local.py#L607) 
 
-Notes
+Note
 
 ```python
         Returns this queue with the items from this queue repeated the given number of times
 ```
 
-Returns
+Return
 
 ```python
         self: Queue
             This queue with the items from this queue repeated the given number of times
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
@@ -641,20 +641,20 @@ Examples
 
 ### [def __str__(self):](./../toolbox/queue_local.py#L636) 
 
-Notes
+Note
 
 ```python
         Returns a string representation of the queue
 ```
 
-Returns
+Return
 
 ```python
         string: str
             A string representation of the queue
 ```
 
-Examples
+Example
 
 ```python
         queue = Queue([1, 2, 3, 4, 5], max_size=10)
