@@ -124,10 +124,12 @@ Note
             This function is called when the object is created
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+            ----------
             phone : str
                 The phone number of the person to greet
             address : int
@@ -179,10 +181,12 @@ Note
             This function is called when the object is printed
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+            ----------
             None
 ```
 
@@ -234,10 +238,12 @@ Note
         This function is called when the object is created
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+        ----------
         name : str
             The name of the person to greet
         age : int
@@ -289,10 +295,12 @@ Note
         This function is called when the object is printed
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+        ----------
         None
 ```
 
@@ -344,10 +352,12 @@ Note
         ello
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+        ----------
         name : str
             The name of the person to greet
 ```
@@ -409,6 +419,16 @@ Note
     A queue can be implemented using a list or a linked list.
 ```
 
+Param
+
+
+```python
+    queue_list: list
+        The list to initialize the queue with
+    max_size: int
+        The maximum size of the queue
+```
+
 Example
 
 
@@ -446,6 +466,16 @@ Note
 ```python
         If the queue_list is not None, then the queue will be initialized with the list
         If the max_size is not None, then the queue will be initialized with the max_size
+```
+
+Param
+
+
+```python
+        queue_list: list
+            The list to initialize the queue with
+        max_size: int
+            The maximum size of the queue
 ```
 
 Return
@@ -488,6 +518,14 @@ Note
         Adds the item to the end of the queue
 ```
 
+Param
+
+
+```python
+        item: any
+            The item to add to the queue
+```
+
 Return
 
 
@@ -528,6 +566,13 @@ Note
 
 ```python
         Removes the first item from the queue
+```
+
+Param
+
+
+```python
+        None
 ```
 
 Return
@@ -575,6 +620,13 @@ Note
         Returns the size of the queue
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -619,6 +671,13 @@ Note
         Returns True if the queue is empty, False otherwise
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -660,6 +719,13 @@ Note
 
 ```python
         Returns the first item in the queue without removing it
+```
+
+Param
+
+
+```python
+        None
 ```
 
 Return
@@ -707,6 +773,13 @@ Note
         Returns the list of items in the queue
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -752,6 +825,13 @@ Note
         Returns the size of the queue
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -793,6 +873,13 @@ Note
 
 ```python
         Returns a copy of the queue
+```
+
+Param
+
+
+```python
+        None
 ```
 
 Return
@@ -840,6 +927,13 @@ Note
         Returns a copy of the queue
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -885,6 +979,14 @@ Note
         Returns True if the queues are equal, False otherwise
 ```
 
+Param
+
+
+```python
+        other: Queue
+            The other queue to compare to
+```
+
 Return
 
 
@@ -924,6 +1026,14 @@ Note
 
 ```python
         Returns True if the queues are not equal, False otherwise
+```
+
+Param
+
+
+```python
+        other: Queue
+            The other queue to compare to
 ```
 
 Return
@@ -967,6 +1077,14 @@ Note
         Returns the item at the given index
 ```
 
+Param
+
+
+```python
+        index: int
+            The index of the item to get
+```
+
 Return
 
 
@@ -1005,6 +1123,16 @@ Note
 
 ```python
         Sets the item at the given index to the given value
+```
+
+Param
+
+
+```python
+        index: int
+            The index of the item to set
+        value: any
+            The value to set the item to
 ```
 
 Return
@@ -1047,6 +1175,14 @@ Note
         Deletes the item at the given index
 ```
 
+Param
+
+
+```python
+        index: int
+            The index of the item to delete
+```
+
 Return
 
 
@@ -1085,6 +1221,13 @@ Note
 
 ```python
         Returns an iterator for the queue
+```
+
+Param
+
+
+```python
+        None
 ```
 
 Return
@@ -1128,6 +1271,13 @@ Note
         Returns an iterator for the queue in reverse order
 ```
 
+Param
+
+
+```python
+        None
+```
+
 Return
 
 
@@ -1169,6 +1319,14 @@ Note
         Returns True if the item is in the queue, False otherwise
 ```
 
+Param
+
+
+```python
+        item: any
+            The item to check for
+```
+
 Return
 
 
@@ -1207,6 +1365,14 @@ Note
 
 ```python
         Returns a new queue with the items from both queues
+```
+
+Param
+
+
+```python
+        other: Queue
+            The other queue to add to this queue
 ```
 
 Return
@@ -1251,6 +1417,14 @@ Note
         Returns this queue with the items from both queues
 ```
 
+Param
+
+
+```python
+        other: Queue
+            The other queue to add to this queue
+```
+
 Return
 
 
@@ -1291,6 +1465,14 @@ Note
 
 ```python
         Returns a new queue with the items from this queue repeated the given number of times
+```
+
+Param
+
+
+```python
+        other: int
+            The number of times to repeat the queue
 ```
 
 Return
@@ -1334,6 +1516,14 @@ Note
         Returns this queue with the items from this queue repeated the given number of times
 ```
 
+Param
+
+
+```python
+        other: int
+            The number of times to repeat the queue
+```
+
 Return
 
 
@@ -1373,6 +1563,13 @@ Note
 
 ```python
         Returns a string representation of the queue
+```
+
+Param
+
+
+```python
+        None
 ```
 
 Return
@@ -1427,10 +1624,12 @@ Note
     This function is used to set the path to the folder where the database files will be stored
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     path : str
         The path to the folder where the database files will be stored
 ```
@@ -1481,10 +1680,12 @@ Note
     This is useful for creating file names from strings.
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     value : str
         The string to be slugified
     allow_unicode : bool
@@ -1536,10 +1737,12 @@ Note
     This function is used to load objects from the database folder
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     name : str
         The name of the file to be loaded
 ```
@@ -1589,10 +1792,12 @@ Note
     This function is used to save objects to the database folder
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     name : str
         The name of the file to be saved
     data : any
@@ -1646,10 +1851,12 @@ Note
     This function is used to delete objects from the database folder
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     name : str
         The name of the file to be deleted
 ```
@@ -1703,10 +1910,12 @@ Note
     This function is used to save keys in a secure location
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+    ----------
     platform: str
         The name of the platform to be saved (e.g. 'google')
     key: str
@@ -1760,10 +1969,12 @@ Note
         This function is used to load keys from a secure location
 ```
 
-Parameter
+Param
 
 
 ```python
+ters
+        ----------
         platform: str
             The key to be loaded (e.g. '<google_api_key>')
 ```

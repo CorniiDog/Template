@@ -77,9 +77,11 @@ Note
             This function is called when the object is created
 ```
 
-Parameter
+Param
 
 ```python
+ters
+            ----------
             phone : str
                 The phone number of the person to greet
             address : int
@@ -115,9 +117,11 @@ Note
             This function is called when the object is printed
 ```
 
-Parameter
+Param
 
 ```python
+ters
+            ----------
             None
 ```
 
@@ -153,9 +157,11 @@ Note
         This function is called when the object is created
 ```
 
-Parameter
+Param
 
 ```python
+ters
+        ----------
         name : str
             The name of the person to greet
         age : int
@@ -191,9 +197,11 @@ Note
         This function is called when the object is printed
 ```
 
-Parameter
+Param
 
 ```python
+ters
+        ----------
         None
 ```
 
@@ -229,9 +237,11 @@ Note
         ello
 ```
 
-Parameter
+Param
 
 ```python
+ters
+        ----------
         name : str
             The name of the person to greet
 ```
